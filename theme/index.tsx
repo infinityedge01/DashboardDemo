@@ -17,6 +17,12 @@ const withTheme = (node: JSX.Element) => (
             token: {
               borderRadius: 16,
             },
+            components: {
+              Statistic: {
+                titleFontSize: 16,
+                contentFontSize: 24
+              },
+            },
           }}
         >
           {node}

