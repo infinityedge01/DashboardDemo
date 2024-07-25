@@ -34,7 +34,6 @@ const NodeTable = () => {
                     label: item.label,
                 }
             });
-            console.log(nodeData);
             setData(nodeData);
         }).catch((error) => {
             console.error('Error loading data:', error);
