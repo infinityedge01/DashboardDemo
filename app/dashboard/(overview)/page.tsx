@@ -6,6 +6,7 @@ import NavigatorIndex from '@/app/ui/dashboard/NavigatorIndex';
 import DataCards from '@/app/ui/dashboard/DataCards';
 import loadData from '@/app/utils/loadData';
 import withTheme from '../../../theme';
+import TimeBarGraphCard from '@/app/ui/dashboard/TimeBarGraph';
 import LineGraphCard from '@/app/ui/dashboard/LineGraph';
 import PieGraphCard from '@/app/ui/dashboard/PieGraph';
 import BarGraphCard from '@/app/ui/dashboard/BarGraph';
@@ -43,6 +44,7 @@ const StatisticOverview = () => {
   };
   const [exampleData, setExampleData] = React.useState<any>(null);
   const [timeData, setTimeData] = React.useState<any>(null);
+  const [timeGraphData, setTimeGraphData] = React.useState<any>(null);
   const [stageData, setStageData] = React.useState<{
     stage: string,
     count: number
@@ -84,6 +86,7 @@ const StatisticOverview = () => {
       );
       setExampleData(cardData);
       setTimeData(data_json?.time_data);
+      setTimeGraphData(data_json?.time_graph_data);
       setStageData(data_json?.stage_data);
       setTopCommandData(data_json?.top_command);
       setSyscallData(data_json?.syscall_data);
@@ -146,11 +149,11 @@ const StatisticOverview = () => {
       <h2>统计数据</h2>
       <Flex gap="small" vertical>
         <Flex wrap gap="1%" vertical={false}>
-            <LineGraphCard data={timeData} style={timeDataBaseStyle} title={"时间分布"}/>
+            <TimeBarGraphCard data={timeGraphData} style={timeDataBaseStyle} title={"时间分布"}/>
             <PieGraphCard data={stageData0} style={stageDataBaseStyle} title={"状态分布"}/>
         </Flex>
         <Flex wrap gap="1%" vertical={false}>
-            <BarGraphCard data={topCommandData0} style={topCommandDataBaseStyle} title={"命令分布"} color={"#E39361"} />
+            <BarGraphCard data={topCommandData0} style={topCommandDataBaseStyle} title={"命令分布"} />
             <PieGraphCard data={syscallData0} style={syscallDataBaseStyle} title={"系统调用类型分布"}/>
             <BarGraphCard data={ipData0} style={ipDataBaseStyle} title={"IP分布"} />
         </Flex>
@@ -208,8 +211,8 @@ const DashBoardPage = () => {
       <NavigatorIndex items={ [{ name: 'Home', href: '/' }, { name: 'Overview'}] } />
       <Flex gap="middle" vertical>
         <StatisticOverview />
-        <TableOverview />
         <InteractiveGraphOverview />
+        <TableOverview />
       </Flex>
     </>
   );

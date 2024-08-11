@@ -42,9 +42,8 @@ const BarGraph = ({ data, color }: {
                 title: false,
             },
         },
-        style: {
-            fill: color ? color : '#1890ff',
-        },
+        colorField: 'label',
+        legend: false,
         height: 250,
     }
     return <Bar {...config} />;

@@ -639,6 +639,43 @@
             "count": 589
         }
     ],
+    "time_graph_data": [
+        {
+            "name": "Maintain Persistence",
+            "startTimeStamp": 1648192542127127601,
+            "endTimeStamp": 1648491301892597245,
+            "startTime": "2022-03-25 15:15:42",
+            "endTime": "2022-03-29 02:15:01"
+        },
+        {
+            "name": "Escalate Privilege",
+            "startTimeStamp": 1648192556718248036,
+            "endTimeStamp": 1648491421894365747,
+            "startTime": "2022-03-25 15:15:56",
+            "endTime": "2022-03-29 02:17:01"
+        },
+        {
+            "name": "Internal Reconnaissance",
+            "startTimeStamp": 1648192556718347736,
+            "endTimeStamp": 1648192617069652811,
+            "startTime": "2022-03-25 15:15:56",
+            "endTime": "2022-03-25 15:16:57"
+        },
+        {
+            "name": "Establish Foothold",
+            "startTimeStamp": 1648192556718562803,
+            "endTimeStamp": 1648492600289965798,
+            "startTime": "2022-03-25 15:15:56",
+            "endTime": "2022-03-29 02:36:40"
+        },
+        {
+            "name": "Initial Compromise",
+            "startTimeStamp": 1648192574045487787,
+            "endTimeStamp": 1648192574045487787,
+            "startTime": "2022-03-25 15:16:14",
+            "endTime": "2022-03-25 15:16:14"
+        }
+    ],
     "stage_data": [
         {
             "stage": "Maintain Persistence",

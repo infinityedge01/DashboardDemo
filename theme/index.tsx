@@ -8,14 +8,13 @@ const withTheme = (node: JSX.Element) => (
       <ConfigProvider
         theme={{
           token: {
-            colorPrimary: '#52c41a',
           },
         }}
       >
         <ConfigProvider
           theme={{
             token: {
-              borderRadius: 16,
+              borderRadius: 8,
             },
             components: {
               Statistic: {
