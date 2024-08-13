@@ -1,0 +1,10 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "admin@pku.edu.cn",
+            "name": "admin",
+            "password": "$2b$10$JKlspJC6pu3GtrbWZk2rBOJwG8NoynsBoIJfsoaIWEyN5ttJssD/6"
+        }
+    ]
+}   

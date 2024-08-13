@@ -208,7 +208,7 @@ const InteractiveGraphOverview = () => {
 const DashBoardPage = () => {
   return (
     <>
-      <NavigatorIndex items={ [{ name: 'Home', href: '/' }, { name: 'Overview'}] } />
+      <NavigatorIndex items={ [{ name: 'Home', href: '/' }, { name: 'Dashboard'}] } />
       <Flex gap="middle" vertical>
         <StatisticOverview />
         <InteractiveGraphOverview />

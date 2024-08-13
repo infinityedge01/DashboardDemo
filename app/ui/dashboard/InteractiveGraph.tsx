@@ -7,6 +7,7 @@ import { Interface } from 'readline';
 import { CodeOutlined, FileOutlined, LinkOutlined } from '@ant-design/icons';
 import loadData from '@/app/utils/loadData';
 import { Affix } from 'antd';
+import { ConfigProvider } from 'antd';
 register(ExtensionCategory.NODE, 'g', GNode);
 register(ExtensionCategory.NODE, 'react', ReactNode);
 
@@ -42,7 +43,7 @@ const CustomMyNodeData = (
 ) => {
     if (data.type === 'command') {
         return (
-            <> 
+            <>
                 <Group key={0} transform={`translate(${(0 * size.width) / 3}, 0)`}>
                     <Text text={data.stage} fontSize={12} fill={'black'} />
                     <Text text={"Score: " + data.score} fontSize={12} dy={16} fill="gray" />
@@ -108,11 +109,11 @@ const CustomNode = ({ data, size }: {
 }
 
 const G6Graph = (
-    { graphData, setGraph}: { graphData: GraphData | null, setGraph: (graph: Graph) => void }
+    { graphData, setGraph }: { graphData: GraphData | null, setGraph: (graph: Graph) => void }
 ) => {
     const containerRef = React.useRef<HTMLDivElement>(null);
     React.useEffect(() => {
-        let graph: Graph  = new Graph({
+        let graph: Graph = new Graph({
             container: containerRef.current!,
             width: 2000,
             height: 1000,
@@ -171,7 +172,7 @@ const G6Graph = (
             ],
         });
         setGraph(graph);
-        
+
         let promise = graph.render();
         return () => {
             promise.then(() => {
@@ -192,13 +193,13 @@ interface GraphInfoData {
 }
 
 const GraphInfo = (
-    {graph} : {graph: Graph | null},
+    { graph }: { graph: Graph | null },
 ) => {
     const [data, setData] = React.useState<GraphInfoData | null>(null);
     if (graph === null) {
         return <></>;
     }
-    
+
     graph.on(NodeEvent.CLICK, (e: IPointerEvent) => {
         console.log('Node clicked:', e);
         let selectedNodes = graph.getElementDataByState('node', 'selected');
@@ -242,7 +243,7 @@ const GraphInfo = (
                     edgeData: null,
                 }
             )
-         }
+        }
         // graph.draw().then(() => {
         //     console.log('draw finished');
         //     if (selectedNodes.length > 0) {
@@ -275,24 +276,44 @@ const GraphInfo = (
                 title: '分数',
                 value: data.nodeData.score,
             },
+            {
+                key: 'Description',
+                title: '描述',
+                value: '待添加',
+            }
         ]
-        return(
-            <>
+        return (
+            <div style={{
+                height: '500px',
+                overflow: 'scroll',
+            }}>
                 <h3>节点信息</h3>
-                <List 
-                    itemLayout='vertical'
-                    dataSource={listdata}
-                    renderItem={item => (
-                        <List.Item>
-                            <List.Item.Meta
-                                title={item.title}
-                            />
-                            <p/>
-                            <Typography.Paragraph copyable>{item.value}</Typography.Paragraph>
-                        </List.Item>
-                    )}
-                />
-            </>
+                <ConfigProvider
+                    theme={{
+                        components: {
+                            List: {
+                                /* 这里是你的组件 token */
+                                itemPadding: '5px 0px',
+                                metaMarginBottom: '0px',
+                            },
+                        },
+                    }}
+                >
+                    <List
+                        itemLayout='vertical'
+                        dataSource={listdata}
+                        renderItem={item => (
+                            <List.Item>
+                                <List.Item.Meta
+                                    title={item.title}
+                                />
+                                <Typography.Paragraph copyable>{item.value}</Typography.Paragraph>
+                            </List.Item>
+                        )}
+
+                    />
+                </ConfigProvider>
+            </div>
         )
     }
 }
@@ -330,8 +351,8 @@ const InteractiveGraph = () => {
         width: '29%',
         minWidth: '400px',
     };
-    
-        
+
+
     return (
         <Flex gap="1%">
             <Card bordered={true} style={graphStyle}>
