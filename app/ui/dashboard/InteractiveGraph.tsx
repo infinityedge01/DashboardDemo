@@ -115,8 +115,8 @@ const G6Graph = (
     React.useEffect(() => {
         let graph: Graph = new Graph({
             container: containerRef.current!,
-            width: 2000,
-            height: 1000,
+            width: 6000,
+            height: 2000,
             data: {
                 nodes: graphData?.nodes.map((node) => ({
                     id: node.id,
@@ -163,8 +163,8 @@ const G6Graph = (
             },
             layout: {
                 type: 'antv-dagre',
-                ranksep: 100,
-                nodesep: 10,
+                ranksep: 50,
+                nodesep: 5,
                 sortByCombo: false,
             },
             behaviors: ['zoom-canvas', 'drag-canvas',
@@ -318,11 +318,15 @@ const GraphInfo = (
     }
 }
 
-const InteractiveGraph = () => {
+const InteractiveGraph = ({
+    name
+    }: { 
+        name: string   
+    }) => {
     const [graphData, setGraphData] = React.useState<GraphData | null>(null);
     const [graph, setGraph] = React.useState<Graph | null>(null);
     React.useEffect(() => {
-        const data = loadData('app/data/example_graph.json');
+        const data = loadData(`app/data/${name}/graph.json`);
         data.then((response) => {
             const data_json = JSON.parse(response);
             let commandData = data_json?.commands;

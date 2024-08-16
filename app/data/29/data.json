@@ -1,0 +1,274 @@
+{
+    "num_nodes": 2297,
+    "num_edges": 13377,
+    "num_ip": 426,
+    "num_file": 1027,
+    "num_commands": 844,
+    "start_time": 5409300708900000,
+    "end_time": 19833019145000000,
+    "duration": 14423718436100000,
+    "stages": [
+        "Maintain Persistence",
+        "Complete Mission",
+        "Escalate Privilege",
+        "Internal Reconnaissance",
+        "Establish Foothold"
+    ],
+    "total_score": 114514,
+    "time_graph_data": [
+        {
+            "name": "Establish Foothold",
+            "startTimeStamp": 5409300708900000,
+            "endTimeStamp": 9154772656500000,
+            "startTime": "1970-03-04 22:35:00",
+            "endTime": "1970-04-17 06:59:32"
+        },
+        {
+            "name": "Maintain Persistence",
+            "startTimeStamp": 6022787139000000,
+            "endTimeStamp": 19833019145000000,
+            "startTime": "1970-03-12 00:59:47",
+            "endTime": "1970-08-18 21:10:19"
+        },
+        {
+            "name": "Complete Mission",
+            "startTimeStamp": 6023248828900000,
+            "endTimeStamp": 8111109435200000,
+            "startTime": "1970-03-12 01:07:28",
+            "endTime": "1970-04-05 05:05:09"
+        },
+        {
+            "name": "Internal Reconnaissance",
+            "startTimeStamp": 6023249276500000,
+            "endTimeStamp": 9119340584600000,
+            "startTime": "1970-03-12 01:07:29",
+            "endTime": "1970-04-16 21:09:00"
+        },
+        {
+            "name": "Escalate Privilege",
+            "startTimeStamp": 6023251783200000,
+            "endTimeStamp": 8121489511100000,
+            "startTime": "1970-03-12 01:07:31",
+            "endTime": "1970-04-05 07:58:09"
+        },
+        {
+            "name": "Initial Compromise",
+            "startTimeStamp": 6105354810400000,
+            "endTimeStamp": 6105356819600000,
+            "startTime": "1970-03-12 23:55:54",
+            "endTime": "1970-03-12 23:55:56"
+        }
+    ],
+    "stage_data": [
+        {
+            "stage": "Establish Foothold",
+            "count": 601
+        },
+        {
+            "stage": "Maintain Persistence",
+            "count": 50
+        },
+        {
+            "stage": "Internal Reconnaissance",
+            "count": 14
+        },
+        {
+            "stage": "Complete Mission",
+            "count": 5
+        },
+        {
+            "stage": "Escalate Privilege",
+            "count": 1
+        }
+    ],
+    "top_command": [
+        {
+            "label": "wordpad",
+            "count": 223
+        },
+        {
+            "label": "cmd",
+            "count": 122
+        },
+        {
+            "label": "conhost",
+            "count": 80
+        },
+        {
+            "label": "powershell",
+            "count": 74
+        },
+        {
+            "label": "csc",
+            "count": 64
+        },
+        {
+            "label": "cvtres",
+            "count": 63
+        },
+        {
+            "label": "chrome",
+            "count": 41
+        },
+        {
+            "label": "reg",
+            "count": 29
+        },
+        {
+            "label": "HOSTNAME",
+            "count": 25
+        },
+        {
+            "label": "whoami",
+            "count": 23
+        },
+        {
+            "label": "schtasks",
+            "count": 13
+        },
+        {
+            "label": "netsh",
+            "count": 9
+        },
+        {
+            "label": "calc",
+            "count": 5
+        },
+        {
+            "label": "sangforcat",
+            "count": 4
+        },
+        {
+            "label": "spolsv",
+            "count": 4
+        },
+        {
+            "label": "timeout",
+            "count": 4
+        },
+        {
+            "label": "py",
+            "count": 3
+        },
+        {
+            "label": "WMIC",
+            "count": 3
+        },
+        {
+            "label": "python",
+            "count": 3
+        },
+        {
+            "label": "certutil",
+            "count": 3
+        },
+        {
+            "label": "fodhelper",
+            "count": 3
+        },
+        {
+            "label": "rundll32",
+            "count": 2
+        },
+        {
+            "label": "sdclt",
+            "count": 2
+        },
+        {
+            "label": "control",
+            "count": 2
+        },
+        {
+            "label": "notepad",
+            "count": 2
+        },
+        {
+            "label": "ComputerDefaults",
+            "count": 2
+        },
+        {
+            "label": "taskkill",
+            "count": 2
+        },
+        {
+            "label": "net",
+            "count": 2
+        },
+        {
+            "label": "net1",
+            "count": 2
+        },
+        {
+            "label": "mimikatz2",
+            "count": 2
+        },
+        {
+            "label": "mode",
+            "count": 2
+        },
+        {
+            "label": "",
+            "count": 1
+        },
+        {
+            "label": "tasklist",
+            "count": 1
+        },
+        {
+            "label": "findstr",
+            "count": 1
+        },
+        {
+            "label": "nltest",
+            "count": 1
+        },
+        {
+            "label": "mimikatz",
+            "count": 1
+        },
+        {
+            "label": "7z",
+            "count": 1
+        }
+    ],
+    "syscall_data": [
+        {
+            "syscall": "read",
+            "count": 10193
+        },
+        {
+            "syscall": "image load",
+            "count": 1040
+        },
+        {
+            "syscall": "write",
+            "count": 869
+        },
+        {
+            "syscall": "process start",
+            "count": 849
+        },
+        {
+            "syscall": "tcp send",
+            "count": 426
+        }
+    ],
+    "ip_data": [
+        {
+            "ip": "124.223.85.207",
+            "count": 416
+        },
+        {
+            "ip": "120.253.255.162",
+            "count": 6
+        },
+        {
+            "ip": "120.253.253.98",
+            "count": 2
+        },
+        {
+            "ip": "120.253.253.226",
+            "count": 2
+        }
+    ]
+}

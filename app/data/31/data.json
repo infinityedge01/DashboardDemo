@@ -1,0 +1,162 @@
+{
+    "num_nodes": 135,
+    "num_edges": 386,
+    "num_ip": 7,
+    "num_file": 66,
+    "num_commands": 62,
+    "start_time": 107348524000000,
+    "end_time": 739099938500000,
+    "duration": 631751414500000,
+    "stages": [
+        "Establish Foothold",
+        "Escalate Privilege",
+        "Move Laterally",
+        "Internal Reconnaissance"
+    ],
+    "total_score": 114514,
+    "time_graph_data": [
+        {
+            "name": "Establish Foothold",
+            "startTimeStamp": 107348524000000,
+            "endTimeStamp": 739099938500000,
+            "startTime": "1970-01-02 13:49:08",
+            "endTime": "1970-01-09 21:18:19"
+        },
+        {
+            "name": "Internal Reconnaissance",
+            "startTimeStamp": 107356878100000,
+            "endTimeStamp": 204754812100000,
+            "startTime": "1970-01-02 13:49:16",
+            "endTime": "1970-01-03 16:52:34"
+        },
+        {
+            "name": "Escalate Privilege",
+            "startTimeStamp": 184723267500000,
+            "endTimeStamp": 184736744300000,
+            "startTime": "1970-01-03 11:18:43",
+            "endTime": "1970-01-03 11:18:56"
+        },
+        {
+            "name": "Maintain Persistence",
+            "startTimeStamp": 194462250600000,
+            "endTimeStamp": 194462250600000,
+            "startTime": "1970-01-03 14:01:02",
+            "endTime": "1970-01-03 14:01:02"
+        },
+        {
+            "name": "Move Laterally",
+            "startTimeStamp": 215094510600000,
+            "endTimeStamp": 225668526600000,
+            "startTime": "1970-01-03 19:44:54",
+            "endTime": "1970-01-03 22:41:08"
+        }
+    ],
+    "stage_data": [
+        {
+            "stage": "Establish Foothold",
+            "count": 9
+        },
+        {
+            "stage": "Internal Reconnaissance",
+            "count": 1
+        },
+        {
+            "stage": "Move Laterally",
+            "count": 2
+        },
+        {
+            "stage": "Escalate Privilege",
+            "count": 1
+        }
+    ],
+    "top_command": [
+        {
+            "label": "cmd",
+            "count": 25
+        },
+        {
+            "label": "powershell",
+            "count": 10
+        },
+        {
+            "label": "reg",
+            "count": 6
+        },
+        {
+            "label": "conhost",
+            "count": 4
+        },
+        {
+            "label": "ipconfig",
+            "count": 2
+        },
+        {
+            "label": "PAExec",
+            "count": 2
+        },
+        {
+            "label": "",
+            "count": 1
+        },
+        {
+            "label": "ARP",
+            "count": 1
+        },
+        {
+            "label": "PING",
+            "count": 1
+        },
+        {
+            "label": "whoami",
+            "count": 1
+        },
+        {
+            "label": "certutil",
+            "count": 1
+        },
+        {
+            "label": "taskkill",
+            "count": 1
+        },
+        {
+            "label": "agent",
+            "count": 1
+        },
+        {
+            "label": "netsh",
+            "count": 1
+        },
+        {
+            "label": "WinBrute",
+            "count": 1
+        }
+    ],
+    "syscall_data": [
+        {
+            "syscall": "read",
+            "count": 283
+        },
+        {
+            "syscall": "process start",
+            "count": 61
+        },
+        {
+            "syscall": "write",
+            "count": 25
+        },
+        {
+            "syscall": "image load",
+            "count": 10
+        },
+        {
+            "syscall": "tcp send",
+            "count": 7
+        }
+    ],
+    "ip_data": [
+        {
+            "ip": "124.223.85.207",
+            "count": 3
+        }
+    ]
+}

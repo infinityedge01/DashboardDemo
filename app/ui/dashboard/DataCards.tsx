@@ -2,11 +2,7 @@ import React from "react";
 import { Flex, Radio } from 'antd';
 import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
 import { Card, Col, Row, Statistic } from 'antd';
-const cardBaseStyle: React.CSSProperties = {
-    width: '24%',
-    minWidth: '200px',
-    fontWeight: 'bold',
-};
+
 
 export default function DataCards(
     {props}: {props: {key: string, value: number}[]}
@@ -14,6 +10,11 @@ export default function DataCards(
     if (!props) {
         return <Card bordered={false}></Card>;
     }
+    const cardBaseStyle: React.CSSProperties = {
+        width: props.length > 1 ? (100 / props.length - 1).toString() + '%' : '100%',
+        minWidth: '200px',
+        fontWeight: 'bold',
+    };
     const listitems = props.map((item) => {
         return (
             <Statistic

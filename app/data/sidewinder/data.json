@@ -1,0 +1,143 @@
+{
+    "num_nodes": 251,
+    "num_edges": 616,
+    "num_ip": 41,
+    "num_file": 141,
+    "num_commands": 69,
+    "start_time": 5409300708900000,
+    "end_time": 6156850893200000,
+    "duration": 747550184300000,
+    "stages": [
+        "Internal Reconnaissance",
+        "Establish Foothold",
+        "Maintain Persistence"
+    ],
+    "total_score": 114514,
+    "time_graph_data": [
+        {
+            "name": "Establish Foothold",
+            "startTimeStamp": 5409300708900000,
+            "endTimeStamp": 6156850893200000,
+            "startTime": "1970-03-04 22:35:00",
+            "endTime": "1970-03-13 14:14:10"
+        },
+        {
+            "name": "Maintain Persistence",
+            "startTimeStamp": 5409669472600000,
+            "endTimeStamp": 5554953102800000,
+            "startTime": "1970-03-04 22:41:09",
+            "endTime": "1970-03-06 15:02:33"
+        },
+        {
+            "name": "Internal Reconnaissance",
+            "startTimeStamp": 5419680265400000,
+            "endTimeStamp": 5565116789000000,
+            "startTime": "1970-03-05 01:28:00",
+            "endTime": "1970-03-06 17:51:56"
+        }
+    ],
+    "stage_data": [
+        {
+            "stage": "Establish Foothold",
+            "count": 51
+        },
+        {
+            "stage": "Maintain Persistence",
+            "count": 7
+        },
+        {
+            "stage": "Internal Reconnaissance",
+            "count": 1
+        }
+    ],
+    "top_command": [
+        {
+            "label": "powershell",
+            "count": 16
+        },
+        {
+            "label": "cmd",
+            "count": 15
+        },
+        {
+            "label": "csc",
+            "count": 7
+        },
+        {
+            "label": "cvtres",
+            "count": 7
+        },
+        {
+            "label": "reg",
+            "count": 3
+        },
+        {
+            "label": "conhost",
+            "count": 3
+        },
+        {
+            "label": "whoami",
+            "count": 2
+        },
+        {
+            "label": "HOSTNAME",
+            "count": 2
+        },
+        {
+            "label": "cscript",
+            "count": 2
+        },
+        {
+            "label": "mshta",
+            "count": 1
+        },
+        {
+            "label": "spolsv",
+            "count": 1
+        },
+        {
+            "label": "net",
+            "count": 1
+        },
+        {
+            "label": "certutil",
+            "count": 1
+        },
+        {
+            "label": "calc",
+            "count": 1
+        },
+        {
+            "label": "net1",
+            "count": 1
+        }
+    ],
+    "syscall_data": [
+        {
+            "syscall": "read",
+            "count": 401
+        },
+        {
+            "syscall": "write",
+            "count": 80
+        },
+        {
+            "syscall": "process start",
+            "count": 68
+        },
+        {
+            "syscall": "tcp send",
+            "count": 41
+        },
+        {
+            "syscall": "image load",
+            "count": 26
+        }
+    ],
+    "ip_data": [
+        {
+            "ip": "124.223.85.207",
+            "count": 41
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+[
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/046/upload_2b89047a_a393_4ef4_ba42_d0ec83bbf4d9_00000112.tmp ",
+        "cmd": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties -Djava.util.logging.manager= \norg.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources  \n-Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/tomcat/apache-tomcat-8.5.76/bin/ \nbootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/tomcat/apache-tomcat-8.5.76 -Dcatalina.home=/ \nusr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/temp org.apache.catalina.startup.Bootstrap start",
+        "id": "8e5aee63493ca78898ba316974c34a5b",
+        "key": "7d9a03a18e007eed31e02a7a07e2886f"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/lib/el-api.jar",
+        "cmd": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties -Djava.util.logging.manager= \norg.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources  \n-Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/tomcat/apache-tomcat-8.5.76/bin/ \nbootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/tomcat/apache-tomcat-8.5.76 -Dcatalina.home=/ \nusr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/temp org.apache.catalina.startup.Bootstrap start",
+        "id": "8e5aee63493ca78898ba316974c34a5b",
+        "key": "4bd8e462d282ac0cb6a5b69e2597032c"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/lib/jasper.jar",
+        "cmd": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties -Djava.util.logging.manager= \norg.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources  \n-Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/tomcat/apache-tomcat-8.5.76/bin/ \nbootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/tomcat/apache-tomcat-8.5.76 -Dcatalina.home=/ \nusr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/temp org.apache.catalina.startup.Bootstrap start",
+        "id": "8e5aee63493ca78898ba316974c34a5b",
+        "key": "ab1af6235933686f419a794356ed874f"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/lib/servlet-api.jar",
+        "cmd": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties -Djava.util.logging.manager= \norg.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources  \n-Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/tomcat/apache-tomcat-8.5.76/bin/ \nbootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/tomcat/apache-tomcat-8.5.76 -Dcatalina.home=/ \nusr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/temp org.apache.catalina.startup.Bootstrap start",
+        "id": "8e5aee63493ca78898ba316974c34a5b",
+        "key": "bef0a32ff8dbec0925a16d3a29ec7e8a"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.java",
+        "cmd": "http-nio-80-exe -Djava.util.logging.config.file=/usr/tomcat/apache-tomcat-8.5.76/conf/logging.properties -Djava.util.logging.manager= \norg.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources  \n-Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/tomcat/apache-tomcat-8.5.76/bin/ \nbootstrap.jar:/usr/tomcat/apache-tomcat-8.5.76/bin/tomcat-juli.jar -Dcatalina.base=/usr/tomcat/apache-tomcat-8.5.76 -Dcatalina.home=/ \nusr/tomcat/apache-tomcat-8.5.76 -Djava.io.tmpdir=/usr/tomcat/apache-tomcat-8.5.76/temp org.apache.catalina.startup.Bootstrap start",
+        "id": "8e5aee63493ca78898ba316974c34a5b",
+        "key": "cc3bcc458e0457292625238585c82888"
+    },
+    {
+        "filename": "/root/.bash_history",
+        "cmd": "bash",
+        "id": "d574d4bb40c84861791a694a999cce69",
+        "key": "91e83421573951a54b94534fa31ce401"
+    },
+    {
+        "filename": "/etc/host.conf",
+        "cmd": "arp -a",
+        "id": "092587586b9bca3653411d58e887d7da",
+        "key": "138c0b064487f151f6aaed7ffa6fb533"
+    },
+    {
+        "filename": "/proc/net/dev",
+        "cmd": "ifconfig",
+        "id": "db18c251598a58086700b3cf44a93938",
+        "key": "24fab34cce4204b6c9f50d07f48d0fe9"
+    },
+    {
+        "filename": "/proc/net/if_inet6",
+        "cmd": "ifconfig",
+        "id": "db18c251598a58086700b3cf44a93938",
+        "key": "584298249b0ada3d9fadc17ff1cb5f57"
+    },
+    {
+        "filename": "/proc/1/cmdline",
+        "cmd": "ps ax",
+        "id": "0ff6c640b7cb75ff858c7a75aac06f70",
+        "key": "95ba1b8c54ed7eaaaafa70e49c82e037"
+    },
+    {
+        "filename": "/proc/308205/cmdline",
+        "cmd": "ps ax",
+        "id": "0ff6c640b7cb75ff858c7a75aac06f70",
+        "key": "2d009ee8179bafe5a1e212cfe7476a23"
+    },
+    {
+        "filename": "/proc/308218/cmdline",
+        "cmd": "ps ax",
+        "id": "0ff6c640b7cb75ff858c7a75aac06f70",
+        "key": "2d52c1fc85abec2ce24c13e747b0e05d"
+    },
+    {
+        "filename": "/proc/295790/cmdline",
+        "cmd": "ps ax",
+        "id": "0ff6c640b7cb75ff858c7a75aac06f70",
+        "key": "d6f0c8edaf6b9b50fa5a6a73f5b2c5d8"
+    },
+    {
+        "filename": "/proc/294382/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "9278dfc374b5ecd8fdebdc5c0c8eb1eb"
+    },
+    {
+        "filename": "/proc/308191/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "7854a897cf958230a82a952be81b3791"
+    },
+    {
+        "filename": "/proc/309041/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "c65559e134428c77b6515261544dff50"
+    },
+    {
+        "filename": "/proc/308691/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "534dc997a8260bdedb2615d81be5ab39"
+    },
+    {
+        "filename": "/proc/309225/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "9c021ae06861afe521220e3f9ff5da78"
+    },
+    {
+        "filename": "/proc/309044/cmdline",
+        "cmd": "dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "id": "e77f94f904a6736b1779abdad5c99500",
+        "key": "5e3ad5e81d4fb7a4e665583bf652db6f"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/result.txt",
+        "cmd": "main -m mssql -h 192.168.0.0/24 -user sa -pwd Sa123456",
+        "id": "c00408939cf270d5a3a29550fdba87d5",
+        "key": "f4a606ac91c398211670e77893960bf9"
+    },
+    {
+        "filename": "/proc/sys/kernel/ngroups_max",
+        "cmd": "sshd transfer -D -R",
+        "id": "6046aedfaf382317075867a8cb9a77a2",
+        "key": "e7732b436f7a191074fa7caa3c1232cb"
+    },
+    {
+        "filename": "/etc/default/locale",
+        "cmd": "sshd transfer -D -R",
+        "id": "6046aedfaf382317075867a8cb9a77a2",
+        "key": "2b5cc420d6d09ffbbec6ebc9f1cb7cda"
+    },
+    {
+        "filename": "/etc/shadow",
+        "cmd": "sshd transfer -D -R",
+        "id": "6046aedfaf382317075867a8cb9a77a2",
+        "key": "2fe8599cb25a0c790213d39b3be97c27"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan/common/Parse.go",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "b9022c6e569562648421b6e95653e2f4"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan/common/config.go",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "6b2bcad03117b5f26146e76a89119c11"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan/common/ParseIP.go",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "1a353bc2673127b7bb8cadb2bf45c3f7"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan/common/log.go",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "c29973d8b123a1d853634f332af704f2"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan/common/flag.go",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "f424050b90d7ff3c43be79585df81c23"
+    },
+    {
+        "filename": "/usr/tomcat/apache-tomcat-8.5.76/bin/fscan-main.zip",
+        "cmd": "unzip -o -d ./fscan fscan-main.zip",
+        "id": "fe46ff4b0dd67dc0a974430208331227",
+        "key": "f6e5a7f35c62b53bb35030f69500c112"
+    },
+    {
+        "filename": "127.0.0.53:53",
+        "cmd": "systemd-resolve",
+        "id": "374144033013838b2b910dc4cb6ff85a",
+        "key": "7b1cc6970d386d306e9fbee3851e35b7"
+    },
+    {
+        "filename": "/proc/294943/cmdline",
+        "cmd": "ps -ax -o pid=,ppid=,pcpu=,pmem=,command=",
+        "id": "758eff8591feb78fc4e4300f9637536e",
+        "key": "607e03aea1fd3cd669c77d1b542f9fd2"
+    },
+    {
+        "filename": "/usr/local/uniagent/log/error.log",
+        "cmd": "uniagent",
+        "id": "75476b5ba93400463262d7c57cdc973f",
+        "key": "eac5646df6ba8e8c72da289f2e07ca6b"
+    },
+    {
+        "filename": "/proc/1/stat",
+        "cmd": "lsof -i:8080 -t",
+        "id": "bc97cc66c3f4038cd0e9582f6a66ec69",
+        "key": "6ededc0385308f440d67874f735907b1"
+    }
+]

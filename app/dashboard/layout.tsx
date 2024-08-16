@@ -5,9 +5,10 @@ import React from 'react';
 import { Inter } from 'next/font/google'
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { Flex, Layout, Menu, Button } from 'antd';
-import { LogoutOutlined } from '@ant-design/icons'
+import { LogoutOutlined, HomeOutlined } from '@ant-design/icons'
 import { signOut } from '@/auth';
 import { logout } from '../lib/actions';
+import Link from 'next/link';
 const { Header, Footer, Content } = Layout;
 
 
@@ -39,17 +40,28 @@ export default function RootLayout({
                             ]}
                             style={{ flex: 1, minWidth: 0 }}
                         />
-                        <Button
-                            type="primary"
-                            icon={<LogoutOutlined />}
-                            onClick={
-                                () => {
-                                    logout();
+                            <Link href={'/dashboard'}>
+                                <Button
+                                    type="primary"
+                                    icon={<HomeOutlined />}
+                                >
+                                    返回主页
+                                </Button>
+                            </Link>
+                            <div style={{
+                                width: '1%',
+                            }} />
+                            <Button
+                                type="primary"
+                                icon={<LogoutOutlined />}
+                                onClick={
+                                    () => {
+                                        logout();
+                                    }
                                 }
-                            }
-                        >
-                            退出登录
-                        </Button>
+                            >
+                                退出登录
+                            </Button>
                     </Header>
                     <Content style={{ padding: '0 48px' }}>
                         <AntdRegistry>{children}</AntdRegistry>

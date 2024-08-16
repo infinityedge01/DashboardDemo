@@ -1,0 +1,12 @@
+{
+    "id": "1",
+    "name": "example",
+    "data": {
+        "num_commands": 175,
+        "num_ip": 236,
+        "num_file": 33,
+        "start_time": 1648192542127127601,
+        "end_time": 1648492734495208964,
+        "duration": 300192368081363
+    }
+},

