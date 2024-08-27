@@ -9,12 +9,13 @@ interface DataType {
     stage: string;
     score: number;
     label: string;
+    description: string;
 }
 
 const columns: TableColumnsType<DataType> = [
     { title: 'NodeID', dataIndex: 'id', key: 'id', ellipsis: true },
     { title: 'Stage', dataIndex: 'stage', key: 'stage', ellipsis: true },
-    { title: 'Score', dataIndex: 'score', key: 'score' , ellipsis: true},
+    { title: 'Description', dataIndex: 'description', key: 'description' , ellipsis: true},
     { title: 'Label', dataIndex: 'label', key: 'label', ellipsis: true },
     Table.EXPAND_COLUMN,
 ];
@@ -29,12 +30,12 @@ const NodeTable = ({
         const data = loadData(`app/data/${name}/node.json`);
         data.then((response) => {
             const data_json = JSON.parse(response);
-            let nodeData = data_json?.map((item: { id: string, stage: string, score: string, label: string}) => {
+            let nodeData = data_json?.map((item: { id: string, stage: string, description: string, label: string}) => {
                 return {
                     key: item.id,
                     id: item.id,
                     stage: item.stage,
-                    score: item.score,
+                    description: item.description,
                     label: item.label,
                 }
             });
@@ -56,7 +57,7 @@ const NodeTable = ({
                         <h3>Label</h3>
                         <p>{record.label}</p>
                         <h3>Description</h3>
-                        <p>待添加</p>
+                        <p>{record.description}</p>
                     </Flex>
                 </>,
             }}

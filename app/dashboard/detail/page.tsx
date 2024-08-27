@@ -22,12 +22,12 @@ import type { CollapseProps } from 'antd';
 import { useSearchParams } from "next/navigation";
 import formatDuration from 'format-duration';
 import { useRouter } from 'next/router';
-
+import { Suspense } from 'react'
 const StatisticOverview = (
     {
-    name
-    }: { 
-        name: string   
+        name
+    }: {
+        name: string
     }
 ) => {
     const timeDataBaseStyle: React.CSSProperties = {
@@ -177,9 +177,9 @@ const StatisticOverview = (
 
 const TableOverview = ({
     name
-    }: { 
-        name: string   
-    }) => {
+}: {
+    name: string
+}) => {
     const panelStyle: React.CSSProperties = {
         background: '#ffffff',
     };
@@ -187,17 +187,17 @@ const TableOverview = ({
         {
             'key': '1',
             'label': '命令信息',
-            'children': <NodeTable name={name}/>,
+            'children': <NodeTable name={name} />,
         },
         {
             'key': '2',
             'label': '连接信息',
-            'children': <IPInfoTable name={name}/>,
+            'children': <IPInfoTable name={name} />,
         },
         {
             'key': '3',
             'label': '文件信息',
-            'children': <FileInfoTable name={name}/>,
+            'children': <FileInfoTable name={name} />,
         },
     ];
     return (
@@ -226,21 +226,26 @@ const PDFOverview = (
 
 const InteractiveGraphOverview = ({
     name
-    }: { 
-        name: string   
-    }) => {
+}: {
+    name: string
+}) => {
     return (
         <>
             <h2>交互式图表</h2>
-            <InteractiveGraph name={name}/>
+            <InteractiveGraph name={name} />
         </>
     );
 }
+function Search() {
+    const searchParams = useSearchParams()
+
+    return searchParams.get('name');
+}
+
 const DashBoardPage = () => {
     const [isDataValid, setIsDataValid] = React.useState<string>("loading");
     const searchParams = useSearchParams();
-    console.log(searchParams);
-    let dataName: string  = searchParams.get('name') ?? '';
+    let dataName: string = Search() ?? '';
     React.useEffect(() => {
         const dataList = loadData('app/data/data_list.json');
         dataList.then((response) => {
@@ -266,8 +271,8 @@ const DashBoardPage = () => {
             // Cleanup
         }
     }, []);
-    
-    
+
+
     return (
         <>
             <NavigatorIndex items={[
@@ -278,9 +283,9 @@ const DashBoardPage = () => {
             {isDataValid == "true" ? (
                 <>
                     <Flex gap="middle" vertical>
-                        <StatisticOverview name={dataName}/>
-                        <InteractiveGraphOverview name={dataName}/>
-                        <TableOverview name={dataName}/>
+                        <StatisticOverview name={dataName} />
+                        <InteractiveGraphOverview name={dataName} />
+                        <TableOverview name={dataName} />
                         <PDFOverview filename={`/dashboard/reports/${dataName}.pdf`} />
                     </Flex>
                 </>
@@ -289,16 +294,16 @@ const DashBoardPage = () => {
                     <Page404 />
                 </>
             ) :
-            (
-                <>
-                    Loading...
-                </>
-            )}
+                (
+                    <>
+                        Loading...
+                    </>
+                )}
         </>
     );
 };
 const DashBoardPageWithTheme = () => {
-    
-    return withTheme(<DashBoardPage />);
+
+    return withTheme(<Suspense><DashBoardPage /></Suspense>);
 }
 export default DashBoardPageWithTheme;

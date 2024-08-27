@@ -16,10 +16,10 @@
         "id": "4555f43390fe3494a3d527567cdac02b"
     },
     {
-        "label": "",
+        "label": "powershell",
         "stage": "Establish Foothold",
         "stage_score": "594.2",
-        "cmd": "",
+        "cmd": "powershell",
         "raw_cmd": "powershell",
         "id": "484f2e9e85b7e62dddd465a31198b585"
     },
@@ -48,10 +48,11 @@
         "id": "133521c54e64440cbfb3778eff26e0be"
     },
     {
-        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
-        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "cmd": "cmd.exe /C  reg add / HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/Explorer/Run/  /v test /t REG_SZ /d / C:/windows/system32/calc.exe/  /f",
+        "label": "cmd.exe /C  reg add / HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/Explorer/Run/  /v test /t REG_SZ /d / C:/windows/system32/calc.exe/  /f",
         "stage": "Establish Foothold",
         "stage_score": "674.8",
+        "raw_cmd": "cmd",
         "id": "14ae5c7b5d2a49b933d0546b6706c4f3"
     },
     {
@@ -143,10 +144,11 @@
         "id": "6f4214d38f991b8722648c02d50b675b"
     },
     {
-        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
-        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "cmd": "cmd.exe /C  mkdir C:/%HOMEPATH%/Desktop/T1022  &amp; echo ipconfig /all &gt; C:/%HOMEPATH%/Desktop/T1022/T1022.txt &amp; 7z.exe a -tzip T1022.zip C:/%HOMEPATH%/Desktop/T1022",
+        "label": "cmd.exe /C  mkdir C:/%HOMEPATH%/Desktop/T1022  &amp; echo ipconfig /all &gt; C:/%HOMEPATH%/Desktop/T1022/T1022.txt &amp; 7z.exe a -tzip T1022.zip C:/%HOMEPATH%/Desktop/T1022",
         "stage": "Establish Foothold",
         "stage_score": "674.8",
+        "raw_cmd": "cmd",
         "id": "7e341a3eb12fb991f2bd57f8a717eca2"
     },
     {
@@ -190,10 +192,11 @@
         "id": "a8be2c1c6cd2b2f3bb65c043693f10de"
     },
     {
-        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
-        "label": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "cmd": "cmd.exe /C  arp -a",
+        "label": "cmd.exe /C  arp -a",
         "stage": "Establish Foothold",
         "stage_score": "674.8",
+        "raw_cmd": "cmd",
         "id": "b58c294d5cce88ecc3c9084ebb7982af"
     },
     {
@@ -285,17 +288,18 @@
         "id": "ee89d7c76d0b239c6790833dabb32534"
     },
     {
-        "cmd": "\" C:/WINDOWS/system32/whoami.exe \"",
-        "label": "\" C:/WINDOWS/system32/whoami.exe \"",
+        "cmd": "C:/WINDOWS/system32/whoami.exe",
+        "label": "C:/WINDOWS/system32/whoami.exe",
         "stage": "Internal Reconnaissance",
         "stage_score": "17.0",
+        "raw_cmd": "whoami",
         "id": "30d138bc1a86ec2f75cf69c770a5f2b4"
     },
     {
-        "label": "",
+        "label": "powershell",
         "stage": "Establish Foothold",
         "stage_score": "568.8",
-        "cmd": "",
+        "cmd": "powershell",
         "raw_cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2"
     },
@@ -548,10 +552,10 @@
         "id": "6d7355758464615200f7aa4b8743e16d"
     },
     {
-        "label": "",
+        "label": "powershell",
         "stage": "Establish Foothold",
         "stage_score": "575.8",
-        "cmd": "",
+        "cmd": "powershell",
         "raw_cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af"
     },
@@ -708,24 +712,27 @@
         "id": "4b1d560f1821ad43a18427b64366b8fa"
     },
     {
-        "cmd": "\"cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp \"",
-        "label": "\"cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp \"",
+        "cmd": "cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp",
+        "label": "cmd.exe /c  reg.exe save hklm/security c:/users/admini~1/appdata/local/temp/tjbvkjpetfjp",
         "stage": "Internal Reconnaissance",
         "stage_score": "11.0",
+        "raw_cmd": "cmd",
         "id": "342ae1eab1c260316fe2d61acae7c124"
     },
     {
-        "cmd": "\"cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf \"",
-        "label": "\"cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf \"",
+        "cmd": "cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
+        "label": "cmd.exe /c  reg.exe save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
         "stage": "Internal Reconnaissance",
         "stage_score": "11.0",
+        "raw_cmd": "cmd",
         "id": "fbcad28e9f3572c21ff47286680ec8a4"
     },
     {
-        "cmd": "\"cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg \"",
-        "label": "\"cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg \"",
+        "cmd": "cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg",
+        "label": "cmd.exe /c  reg.exe save hklm/system c:/users/admini~1/appdata/local/temp/qsdirkg",
         "stage": "Internal Reconnaissance",
         "stage_score": "11.0",
+        "raw_cmd": "cmd",
         "id": "ff4efeb67238ca4304c82b5e12482f28"
     },
     {

@@ -8,6 +8,7 @@ import { CodeOutlined, FileOutlined, LinkOutlined } from '@ant-design/icons';
 import loadData from '@/app/utils/loadData';
 import { Affix } from 'antd';
 import { ConfigProvider } from 'antd';
+import { min } from 'date-fns/min';
 register(ExtensionCategory.NODE, 'g', GNode);
 register(ExtensionCategory.NODE, 'react', ReactNode);
 
@@ -23,6 +24,7 @@ interface MyNodeData {
     stage: string;
     type: string;
     selected: boolean | undefined;
+    description: string;
 };
 
 interface MyEdgeData {
@@ -115,7 +117,7 @@ const G6Graph = (
     React.useEffect(() => {
         let graph: Graph = new Graph({
             container: containerRef.current!,
-            width: 6000,
+            width: graphData?.nodes.length? Math.min(graphData?.nodes.length * 100, 3000) : 3000,
             height: 2000,
             data: {
                 nodes: graphData?.nodes.map((node) => ({
@@ -126,6 +128,7 @@ const G6Graph = (
                         score: node.score,
                         stage: node.stage,
                         type: node.type,
+                        description: node.description,
                     },
                 })),
                 edges: graphData?.edges.map((edge) => ({
@@ -239,6 +242,7 @@ const GraphInfo = (
                         stage: selectedNodes[0].data?.stage as string,
                         type: selectedNodes[0].data?.type as string,
                         selected: selectedNodes[0].data?.selected as boolean,
+                        description: selectedNodes[0].data?.description as string,
                     },
                     edgeData: null,
                 }
@@ -279,7 +283,7 @@ const GraphInfo = (
             {
                 key: 'Description',
                 title: '描述',
-                value: '待添加',
+                value: data.nodeData.description == 'null' ? '无' : data.nodeData.description,
             }
         ]
         return (

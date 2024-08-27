@@ -4,59 +4,59 @@
     "num_ip": 426,
     "num_file": 1027,
     "num_commands": 844,
-    "start_time": 5409300708900000,
-    "end_time": 19833019145000000,
+    "start_time": 1653601871563200242,
+    "end_time": 1668025589999300242,
     "duration": 14423718436100000,
     "stages": [
-        "Maintain Persistence",
-        "Complete Mission",
-        "Escalate Privilege",
         "Internal Reconnaissance",
+        "Complete Mission",
+        "Maintain Persistence",
+        "Escalate Privilege",
         "Establish Foothold"
     ],
     "total_score": 114514,
     "time_graph_data": [
         {
             "name": "Establish Foothold",
-            "startTimeStamp": 5409300708900000,
-            "endTimeStamp": 9154772656500000,
-            "startTime": "1970-03-04 22:35:00",
-            "endTime": "1970-04-17 06:59:32"
+            "startTimeStamp": 1653601871563200242,
+            "endTimeStamp": 1657347343510800242,
+            "startTime": "2022-05-27 05:51:11",
+            "endTime": "2022-07-09 14:15:43"
         },
         {
             "name": "Maintain Persistence",
-            "startTimeStamp": 6022787139000000,
-            "endTimeStamp": 19833019145000000,
-            "startTime": "1970-03-12 00:59:47",
-            "endTime": "1970-08-18 21:10:19"
+            "startTimeStamp": 1654215357993300242,
+            "endTimeStamp": 1668025589999300242,
+            "startTime": "2022-06-03 08:15:57",
+            "endTime": "2022-11-10 04:26:29"
         },
         {
             "name": "Complete Mission",
-            "startTimeStamp": 6023248828900000,
-            "endTimeStamp": 8111109435200000,
-            "startTime": "1970-03-12 01:07:28",
-            "endTime": "1970-04-05 05:05:09"
+            "startTimeStamp": 1654215819683200242,
+            "endTimeStamp": 1656303680289500242,
+            "startTime": "2022-06-03 08:23:39",
+            "endTime": "2022-06-27 12:21:20"
         },
         {
             "name": "Internal Reconnaissance",
-            "startTimeStamp": 6023249276500000,
-            "endTimeStamp": 9119340584600000,
-            "startTime": "1970-03-12 01:07:29",
-            "endTime": "1970-04-16 21:09:00"
+            "startTimeStamp": 1654215820130800242,
+            "endTimeStamp": 1657311911438900242,
+            "startTime": "2022-06-03 08:23:40",
+            "endTime": "2022-07-09 04:25:11"
         },
         {
             "name": "Escalate Privilege",
-            "startTimeStamp": 6023251783200000,
-            "endTimeStamp": 8121489511100000,
-            "startTime": "1970-03-12 01:07:31",
-            "endTime": "1970-04-05 07:58:09"
+            "startTimeStamp": 1654215822637500242,
+            "endTimeStamp": 1656314060365400242,
+            "startTime": "2022-06-03 08:23:42",
+            "endTime": "2022-06-27 15:14:20"
         },
         {
             "name": "Initial Compromise",
-            "startTimeStamp": 6105354810400000,
-            "endTimeStamp": 6105356819600000,
-            "startTime": "1970-03-12 23:55:54",
-            "endTime": "1970-03-12 23:55:56"
+            "startTimeStamp": 1654297925664700242,
+            "endTimeStamp": 1654297927673900242,
+            "startTime": "2022-06-04 07:12:05",
+            "endTime": "2022-06-04 07:12:07"
         }
     ],
     "stage_data": [
@@ -88,7 +88,7 @@
         },
         {
             "label": "cmd",
-            "count": 122
+            "count": 134
         },
         {
             "label": "conhost",
@@ -104,7 +104,7 @@
         },
         {
             "label": "cvtres",
-            "count": 63
+            "count": 64
         },
         {
             "label": "chrome",
@@ -115,12 +115,12 @@
             "count": 29
         },
         {
-            "label": "HOSTNAME",
+            "label": "whoami",
             "count": 25
         },
         {
-            "label": "whoami",
-            "count": 23
+            "label": "HOSTNAME",
+            "count": 25
         },
         {
             "label": "schtasks",
@@ -167,6 +167,14 @@
             "count": 3
         },
         {
+            "label": "tasklist",
+            "count": 3
+        },
+        {
+            "label": "",
+            "count": 2
+        },
+        {
             "label": "rundll32",
             "count": 2
         },
@@ -207,15 +215,11 @@
             "count": 2
         },
         {
-            "label": "",
-            "count": 1
-        },
-        {
-            "label": "tasklist",
-            "count": 1
-        },
-        {
             "label": "findstr",
+            "count": 1
+        },
+        {
+            "label": "ARP",
             "count": 1
         },
         {
@@ -224,6 +228,10 @@
         },
         {
             "label": "mimikatz",
+            "count": 1
+        },
+        {
+            "label": "systeminfo",
             "count": 1
         },
         {

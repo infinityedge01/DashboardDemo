@@ -4,44 +4,44 @@
     "num_ip": 53,
     "num_file": 251,
     "num_commands": 130,
-    "start_time": 3875420834100000,
-    "end_time": 4835807334500000,
+    "start_time": 1652067991688400242,
+    "end_time": 1653028378188800242,
     "duration": 960386500400000,
     "stages": [
-        "Internal Reconnaissance",
-        "Establish Foothold",
         "Escalate Privilege",
+        "Establish Foothold",
+        "Internal Reconnaissance",
         "Maintain Persistence"
     ],
     "total_score": 114514,
     "time_graph_data": [
         {
             "name": "Establish Foothold",
-            "startTimeStamp": 3875420834100000,
-            "endTimeStamp": 4835807334500000,
-            "startTime": "1970-02-15 04:30:20",
-            "endTime": "1970-02-26 07:16:47"
+            "startTimeStamp": 1652067991688400242,
+            "endTimeStamp": 1653028378188800242,
+            "startTime": "2022-05-09 11:46:31",
+            "endTime": "2022-05-20 14:32:58"
         },
         {
             "name": "Maintain Persistence",
-            "startTimeStamp": 3902792366200000,
-            "endTimeStamp": 4510826837500000,
-            "startTime": "1970-02-15 12:06:32",
-            "endTime": "1970-02-22 13:00:26"
+            "startTimeStamp": 1652095363220500242,
+            "endTimeStamp": 1652703397691800242,
+            "startTime": "2022-05-09 19:22:43",
+            "endTime": "2022-05-16 20:16:37"
         },
         {
             "name": "Internal Reconnaissance",
-            "startTimeStamp": 4211309769300000,
-            "endTimeStamp": 4513660055700000,
-            "startTime": "1970-02-19 01:48:29",
-            "endTime": "1970-02-22 13:47:40"
+            "startTimeStamp": 1652403880623600242,
+            "endTimeStamp": 1652706230910000242,
+            "startTime": "2022-05-13 09:04:40",
+            "endTime": "2022-05-16 21:03:50"
         },
         {
             "name": "Escalate Privilege",
-            "startTimeStamp": 4304352950899999,
-            "endTimeStamp": 4314799260400000,
-            "startTime": "1970-02-20 03:39:12",
-            "endTime": "1970-02-20 06:33:19"
+            "startTimeStamp": 1652496923805200241,
+            "endTimeStamp": 1652507370114700242,
+            "startTime": "2022-05-14 10:55:23",
+            "endTime": "2022-05-14 13:49:30"
         }
     ],
     "stage_data": [
@@ -65,7 +65,7 @@
     "top_command": [
         {
             "label": "cmd",
-            "count": 28
+            "count": 34
         },
         {
             "label": "powershell",
@@ -92,15 +92,15 @@
             "count": 5
         },
         {
+            "label": "whoami",
+            "count": 4
+        },
+        {
             "label": "HOSTNAME",
             "count": 4
         },
         {
             "label": "schtasks",
-            "count": 3
-        },
-        {
-            "label": "whoami",
             "count": 3
         },
         {

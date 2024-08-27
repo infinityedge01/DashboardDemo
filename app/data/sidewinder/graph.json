@@ -17,11 +17,19 @@
             "type": "command"
         },
         {
-            "label": "",
+            "label": "powershell",
             "stage": "Establish Foothold",
             "raw_cmd": "powershell",
             "id": "307da1fa3a178afd457660831860edf4",
             "score": "503.20000000000005",
+            "type": "command"
+        },
+        {
+            "label": "",
+            "stage": "Establish Foothold",
+            "raw_cmd": "",
+            "id": "8695f682358e3f7347e30808cd98aea7",
+            "score": "503.59999999999997",
             "type": "command"
         },
         {
@@ -33,10 +41,26 @@
             "type": "command"
         },
         {
-            "label": "",
+            "label": "powershell",
             "stage": "Establish Foothold",
             "raw_cmd": "powershell",
             "id": "17779c98dd6da8170a9de2d84aa835ba",
+            "score": "554.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C  ipconfig &amp; arp -a &amp; route print -4",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "1b94db3f175fb9d7942c6ef7479573e8",
+            "score": "554.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C whoami",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "25604c4b029525dd26694dc2f060a28f",
             "score": "554.8",
             "type": "command"
         },
@@ -145,10 +169,26 @@
             "type": "command"
         },
         {
+            "label": "cmd.exe /C systeminfo",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "7ede18ffe0067bc42e26056ca4c34ca6",
+            "score": "554.8",
+            "type": "command"
+        },
+        {
             "label": "powershell.exe -ExecutionPolicy Bypass -C ./chromeRemoteServices.ps1",
             "stage": "Establish Foothold",
             "raw_cmd": "powershell",
             "id": "84e12f6250d627d6ba1a12f3dddbd04c",
+            "score": "554.8",
+            "type": "command"
+        },
+        {
+            "label": "cmd.exe /C systeminfo",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "8cdcb8e5767face1089964cdcbc9273f",
             "score": "554.8",
             "type": "command"
         },
@@ -233,7 +273,15 @@
             "type": "command"
         },
         {
-            "label": "",
+            "label": "cmd.exe /C tasklist",
+            "stage": "Establish Foothold",
+            "raw_cmd": "cmd",
+            "id": "e38f795519c076e34e4b86198b79e6c0",
+            "score": "554.8",
+            "type": "command"
+        },
+        {
+            "label": "mshta",
             "stage": "Establish Foothold",
             "raw_cmd": "mshta",
             "id": "9dedd3ea211f0390339381739d51dada",
@@ -246,14 +294,6 @@
             "raw_cmd": "csc",
             "id": "6d3080fb1e7a0d5ec2dbc7d627802b11",
             "score": "40.599999999999994",
-            "type": "command"
-        },
-        {
-            "label": "C:/WINDOWS/system32/reg.exe  add  HKEY_LOCAL_MACHINE/software/microsoft/windows nt/currentversion/image file execution options   /v  verifierdlls   /d  1   /f",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "04f5a5a45fdb50084ab3708c9c908fc0",
-            "score": "0",
             "type": "command"
         },
         {
@@ -281,22 +321,6 @@
             "type": "command"
         },
         {
-            "label": "C:/WINDOWS/system32/whoami.exe",
-            "stage": "null",
-            "raw_cmd": "whoami",
-            "id": "cf8c1ea62bf33e551d98271445adb8d1",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
-            "stage": "null",
-            "raw_cmd": "HOSTNAME",
-            "id": "e9c9c6a3d60e5717cce15bd9679c17c7",
-            "score": "0",
-            "type": "command"
-        },
-        {
             "label": "cscript.exe   /e:VBScript.Encode T1059.007.vbs",
             "stage": "Maintain Persistence",
             "raw_cmd": "cscript",
@@ -310,22 +334,6 @@
             "raw_cmd": "spolsv",
             "id": "c048a7a0768926eb85be76c14142d6de",
             "score": "7.2",
-            "type": "command"
-        },
-        {
-            "label": "C:/WINDOWS/system32/HOSTNAME.EXE",
-            "stage": "null",
-            "raw_cmd": "HOSTNAME",
-            "id": "225582caccc3e2c2ae94f15c28cac7ed",
-            "score": "0",
-            "type": "command"
-        },
-        {
-            "label": "C:/WINDOWS/system32/whoami.exe",
-            "stage": "null",
-            "raw_cmd": "whoami",
-            "id": "370692a14764e2934b400ab0cefa1293",
-            "score": "0",
             "type": "command"
         },
         {
@@ -345,14 +353,6 @@
             "type": "command"
         },
         {
-            "label": "C:/WINDOWS/system32/reg.exe  delete  HKEY_LOCAL_MACHINE/software/microsoft/windows nt/currentversion/image file execution options   /v verifierdlls /f",
-            "stage": "null",
-            "raw_cmd": "reg",
-            "id": "091a0c1f09e73353a6d8e8ba84f1cade",
-            "score": "0",
-            "type": "command"
-        },
-        {
             "label": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe  /noconfig /fullpaths @ C:/Users/Administrator/AppData/Local/Temp/pvogbvjs/pvogbvjs.cmdline",
             "stage": "null",
             "raw_cmd": "csc",
@@ -369,7 +369,7 @@
             "type": "command"
         },
         {
-            "label": "",
+            "label": "certutil",
             "stage": "Establish Foothold",
             "raw_cmd": "certutil",
             "id": "1b8326ac3bb130497a914bf3e61a32cc",
@@ -433,14 +433,6 @@
             "type": "command"
         },
         {
-            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
-            "stage": "null",
-            "raw_cmd": "conhost",
-            "id": "4c4a4f64ccf67d545b866e9c01882931",
-            "score": "0",
-            "type": "command"
-        },
-        {
             "label": "REG  ADD  HKCU/SOFTWARE/Microsoft/Windows/CurrentVersion/Run  /V  Atomic Red Team  /t REG_SZ /F /D  C:/Path/AtomicRedTeam.exe",
             "stage": "Internal Reconnaissance",
             "raw_cmd": "reg",
@@ -481,14 +473,6 @@
             "type": "command"
         },
         {
-            "label": "/??/C:/WINDOWS/system32/conhost.exe 0xffffffff -ForceV1",
-            "stage": "null",
-            "raw_cmd": "conhost",
-            "id": "aa4b3ec8ed95e79ae47c5590944d9002",
-            "score": "0",
-            "type": "command"
-        },
-        {
             "label": "C:/WINDOWS/system32/net1  time //127.0.0.1",
             "stage": "Maintain Persistence",
             "raw_cmd": "net1",
@@ -511,254 +495,422 @@
         {
             "source": "ed7c8c83c0b6b1df0327e707903d52b6",
             "target": "26043e43ef76294ccaa9382431ad8d03",
-            "time": "1970-03-04 22:40:17",
+            "time": "2022-05-27 05:56:28",
             "syscall": "process start",
             "id": "0"
         },
         {
             "source": "ed7c8c83c0b6b1df0327e707903d52b6",
             "target": "307da1fa3a178afd457660831860edf4",
-            "time": "1970-03-04 22:42:41",
+            "time": "2022-05-27 05:58:52",
             "syscall": "process start",
             "id": "1"
         },
         {
             "source": "26043e43ef76294ccaa9382431ad8d03",
             "target": "76270b91ddb5925020ed33d081c64c19",
-            "time": "1970-03-04 22:41:09",
+            "time": "2022-05-27 05:57:20",
             "syscall": "process start",
             "id": "2"
         },
         {
-            "source": "0d2c94e733572c798bd98db0887fb661",
-            "target": "9dedd3ea211f0390339381739d51dada",
-            "time": "1970-03-05 15:54:21",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "ed7c8c83c0b6b1df0327e707903d52b6",
+            "time": "2022-05-27 05:51:11",
             "syscall": "process start",
             "id": "3"
         },
         {
-            "source": "17779c98dd6da8170a9de2d84aa835ba",
-            "target": "6d3080fb1e7a0d5ec2dbc7d627802b11",
-            "time": "1970-03-06 15:01:42",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "0d2c94e733572c798bd98db0887fb661",
+            "time": "2022-05-27 23:10:25",
             "syscall": "process start",
             "id": "4"
         },
         {
-            "source": "2752bc2703e41eaf33a2301cfa1f5c1f",
-            "target": "04f5a5a45fdb50084ab3708c9c908fc0",
-            "time": "1970-03-05 10:15:40",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "17779c98dd6da8170a9de2d84aa835ba",
+            "time": "2022-05-28 22:12:35",
             "syscall": "process start",
             "id": "5"
         },
         {
-            "source": "2752bc2703e41eaf33a2301cfa1f5c1f",
-            "target": "a061d279cbc28a319f17e35dd2f8e382",
-            "time": "1970-03-05 10:13:20",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "1b94db3f175fb9d7942c6ef7479573e8",
+            "time": "2022-05-28 19:13:42",
             "syscall": "process start",
             "id": "6"
         },
         {
-            "source": "33de4b9ea8f1c9aafe92710419d95143",
-            "target": "79233216281288ac9210b9e7cb848682",
-            "time": "1970-03-05 07:18:46",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "25604c4b029525dd26694dc2f060a28f",
+            "time": "2022-05-28 13:31:12",
             "syscall": "process start",
             "id": "7"
         },
         {
-            "source": "33de4b9ea8f1c9aafe92710419d95143",
-            "target": "a1d429f5631699b1cbf90b607f610130",
-            "time": "1970-03-05 07:30:30",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "2752bc2703e41eaf33a2301cfa1f5c1f",
+            "time": "2022-05-27 17:24:25",
             "syscall": "process start",
             "id": "8"
         },
         {
-            "source": "33de4b9ea8f1c9aafe92710419d95143",
-            "target": "cf8c1ea62bf33e551d98271445adb8d1",
-            "time": "1970-03-05 07:22:03",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "29b40853a084e79df773d59edb341fc0",
+            "time": "2022-06-04 18:02:39",
             "syscall": "process start",
             "id": "9"
         },
         {
-            "source": "33de4b9ea8f1c9aafe92710419d95143",
-            "target": "e9c9c6a3d60e5717cce15bd9679c17c7",
-            "time": "1970-03-05 07:21:53",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "316aba7bfbe0597c521310afa309bd6e",
+            "time": "2022-06-04 18:03:36",
             "syscall": "process start",
             "id": "10"
         },
         {
-            "source": "35ac5668e2b2be3c9b6730d93455e5bb",
-            "target": "2d9fbaa11285195278b7628f2caaeb0f",
-            "time": "1970-03-05 04:18:13",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "33de4b9ea8f1c9aafe92710419d95143",
+            "time": "2022-05-27 14:29:50",
             "syscall": "process start",
             "id": "11"
         },
         {
-            "source": "36766b742c5a121f84312948d309ad86",
-            "target": "c048a7a0768926eb85be76c14142d6de",
-            "time": "1970-03-05 13:03:12",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "35ac5668e2b2be3c9b6730d93455e5bb",
+            "time": "2022-05-27 11:34:17",
             "syscall": "process start",
             "id": "12"
         },
         {
-            "source": "44786c5c50d71bc00e04e633bdd0b831",
-            "target": "225582caccc3e2c2ae94f15c28cac7ed",
-            "time": "1970-03-05 01:35:09",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "36766b742c5a121f84312948d309ad86",
+            "time": "2022-05-27 20:19:17",
             "syscall": "process start",
             "id": "13"
         },
         {
-            "source": "44786c5c50d71bc00e04e633bdd0b831",
-            "target": "370692a14764e2934b400ab0cefa1293",
-            "time": "1970-03-05 01:35:19",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "422435268985ddb4ae407e8f50054412",
+            "time": "2022-06-04 00:42:29",
             "syscall": "process start",
             "id": "14"
         },
         {
-            "source": "44786c5c50d71bc00e04e633bdd0b831",
-            "target": "8edaac3d48eeeb2670fe9c624142e15f",
-            "time": "1970-03-05 01:43:34",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "44786c5c50d71bc00e04e633bdd0b831",
+            "time": "2022-05-27 08:42:58",
             "syscall": "process start",
             "id": "15"
         },
         {
-            "source": "44786c5c50d71bc00e04e633bdd0b831",
-            "target": "9f70fb8ba6b2ff18ea8dffa3b2e7b0e4",
-            "time": "1970-03-05 01:31:55",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "49d9f7376e5f19bf033f9e72a9cf34c6",
+            "time": "2022-05-29 03:59:38",
             "syscall": "process start",
             "id": "16"
         },
         {
-            "source": "a0f6003803e827608b224c04e364f438",
-            "target": "091a0c1f09e73353a6d8e8ba84f1cade",
-            "time": "1970-03-05 10:23:37",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "55298e9ae4d311fe243de9fc1e533f84",
+            "time": "2022-06-04 09:23:43",
             "syscall": "process start",
             "id": "17"
         },
         {
-            "source": "a0f6003803e827608b224c04e364f438",
-            "target": "52ebdce530209915aaeb09e6f716b4ad",
-            "time": "1970-03-05 10:21:16",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "5bbea65f624ffa1f320b4d75fe1c7ea7",
+            "time": "2022-06-03 08:09:52",
             "syscall": "process start",
             "id": "18"
         },
         {
-            "source": "c518b9347b8812c36377f31d1dc4c3ee",
-            "target": "d473594f5acf4b329514538c244fabab",
-            "time": "1970-03-06 03:23:57",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "5c58da0b111b362defa12ab596180ddf",
+            "time": "2022-06-04 06:31:07",
             "syscall": "process start",
             "id": "19"
         },
         {
-            "source": "cf48cc5c2ab96e5fbaae20a06db90061",
-            "target": "1b8326ac3bb130497a914bf3e61a32cc",
-            "time": "1970-03-06 17:47:45",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "7c2fddcf389ef1e22dc061a639750bb2",
+            "time": "2022-05-29 01:08:37",
             "syscall": "process start",
             "id": "20"
         },
         {
-            "source": "9dedd3ea211f0390339381739d51dada",
-            "target": "0e6f006c450f3ef93c702bf4e4cc4ac4",
-            "time": "1970-03-05 15:57:38",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "7ede18ffe0067bc42e26056ca4c34ca6",
+            "time": "2022-05-28 07:48:16",
             "syscall": "process start",
             "id": "21"
         },
         {
-            "source": "6d3080fb1e7a0d5ec2dbc7d627802b11",
-            "target": "ae6ccff02d3df9e87de71cc5c0987baf",
-            "time": "1970-03-06 15:02:33",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "84e12f6250d627d6ba1a12f3dddbd04c",
+            "time": "2022-06-04 15:11:49",
             "syscall": "process start",
             "id": "22"
         },
         {
-            "source": "a061d279cbc28a319f17e35dd2f8e382",
-            "target": "5cc7127498a2b5f312e4e84c8b26b28d",
-            "time": "1970-03-05 10:14:10",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "8cdcb8e5767face1089964cdcbc9273f",
+            "time": "2022-05-28 16:22:35",
             "syscall": "process start",
             "id": "23"
         },
         {
-            "source": "79233216281288ac9210b9e7cb848682",
-            "target": "28185d6370d2fe9432019129a1b03c97",
-            "time": "1970-03-05 07:19:37",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "9396883177bd36660ae7c646114e0e5e",
+            "time": "2022-06-04 12:18:47",
             "syscall": "process start",
             "id": "24"
         },
         {
-            "source": "a1d429f5631699b1cbf90b607f610130",
-            "target": "4c4a4f64ccf67d545b866e9c01882931",
-            "time": "1970-03-05 07:30:33",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "9c33f0eba18d9ea75ddf6cb428e2bbfd",
+            "time": "2022-06-04 00:27:14",
             "syscall": "process start",
             "id": "25"
         },
         {
-            "source": "a1d429f5631699b1cbf90b607f610130",
-            "target": "a1a9e4d537c611d0f04eb8d03d6ea45b",
-            "time": "1970-03-05 07:30:54",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "9ede27e6212e0843fd5c4430232186b5",
+            "time": "2022-06-03 18:36:02",
             "syscall": "process start",
             "id": "26"
         },
         {
-            "source": "8edaac3d48eeeb2670fe9c624142e15f",
-            "target": "225c8f50794427b2fb461024dafdde54",
-            "time": "1970-03-05 01:51:42",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "a0f6003803e827608b224c04e364f438",
+            "time": "2022-05-27 17:32:22",
             "syscall": "process start",
             "id": "27"
         },
         {
-            "source": "8edaac3d48eeeb2670fe9c624142e15f",
-            "target": "9c6c0a90b99d97173a8f21a1094247e3",
-            "time": "1970-03-05 01:49:13",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "bd96749d1abf7e07bd8225a91174cda6",
+            "time": "2022-06-03 15:43:52",
             "syscall": "process start",
             "id": "28"
         },
         {
-            "source": "8edaac3d48eeeb2670fe9c624142e15f",
-            "target": "ff2f5ca2948b96d9fc1223864c872fc0",
-            "time": "1970-03-05 01:43:36",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "c16f077f44cbcf4ebe27d028e25d435c",
+            "time": "2022-06-03 21:32:32",
             "syscall": "process start",
             "id": "29"
         },
         {
-            "source": "9f70fb8ba6b2ff18ea8dffa3b2e7b0e4",
-            "target": "3c1ca54ee11a4ab226f415084825a76a",
-            "time": "1970-03-05 01:32:50",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "c518b9347b8812c36377f31d1dc4c3ee",
+            "time": "2022-05-28 10:40:01",
             "syscall": "process start",
             "id": "30"
         },
         {
-            "source": "52ebdce530209915aaeb09e6f716b4ad",
-            "target": "c041181ef78d7d9c1106a78810e4d224",
-            "time": "1970-03-05 10:22:06",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "cf48cc5c2ab96e5fbaae20a06db90061",
+            "time": "2022-05-29 01:03:50",
             "syscall": "process start",
             "id": "31"
         },
         {
-            "source": "d473594f5acf4b329514538c244fabab",
-            "target": "3e8a8baf0b5590d91eba150688a32ab1",
-            "time": "1970-03-06 03:24:05",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "cf9732bcc467e4f3a5135452c26b9291",
+            "time": "2022-06-04 03:30:03",
             "syscall": "process start",
             "id": "32"
         },
         {
-            "source": "9c6c0a90b99d97173a8f21a1094247e3",
-            "target": "2f84940c31ec761c1e387ebf52420374",
-            "time": "1970-03-05 01:50:03",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "dd2dfc69178e21bf199496889452ab24",
+            "time": "2022-05-28 02:05:23",
             "syscall": "process start",
             "id": "33"
         },
         {
-            "source": "0e6f006c450f3ef93c702bf4e4cc4ac4",
-            "target": "41605530132b5d1bb30807d4e1dabe8c",
-            "time": "1970-03-05 15:58:48",
+            "source": "8695f682358e3f7347e30808cd98aea7",
+            "target": "e38f795519c076e34e4b86198b79e6c0",
+            "time": "2022-05-28 04:57:00",
             "syscall": "process start",
             "id": "34"
         },
         {
-            "source": "0e6f006c450f3ef93c702bf4e4cc4ac4",
-            "target": "aa4b3ec8ed95e79ae47c5590944d9002",
-            "time": "1970-03-05 15:57:41",
+            "source": "0d2c94e733572c798bd98db0887fb661",
+            "target": "9dedd3ea211f0390339381739d51dada",
+            "time": "2022-05-27 23:10:32",
             "syscall": "process start",
             "id": "35"
+        },
+        {
+            "source": "17779c98dd6da8170a9de2d84aa835ba",
+            "target": "6d3080fb1e7a0d5ec2dbc7d627802b11",
+            "time": "2022-05-28 22:17:52",
+            "syscall": "process start",
+            "id": "36"
+        },
+        {
+            "source": "2752bc2703e41eaf33a2301cfa1f5c1f",
+            "target": "a061d279cbc28a319f17e35dd2f8e382",
+            "time": "2022-05-27 17:29:31",
+            "syscall": "process start",
+            "id": "37"
+        },
+        {
+            "source": "33de4b9ea8f1c9aafe92710419d95143",
+            "target": "79233216281288ac9210b9e7cb848682",
+            "time": "2022-05-27 14:34:57",
+            "syscall": "process start",
+            "id": "38"
+        },
+        {
+            "source": "33de4b9ea8f1c9aafe92710419d95143",
+            "target": "a1d429f5631699b1cbf90b607f610130",
+            "time": "2022-05-27 14:46:41",
+            "syscall": "process start",
+            "id": "39"
+        },
+        {
+            "source": "35ac5668e2b2be3c9b6730d93455e5bb",
+            "target": "2d9fbaa11285195278b7628f2caaeb0f",
+            "time": "2022-05-27 11:34:24",
+            "syscall": "process start",
+            "id": "40"
+        },
+        {
+            "source": "36766b742c5a121f84312948d309ad86",
+            "target": "c048a7a0768926eb85be76c14142d6de",
+            "time": "2022-05-27 20:19:23",
+            "syscall": "process start",
+            "id": "41"
+        },
+        {
+            "source": "44786c5c50d71bc00e04e633bdd0b831",
+            "target": "8edaac3d48eeeb2670fe9c624142e15f",
+            "time": "2022-05-27 08:59:45",
+            "syscall": "process start",
+            "id": "42"
+        },
+        {
+            "source": "44786c5c50d71bc00e04e633bdd0b831",
+            "target": "9f70fb8ba6b2ff18ea8dffa3b2e7b0e4",
+            "time": "2022-05-27 08:48:06",
+            "syscall": "process start",
+            "id": "43"
+        },
+        {
+            "source": "a0f6003803e827608b224c04e364f438",
+            "target": "52ebdce530209915aaeb09e6f716b4ad",
+            "time": "2022-05-27 17:37:27",
+            "syscall": "process start",
+            "id": "44"
+        },
+        {
+            "source": "c518b9347b8812c36377f31d1dc4c3ee",
+            "target": "d473594f5acf4b329514538c244fabab",
+            "time": "2022-05-28 10:40:08",
+            "syscall": "process start",
+            "id": "45"
+        },
+        {
+            "source": "cf48cc5c2ab96e5fbaae20a06db90061",
+            "target": "1b8326ac3bb130497a914bf3e61a32cc",
+            "time": "2022-05-29 01:03:56",
+            "syscall": "process start",
+            "id": "46"
+        },
+        {
+            "source": "9dedd3ea211f0390339381739d51dada",
+            "target": "0e6f006c450f3ef93c702bf4e4cc4ac4",
+            "time": "2022-05-27 23:13:49",
+            "syscall": "process start",
+            "id": "47"
+        },
+        {
+            "source": "6d3080fb1e7a0d5ec2dbc7d627802b11",
+            "target": "ae6ccff02d3df9e87de71cc5c0987baf",
+            "time": "2022-05-28 22:18:43",
+            "syscall": "process start",
+            "id": "48"
+        },
+        {
+            "source": "a061d279cbc28a319f17e35dd2f8e382",
+            "target": "5cc7127498a2b5f312e4e84c8b26b28d",
+            "time": "2022-05-27 17:30:21",
+            "syscall": "process start",
+            "id": "49"
+        },
+        {
+            "source": "79233216281288ac9210b9e7cb848682",
+            "target": "28185d6370d2fe9432019129a1b03c97",
+            "time": "2022-05-27 14:35:48",
+            "syscall": "process start",
+            "id": "50"
+        },
+        {
+            "source": "a1d429f5631699b1cbf90b607f610130",
+            "target": "a1a9e4d537c611d0f04eb8d03d6ea45b",
+            "time": "2022-05-27 14:47:05",
+            "syscall": "process start",
+            "id": "51"
+        },
+        {
+            "source": "8edaac3d48eeeb2670fe9c624142e15f",
+            "target": "225c8f50794427b2fb461024dafdde54",
+            "time": "2022-05-27 09:07:53",
+            "syscall": "process start",
+            "id": "52"
+        },
+        {
+            "source": "8edaac3d48eeeb2670fe9c624142e15f",
+            "target": "9c6c0a90b99d97173a8f21a1094247e3",
+            "time": "2022-05-27 09:05:24",
+            "syscall": "process start",
+            "id": "53"
+        },
+        {
+            "source": "8edaac3d48eeeb2670fe9c624142e15f",
+            "target": "ff2f5ca2948b96d9fc1223864c872fc0",
+            "time": "2022-05-27 08:59:47",
+            "syscall": "process start",
+            "id": "54"
+        },
+        {
+            "source": "9f70fb8ba6b2ff18ea8dffa3b2e7b0e4",
+            "target": "3c1ca54ee11a4ab226f415084825a76a",
+            "time": "2022-05-27 08:49:01",
+            "syscall": "process start",
+            "id": "55"
+        },
+        {
+            "source": "52ebdce530209915aaeb09e6f716b4ad",
+            "target": "c041181ef78d7d9c1106a78810e4d224",
+            "time": "2022-05-27 17:38:17",
+            "syscall": "process start",
+            "id": "56"
+        },
+        {
+            "source": "d473594f5acf4b329514538c244fabab",
+            "target": "3e8a8baf0b5590d91eba150688a32ab1",
+            "time": "2022-05-28 10:40:16",
+            "syscall": "process start",
+            "id": "57"
+        },
+        {
+            "source": "9c6c0a90b99d97173a8f21a1094247e3",
+            "target": "2f84940c31ec761c1e387ebf52420374",
+            "time": "2022-05-27 09:06:14",
+            "syscall": "process start",
+            "id": "58"
+        },
+        {
+            "source": "0e6f006c450f3ef93c702bf4e4cc4ac4",
+            "target": "41605530132b5d1bb30807d4e1dabe8c",
+            "time": "2022-05-27 23:14:59",
+            "syscall": "process start",
+            "id": "59"
         }
     ]
 }
